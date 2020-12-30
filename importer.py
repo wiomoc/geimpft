@@ -30,24 +30,23 @@ xlsx_content = rki_request(xlsx_path)
 
 wb = load_workbook(BytesIO(xlsx_content))
 
-sheet_introduction = wb['Erläuterung']
-day_regex = re.compile('Datenstand: (\\d{2})\\.(\d{2})\\.(\\d{4})')
-for cell_value in sheet_introduction.values:
-    match = day_regex.search(str(cell_value))
-    if match is not None:
-        day = date(day=int(match.group(1)), month=int(match.group(2)), year=int(match.group(3)))
-        break
-else:
-    raise Exception("day not found")
-
+sheet_introduction = wb.worksheets[0]
+#day_regex = re.compile('Datenstand: (\\d{2})\\.(\d{2})\\.(\\d{4})')
+#for cell_value in sheet_introduction.values:
+#    match = day_regex.search(str(cell_value))
+#    if match is not None:
+#        day = date(day=int(match.group(1)), month=int(match.group(2)), year=int(match.group(3)))
+#        break
+#else:
+#    raise Exception("day not found")
+day = date.today()
 day_str = day.isoformat()
 filename = f"{XLSX_STORE_DIR}/{day_str}.xlsx"
 with open(filename, 'wb') as f:
     f.write(xlsx_content)
 
 entries = []
-
-sheet_data = wb['Presse']
+sheet_data = wb.worksheets[1]
 rows = sheet_data.rows
 next(rows)  # skip first row
 for row, _ in zip(rows, range(16)):
@@ -60,10 +59,10 @@ for row, _ in zip(rows, range(16)):
     entry = {
         'state': row[0].value.replace('*', ''),
         'total': read_int(1),
-        'indication_age': read_int(2),
-        'indication_occupation': read_int(3),
-        'indication_medical': read_int(4),
-        'indication_nursinghome': read_int(5),
+        'indicationAge': read_int(2),
+        'indicationOccupation': read_int(3),
+        'indicationMedical': read_int(4),
+        'indicationNursinghome': read_int(5),
     }
     entries.append(entry)
 

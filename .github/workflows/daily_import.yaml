@@ -16,6 +16,8 @@ jobs:
           python-version: '3.8'
       - name: Install and Build 🔧
         run: |
+          mkdir data
+          curl -o data/history.json https://wiomoc.github.io/geimpft/history.json
           pip install -r requirements.txt
           python importer.py
 
@@ -26,3 +28,6 @@ jobs:
           BRANCH: gh-pages
           FOLDER: data
           CLEAN: false
+          GIT_CONFIG_NAME: daily-deploy-bot
+          GIT_CONFIG_EMAIL: daily-deploy@bot.bot
+
