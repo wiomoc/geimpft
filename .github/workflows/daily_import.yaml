@@ -1,7 +1,8 @@
 name: Daily import
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '0 10 * * *'
 jobs:
   daily-import:
     runs-on: ubuntu-latest
