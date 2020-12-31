@@ -1,4 +1,70 @@
 {
+ "2020-12-38": [
+  {
+   "state": "Baden-W\u00fcrttemberg",
+   "total": 2161
+  },
+  {
+   "state": "Bayern",
+   "total": 3389
+  },
+  {
+   "state": "Berlin",
+   "total": 1626
+  },
+  {
+   "state": "Brandenburg",
+   "total": 32
+  },
+  {
+   "state": "Bremen",
+   "total": 418
+  },
+  {
+   "state": "Hamburg",
+   "total": 445
+  },
+  {
+   "state": "Hessen",
+   "total": 3112
+  },
+  {
+   "state": "Mecklenburg-Vorpommern",
+   "total": 682
+  },
+  {
+   "state": "Niedersachsen",
+   "total": 334
+  },
+  {
+   "state": "Nordrhein-Westfalen",
+   "total": 6618
+  },
+  {
+   "state": "Rheinland-Pfalz",
+   "total": 1252
+  },
+  {
+   "state": "Saarland",
+   "total": 215
+  },
+  {
+   "state": "Sachsen",
+   "total": 182
+  },
+  {
+   "state": "Sachsen-Anhalt",
+   "total": 1504
+  },
+  {
+   "state": "Schleswig-Holstein",
+   "total": 809
+  },
+  {
+   "state": "Th\u00fcringen",
+   "total": 99
+  }
+ ],
  "2020-12-29": [
   {
    "state": "Baden-W\u00fcrttemberg",
