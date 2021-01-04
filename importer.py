@@ -1,13 +1,12 @@
 from urllib import request
 from datetime import date
-import re
 from openpyxl import load_workbook
 import os
 from io import BytesIO
 import json
 
-BASE_URL = "https://www.rki.de/"
-LANDING_PAGE_PATH = "DE/Content/InfAZ/N/Neuartiges_Coronavirus/Daten/Impfquoten-Tab.html"
+URL = "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Daten/Impfquotenmonitoring.xlsx?__blob" \
+      "=publicationFile "
 USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.16; rv:86.0) Gecko/20100101 Firefox/86.0'
 XLSX_STORE_DIR = "data"
 EXPORT_FILE = "data/history.json"
@@ -17,28 +16,17 @@ except:
     pass
 
 
-def rki_request(path):
-    req = request.Request(BASE_URL + path)
+def rki_request():
+    req = request.Request(URL)
     req.add_header('User-Agent', USER_AGENT)
     return request.urlopen(req).read()
 
 
-landing_page = rki_request(LANDING_PAGE_PATH).decode()
-xlsx_path = re.search('href="(.+\\.xlsx.*)"\\s', landing_page).group(1)
-
-xlsx_content = rki_request(xlsx_path)
+xlsx_content = rki_request()
 
 wb = load_workbook(BytesIO(xlsx_content))
 
 sheet_introduction = wb.worksheets[0]
-#day_regex = re.compile('Datenstand: (\\d{2})\\.(\d{2})\\.(\\d{4})')
-#for cell_value in sheet_introduction.values:
-#    match = day_regex.search(str(cell_value))
-#    if match is not None:
-#        day = date(day=int(match.group(1)), month=int(match.group(2)), year=int(match.group(3)))
-#        break
-#else:
-#    raise Exception("day not found")
 day = date.today()
 day_str = day.isoformat()
 filename = f"{XLSX_STORE_DIR}/{day_str}.xlsx"
@@ -59,10 +47,10 @@ for row, _ in zip(rows, range(16)):
     entry = {
         'state': row[0].value.replace('*', ''),
         'total': read_int(1),
-        'indicationAge': read_int(2),
-        'indicationOccupation': read_int(3),
-        'indicationMedical': read_int(4),
-        'indicationNursinghome': read_int(5),
+        'indicationAge': read_int(4),
+        'indicationOccupation': read_int(5),
+        'indicationMedical': read_int(6),
+        'indicationNursinghome': read_int(7),
     }
     entries.append(entry)
 

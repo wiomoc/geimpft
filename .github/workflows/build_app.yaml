@@ -1,6 +1,10 @@
 name: Build app
 on:
   push:
+    branches:
+      - master
+    paths:
+      - app/**
 jobs:
   build-app:
     runs-on: ubuntu-latest
