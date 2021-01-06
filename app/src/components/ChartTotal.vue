@@ -22,27 +22,35 @@ export default {
             fill: false,
             cubicInterpolationMode: "monotone",
             borderWidth: 2
-          } /* {
-          type: 'bar',
-          label: 'Indikation Alter',
-          backgroundColor: 'rgb(255, 159, 64)',
-          data: this.historyTotal.map(stats => stats.stats.indication_age),
-        }, {
-          type: 'bar',
-          label: 'Indikation Beruf',
-          backgroundColor: 'rgb(255, 205, 86)',
-          data: this.historyTotal.map(stats => stats.stats.indication_occupation),
-        }, {
-          type: 'bar',
-          label: 'Indikation Medizinisch',
-          backgroundColor: 'rgb(75, 192, 192)',
-          data: this.historyTotal.map(stats => stats.stats.indication_medical),
-        }, {
-          type: 'bar',
-          label: 'Pflegeheimbewohner',
-          backgroundColor: 'rgb(54, 162, 235)',
-          data: this.historyTotal.map(stats => stats.stats.indication_nursinghome),
-        }*/
+          }
+          /*{
+            type: "bar",
+            label: "Indikation Alter",
+            backgroundColor: "rgb(255, 159, 64)",
+            data: this.historyTotal.map(stats => stats.stats.indicationAge)
+          },
+          {
+            type: "bar",
+            label: "Indikation Beruf",
+            backgroundColor: "rgb(255, 205, 86)",
+            data: this.historyTotal.map(
+              stats => stats.stats.indicationOccupation
+            )
+          },
+          {
+            type: "bar",
+            label: "Indikation Medizinisch",
+            backgroundColor: "rgb(75, 192, 192)",
+            data: this.historyTotal.map(stats => stats.stats.indicationMedical)
+          },
+          {
+            type: "bar",
+            label: "Pflegeheimbewohner",
+            backgroundColor: "rgb(54, 162, 235)",
+            data: this.historyTotal.map(
+              stats => stats.stats.indicationNursinghome
+            )
+          }*/
         ]
       };
     }

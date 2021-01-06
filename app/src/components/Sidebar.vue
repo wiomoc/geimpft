@@ -38,6 +38,16 @@
       </md-card>
       <ChartTotal></ChartTotal>
       <ChartChangePrevDay></ChartChangePrevDay>
+      <md-divider></md-divider>
+      <span class="md-caption"
+        >Quelle:
+        <a
+          href="https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Daten/Impfquoten-Tab.html"
+          >Robert-Koch-Institut</a
+        >
+        Sourcecode
+        <a href="https://github.com/wiomoc/geimpft/">auf GitHub</a></span
+      >
     </div>
     <MdProgressSpinner
       v-else

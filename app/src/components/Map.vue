@@ -17,18 +17,22 @@
     </vl-layer-tile>
 
     <vl-layer-vector>
-      <vl-source-vector :features="features"></vl-source-vector>
-      <vl-interaction-select
-        @update:features="selectFeature($event)"
-        :features="selectedFeature"
-        :hit-tolerance="3"
-      ></vl-interaction-select>
+      <vl-style-func :factory="style">
+        <vl-source-vector :features="features"></vl-source-vector>
+        <vl-interaction-select
+          @update:features="selectFeature($event)"
+          :features="selectedFeature"
+          :hit-tolerance="3"
+        ></vl-interaction-select>
+      </vl-style-func>
     </vl-layer-vector>
   </vl-map>
 </template>
 
 <script>
 import { features } from "../assets/german_states.geo.json";
+import { mapGetters } from "vuex";
+import { Fill, Stroke, Style } from "ol/style";
 
 export default {
   name: "Map",
@@ -52,7 +56,31 @@ export default {
       const state = this.$store.state.state;
       if (!state) return [];
       return this.features.filter(feature => feature.properties.name === state);
-    }
+    },
+    style() {
+      const { lastCompleteStatsPercentage } = this;
+      return () => {
+        return feature => {
+          if (!lastCompleteStatsPercentage) return;
+          const state = feature.getProperties().name;
+          const stats = lastCompleteStatsPercentage.filter(
+            stats => stats.state === state
+          )[0];
+          return new Style({
+            stroke: new Stroke({
+              color:
+                "hsla(" + stats.populationPercentage * 50 + ",100%,50%, 0.7)",
+              width: 1
+            }),
+            fill: new Fill({
+              color:
+                "hsla(" + stats.populationPercentage * 50 + ",100%,50%, 0.4)"
+            })
+          });
+        };
+      };
+    },
+    ...mapGetters(["lastCompleteStatsPercentage"])
   }
 };
 </script>

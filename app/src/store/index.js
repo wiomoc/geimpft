@@ -91,6 +91,21 @@ export default new Vuex.Store({
       if (!lastDay) return null;
       return state.history[lastDay];
     },
+    lastCompleteStatsPercentage: (state, getters) => {
+      const lastCompleteStats = getters.lastCompleteStats;
+      if (!lastCompleteStats) return;
+      return lastCompleteStats.map(stats => {
+        const { state, total } = stats;
+        const population = Population[state];
+        const populationPercentage = (total / population) * 100;
+        return {
+          population,
+          state,
+          total,
+          populationPercentage
+        };
+      });
+    },
     lastDay: state => {
       if (!state.history) return null;
       const daysSorted = Object.keys(state.history);

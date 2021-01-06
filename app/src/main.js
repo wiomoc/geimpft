@@ -10,7 +10,8 @@ import {
   OsmSource,
   VectorSource,
   VectorLayer,
-  SelectInteraction
+  SelectInteraction,
+  StyleFunc
 } from "vuelayers";
 
 Vue.use(Map);
@@ -19,6 +20,7 @@ Vue.use(OsmSource);
 Vue.use(VectorSource);
 Vue.use(VectorLayer);
 Vue.use(SelectInteraction);
+Vue.use(StyleFunc);
 
 import "roboto-fontface/css/roboto/roboto-fontface.css";
 import "vue-material/dist/vue-material.min.css";
@@ -29,7 +31,8 @@ import {
   MdProgress,
   MdCard,
   MdIcon,
-  MdButton
+  MdButton,
+  MdDivider
 } from "vue-material/dist/components";
 
 Vue.use(MdContent);
@@ -38,6 +41,7 @@ Vue.use(MdProgress);
 Vue.use(MdCard);
 Vue.use(MdIcon);
 Vue.use(MdButton);
+Vue.use(MdDivider);
 
 Vue.config.productionTip = false;
 
