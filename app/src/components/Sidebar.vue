@@ -1,6 +1,6 @@
 <template>
   <MdContent class="content">
-    <MdToolbar class="md-primary">
+    <MdToolbar class="md-primary toolbar">
       <transition name="fade" mode="out-in">
         <div class="state-toolbar-content" v-if="state">
           <div class="md-toolbar-section-start">
@@ -26,7 +26,18 @@
           </div>
         </md-card-header>
       </md-card>
+      <md-card class="card-percentage" md-with-hover>
+        <md-card-header>
+          <div class="md-title">
+            {{ lastStats.populationPercentage.toFixed(2) }}%
+          </div>
+          <div class="md-subhead">
+            von {{ lastStats.population | number }} Einwohnern
+          </div>
+        </md-card-header>
+      </md-card>
       <ChartTotal></ChartTotal>
+      <ChartChangePrevDay></ChartChangePrevDay>
     </div>
     <MdProgressSpinner
       v-else
@@ -40,11 +51,13 @@
 <script>
 import { mapGetters, mapState } from "vuex";
 import ChartTotal from "@/components/ChartTotal";
+import ChartChangePrevDay from "@/components/ChartChangePrevDay";
 
 export default {
   name: "Sidebar",
   components: {
-    ChartTotal
+    ChartTotal,
+    ChartChangePrevDay
   },
   computed: {
     ...mapGetters(["lastStats", "lastDay"]),
@@ -69,11 +82,14 @@ export default {
 
 <style scoped type="text/scss">
 .content {
-  width: 40vw;
-  min-width: 350px;
+  width: 45vw;
+  min-width: 385px;
+  height: 100vh;
+  overflow-y: scroll;
 }
 
-.card-total {
+.card-total,
+.card-percentage {
   margin: 10px;
 }
 

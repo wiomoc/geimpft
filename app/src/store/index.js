@@ -1,5 +1,6 @@
 import Vue from "vue";
 import Vuex from "vuex";
+import Population from "../assets/german_states_population.json";
 
 Vue.use(Vuex);
 
@@ -48,16 +49,36 @@ export default new Vuex.Store({
           }
         });
     },
+    historyChangePrevDay: (state, getters) => {
+      let last = 0;
+      const changePrevDay = [];
+      const historyTotal = getters.historyTotal;
+      for (let { day, stats } of historyTotal) {
+        changePrevDay.push({
+          day,
+          change: stats.total - last
+        });
+        last = stats.total;
+      }
+      return changePrevDay;
+    },
     lastStats: (state, getters) => {
+      let stats;
       if (state.state) {
         const lastCompleteStats = getters.lastCompleteStats;
         if (!lastCompleteStats) return null;
-        return lastCompleteStats.filter(
+        stats = lastCompleteStats.filter(
           stateStats => stateStats.state === state.state
         )[0];
+        if (!stats) return;
+        stats.population = Population[state.state];
       } else {
-        return getters.lastStatsSummed;
+        stats = getters.lastStatsSummed;
+        if (!stats) return;
+        stats.population = Population.total;
       }
+      stats.populationPercentage = (stats.total / stats.population) * 100;
+      return stats;
     },
     lastStatsSummed: (state, getters) => {
       const lastCompleteStats = getters.lastCompleteStats;
