@@ -63,7 +63,7 @@ export default {
           )[0];
           return new Style({
             text: new Text({
-              font: "bold 20px roboto",
+              font: "bold 20px Roboto,Avenir,Helvetica,Arial,sans-serif",
               fill: new Fill({
                 color:
                   "hsla(" + stats.populationPercentage * 50 + ",100%,25%, 0.9)"
