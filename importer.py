@@ -45,12 +45,12 @@ for row, _ in zip(rows, range(16)):
 
 
     entry = {
-        'state': row[0].value.replace('*', ''),
-        'total': read_int(1),
-        'indicationAge': read_int(4),
-        'indicationOccupation': read_int(5),
-        'indicationMedical': read_int(6),
-        'indicationNursinghome': read_int(7),
+        'state': row[1].value.replace('*', ''),
+        'total': read_int(2),
+        'indicationAge': read_int(5),
+        'indicationOccupation': read_int(6),
+        'indicationMedical': read_int(7),
+        'indicationNursinghome': read_int(8),
     }
     entries.append(entry)
 
