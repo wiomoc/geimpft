@@ -17,14 +17,16 @@
     </vl-layer-tile>
 
     <vl-layer-vector>
-      <vl-style-func :factory="style">
-        <vl-source-vector :features="features"></vl-source-vector>
-        <vl-interaction-select
-          @update:features="selectFeature($event)"
-          :features="selectedFeature"
-          :hit-tolerance="3"
-        ></vl-interaction-select>
-      </vl-style-func>
+      <vl-source-vector :features="features" ref="layer">
+        <vl-style-func :factory="style(false)" />
+      </vl-source-vector>
+      <vl-interaction-select
+        @update:features="selectFeature($event)"
+        :features="selectedFeature"
+        :hit-tolerance="3"
+      >
+        <vl-style-func :factory="style(true)" />
+      </vl-interaction-select>
     </vl-layer-vector>
   </vl-map>
 </template>
@@ -32,7 +34,7 @@
 <script>
 import { features } from "../assets/german_states.geo.json";
 import { mapGetters } from "vuex";
-import { Fill, Stroke, Style } from "ol/style";
+import { Fill, Stroke, Style, Text } from "ol/style";
 
 export default {
   name: "Map",
@@ -49,15 +51,8 @@ export default {
         if (state !== this.$route.params.state)
           this.$router.push({ name: "state", params: { state } });
       }
-    }
-  },
-  computed: {
-    selectedFeature() {
-      const state = this.$store.state.state;
-      if (!state) return [];
-      return this.features.filter(feature => feature.properties.name === state);
     },
-    style() {
+    style(selected) {
       const { lastCompleteStatsPercentage } = this;
       return () => {
         return feature => {
@@ -67,11 +62,26 @@ export default {
             stats => stats.state === state
           )[0];
           return new Style({
-            stroke: new Stroke({
-              color:
-                "hsla(" + stats.populationPercentage * 50 + ",100%,50%, 0.7)",
-              width: 1
+            text: new Text({
+              font: "bold 20px roboto",
+              fill: new Fill({
+                color:
+                  "hsla(" + stats.populationPercentage * 50 + ",100%,25%, 0.9)"
+              }),
+              text: `${stats.populationPercentage.toFixed(2)}%`
             }),
+            stroke: selected
+              ? new Stroke({
+                  color: "#448aff",
+                  width: 3
+                })
+              : new Stroke({
+                  color:
+                    "hsla(" +
+                    stats.populationPercentage * 50 +
+                    ",100%,50%, 0.7)",
+                  width: 1
+                }),
             fill: new Fill({
               color:
                 "hsla(" + stats.populationPercentage * 50 + ",100%,50%, 0.4)"
@@ -79,6 +89,13 @@ export default {
           });
         };
       };
+    }
+  },
+  computed: {
+    selectedFeature() {
+      const state = this.$store.state.state;
+      if (!state) return [];
+      return this.features.filter(feature => feature.properties.name === state);
     },
     ...mapGetters(["lastCompleteStatsPercentage"])
   }
