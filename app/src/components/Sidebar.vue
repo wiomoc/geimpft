@@ -36,8 +36,16 @@
           </div>
         </md-card-header>
       </md-card>
-      <ChartTotal></ChartTotal>
-      <ChartChangePrevDay></ChartChangePrevDay>
+      <md-card class="chart-total" md-with-hover>
+        <md-card-header>
+          <ChartTotal />
+        </md-card-header>
+      </md-card>
+      <md-card class="chart-daily-change" md-with-hover>
+        <md-card-header>
+          <ChartChangePrevDay />
+        </md-card-header>
+      </md-card>
       <md-divider></md-divider>
       <span class="md-caption"
         >Quelle:
@@ -67,26 +75,26 @@ export default {
   name: "Sidebar",
   components: {
     ChartTotal,
-    ChartChangePrevDay
+    ChartChangePrevDay,
   },
   computed: {
     ...mapGetters(["lastStats", "lastDay"]),
-    ...mapState(["state"])
+    ...mapState(["state"]),
   },
   filters: {
     day(date) {
       return new Intl.DateTimeFormat("de-DE", {
         day: "2-digit",
         month: "2-digit",
-        year: "numeric"
+        year: "numeric",
       }).format(new Date(date));
     },
     number(number) {
       return new Intl.NumberFormat("de-DE", { useGrouping: true }).format(
         number
       );
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -98,6 +106,14 @@ export default {
   overflow-y: scroll;
 }
 
+@media (max-width: 800px) {
+  .content {
+    width: 100%;
+  }
+}
+
+.chart-total,
+.chart-daily-change,
 .card-total,
 .card-percentage {
   margin: 10px;

@@ -12,8 +12,8 @@ import Map from "@/components/Map";
 export default {
   components: {
     Map,
-    Sidebar
-  }
+    Sidebar,
+  },
 };
 </script>
 
@@ -29,5 +29,14 @@ body {
   text-align: center;
   color: #2c3e50;
   display: flex;
+}
+
+@media (max-width: 800px) {
+  .app {
+    flex-direction: column;
+  }
+  .content {
+    width: 100%;
+  }
 }
 </style>
