@@ -2,17 +2,20 @@
   <div class="app">
     <Sidebar></Sidebar>
     <Map></Map>
+    <ScrollTopButton></ScrollTopButton>
   </div>
 </template>
 
 <script>
 import Sidebar from "@/components/Sidebar";
 import Map from "@/components/Map";
+import ScrollTopButton from "@/components/ScrollTopButton";
 
 export default {
   components: {
     Map,
     Sidebar,
+    ScrollTopButton,
   },
 };
 </script>
