@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <Sidebar></Sidebar>
-    <Map></Map>
+    <Map class="map"></Map>
     <ScrollTopButton></ScrollTopButton>
   </div>
 </template>
@@ -38,8 +38,10 @@ body {
   .app {
     flex-direction: column;
   }
-  .content {
-    width: 100%;
+  .map {
+    padding: 2em;
+    background-color: white;
+    overflow: hidden;
   }
 }
 </style>

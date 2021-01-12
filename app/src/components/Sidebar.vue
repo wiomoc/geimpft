@@ -36,16 +36,8 @@
           </div>
         </md-card-header>
       </md-card>
-      <md-card class="chart-total" md-with-hover>
-        <md-card-header>
-          <ChartTotal />
-        </md-card-header>
-      </md-card>
-      <md-card class="chart-daily-change" md-with-hover>
-        <md-card-header>
-          <ChartChangePrevDay />
-        </md-card-header>
-      </md-card>
+      <ChartTotal class="chart" />
+      <ChartChangePrevDay class="chart" />
       <md-divider></md-divider>
       <span class="md-caption"
         >Quelle:
@@ -109,14 +101,28 @@ export default {
 @media (max-width: 800px) {
   .content {
     width: 100%;
+    height: fit-content;
+    overflow-y: initial;
   }
 }
 
-.chart-total,
-.chart-daily-change,
+.toolbar {
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 1000;
+  top: 0px;
+}
+
 .card-total,
 .card-percentage {
   margin: 10px;
+}
+
+.chart {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .md-title {
