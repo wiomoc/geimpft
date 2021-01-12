@@ -54,19 +54,23 @@ export default {
     },
     style(selected) {
       const { lastCompleteStatsPercentage } = this;
+      if (!lastCompleteStatsPercentage) return () => null;
+      const maxPopulationPercentage = Math.max(
+        ...lastCompleteStatsPercentage.map(stats => stats.populationPercentage)
+      );
       return () => {
         return feature => {
-          if (!lastCompleteStatsPercentage) return;
           const state = feature.getProperties().name;
           const stats = lastCompleteStatsPercentage.filter(
             stats => stats.state === state
           )[0];
+          const hue =
+            (85 / maxPopulationPercentage) * stats.populationPercentage;
           return new Style({
             text: new Text({
               font: "bold 20px Roboto,Avenir,Helvetica,Arial,sans-serif",
               fill: new Fill({
-                color:
-                  "hsla(" + stats.populationPercentage * 50 + ",100%,25%, 0.9)"
+                color: `hsla(${hue},100%,25%, 0.9)`
               }),
               text: `${stats.populationPercentage.toFixed(2)}%`
             }),
@@ -76,15 +80,11 @@ export default {
                   width: 3
                 })
               : new Stroke({
-                  color:
-                    "hsla(" +
-                    stats.populationPercentage * 50 +
-                    ",100%,50%, 0.7)",
+                  color: `hsla(${hue},100%,50%, 0.7)`,
                   width: 1
                 }),
             fill: new Fill({
-              color:
-                "hsla(" + stats.populationPercentage * 50 + ",100%,50%, 0.4)"
+              color: `hsla(${hue},100%,50%, 0.4)`
             })
           });
         };

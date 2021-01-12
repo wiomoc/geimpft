@@ -6,7 +6,7 @@
     >
       <md-icon
         :md-src="require('../assets/arrow_back-24px.svg')"
-        class="arrow"
+        style="transform: rotate(90deg)"
       ></md-icon>
     </md-button>
   </div>
@@ -35,9 +35,5 @@ export default {
   .fab {
     display: block;
   }
-}
-
-.arrow {
-  transform: rotate(90deg);
 }
 </style>
