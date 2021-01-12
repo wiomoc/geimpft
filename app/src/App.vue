@@ -15,8 +15,8 @@ export default {
   components: {
     Map,
     Sidebar,
-    ScrollTopButton,
-  },
+    ScrollTopButton
+  }
 };
 </script>
 
@@ -39,7 +39,9 @@ body {
     flex-direction: column;
   }
   .map {
-    padding: 2em;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
     background-color: white;
     overflow: hidden;
   }

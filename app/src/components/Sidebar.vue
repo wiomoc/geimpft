@@ -67,26 +67,26 @@ export default {
   name: "Sidebar",
   components: {
     ChartTotal,
-    ChartChangePrevDay,
+    ChartChangePrevDay
   },
   computed: {
     ...mapGetters(["lastStats", "lastDay"]),
-    ...mapState(["state"]),
+    ...mapState(["state"])
   },
   filters: {
     day(date) {
       return new Intl.DateTimeFormat("de-DE", {
         day: "2-digit",
         month: "2-digit",
-        year: "numeric",
+        year: "numeric"
       }).format(new Date(date));
     },
     number(number) {
       return new Intl.NumberFormat("de-DE", { useGrouping: true }).format(
         number
       );
-    },
-  },
+    }
+  }
 };
 </script>
 

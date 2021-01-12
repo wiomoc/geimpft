@@ -1,7 +1,13 @@
 <template>
   <div class="fab">
-    <md-button class="md-fab md-primary md-fab-bottom-right" @click="scrollTop">
-      <md-icon>arrow_upward</md-icon>
+    <md-button
+      class="md-fab md-primary md-fab-bottom-right md-icon-button"
+      @click="scrollTop"
+    >
+      <md-icon
+        :md-src="require('../assets/arrow_back-24px.svg')"
+        class="arrow"
+      ></md-icon>
     </md-button>
   </div>
 </template>
@@ -13,16 +19,14 @@ export default {
       window.scrollTo({
         top: 0,
         left: 0,
-        behavior: "smooth",
+        behavior: "smooth"
       });
-    },
-  },
+    }
+  }
 };
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css?family=Material+Icons");
-
 .fab {
   display: none;
 }
@@ -31,5 +35,9 @@ export default {
   .fab {
     display: block;
   }
+}
+
+.arrow {
+  transform: rotate(90deg);
 }
 </style>
