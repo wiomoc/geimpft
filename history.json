@@ -2144,5 +2144,135 @@
    "indicationMedical": 82,
    "indicationNursinghome": 1491
   }
+ ],
+ "2021-01-15": [
+  {
+   "state": "Baden-W\u00fcrttemberg",
+   "total": 92868,
+   "indicationAge": 49161,
+   "indicationOccupation": 26901,
+   "indicationMedical": 3175,
+   "indicationNursinghome": 17614
+  },
+  {
+   "state": "Bayern",
+   "total": 183573,
+   "indicationAge": 44096,
+   "indicationOccupation": 93673,
+   "indicationMedical": 3143,
+   "indicationNursinghome": 57247
+  },
+  {
+   "state": "Berlin",
+   "total": 45998,
+   "indicationAge": 28323,
+   "indicationOccupation": 17386,
+   "indicationMedical": 105,
+   "indicationNursinghome": 23282
+  },
+  {
+   "state": "Brandenburg",
+   "total": 33263,
+   "indicationAge": 7410,
+   "indicationOccupation": 25370,
+   "indicationMedical": 268,
+   "indicationNursinghome": 3545
+  },
+  {
+   "state": "Bremen",
+   "total": 10134,
+   "indicationAge": 1197,
+   "indicationOccupation": 4786,
+   "indicationMedical": 89,
+   "indicationNursinghome": 3927
+  },
+  {
+   "state": "Hamburg",
+   "total": 19422,
+   "indicationAge": 6851,
+   "indicationOccupation": 8250,
+   "indicationMedical": 2263,
+   "indicationNursinghome": 4486
+  },
+  {
+   "state": "Hessen",
+   "total": 65673,
+   "indicationAge": 17201,
+   "indicationOccupation": 37398,
+   "indicationMedical": 3700,
+   "indicationNursinghome": 25588
+  },
+  {
+   "state": "Mecklenburg-Vorpommern",
+   "total": 35355,
+   "indicationAge": 2976,
+   "indicationOccupation": 17272,
+   "indicationMedical": 591,
+   "indicationNursinghome": 15315
+  },
+  {
+   "state": "Niedersachsen",
+   "total": 78050,
+   "indicationAge": 15628,
+   "indicationOccupation": 40754,
+   "indicationMedical": 11732,
+   "indicationNursinghome": 35319
+  },
+  {
+   "state": "Nordrhein-Westfalen",
+   "total": 176801,
+   "indicationAge": 0,
+   "indicationOccupation": 84253,
+   "indicationMedical": 0,
+   "indicationNursinghome": 92556
+  },
+  {
+   "state": "Rheinland-Pfalz",
+   "total": 64219,
+   "indicationAge": 17781,
+   "indicationOccupation": 30548,
+   "indicationMedical": 16,
+   "indicationNursinghome": 15874
+  },
+  {
+   "state": "Saarland",
+   "total": 13301,
+   "indicationAge": 9796,
+   "indicationOccupation": 2256,
+   "indicationMedical": 0,
+   "indicationNursinghome": 4461
+  },
+  {
+   "state": "Sachsen",
+   "total": 39332,
+   "indicationAge": 3005,
+   "indicationOccupation": 31443,
+   "indicationMedical": 1,
+   "indicationNursinghome": 7888
+  },
+  {
+   "state": "Sachsen-Anhalt",
+   "total": 31723,
+   "indicationAge": 10103,
+   "indicationOccupation": 15590,
+   "indicationMedical": 1311,
+   "indicationNursinghome": 14302
+  },
+  {
+   "state": "Schleswig-Holstein",
+   "total": 52740,
+   "indicationAge": 14965,
+   "indicationOccupation": 19722,
+   "indicationMedical": 5453,
+   "indicationNursinghome": 18214
+  },
+  {
+   "state": "Th\u00fcringen",
+   "total": 19230,
+   "indicationAge": 3428,
+   "indicationOccupation": 13211,
+   "indicationMedical": 248,
+   "indicationNursinghome": 2150
+  }
  ]
 }
