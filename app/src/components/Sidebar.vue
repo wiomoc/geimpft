@@ -22,7 +22,7 @@
         <md-card-header>
           <div class="md-title">{{ lastStats.total | number }}</div>
           <div class="md-subhead">
-            <b>Insgesamt</b> <i>(Stand {{ lastDay | day }})</i>
+            <b>Verabreichte Impfdosen</b> <i>(Stand {{ lastDay | day }})</i>
           </div>
         </md-card-header>
       </md-card>

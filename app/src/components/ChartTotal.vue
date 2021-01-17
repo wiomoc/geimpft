@@ -15,7 +15,7 @@ export default {
         datasets: [
           {
             type: "line",
-            label: "Insgesamt geimpft",
+            label: "Insgesamt verabreichte Impfdosen",
             data: this.historyTotal.map(stats => stats.stats.total),
             borderColor: "rgb(255, 99, 132)",
             backgroundColor: "rgba(0, 0, 0, 0)",
