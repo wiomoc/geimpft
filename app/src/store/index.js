@@ -4,24 +4,6 @@ import Population from "../assets/german_states_population.json";
 
 Vue.use(Vuex);
 
-function sumAllStatesStats(stats) {
-  const summed = {
-    total: 0,
-    indicationAge: 0,
-    indicationOccupation: 0,
-    indicationMedical: 0,
-    indicationNursinghome: 0
-  };
-  stats.forEach(state => {
-    summed.total += state.total;
-    summed.indicationAge += state.indicationAge;
-    summed.indicationOccupation += state.indicationOccupation;
-    summed.indicationMedical += state.indicationMedical;
-    summed.indicationNursinghome += state.indicationNursinghome;
-  });
-  return summed;
-}
-
 export default new Vuex.Store({
   state: {
     history: null,
@@ -29,25 +11,26 @@ export default new Vuex.Store({
   },
   getters: {
     historyTotal: state => {
-      return Object.keys(state.history)
-        .sort()
-        .map(dayKey => {
-          const dayStats = state.history[dayKey];
-          const day = dayKey;
-          if (state.state) {
-            return {
-              day,
-              stats: dayStats.filter(
-                stateStats => stateStats.state === state.state
-              )[0]
-            };
-          } else {
-            return {
-              day,
-              stats: sumAllStatesStats(dayStats)
-            };
-          }
-        });
+      const history = [];
+      for (let dayKey of Object.keys(state.history).sort()) {
+        const dayStats = state.history[dayKey];
+        const day = dayKey;
+        if (state.state) {
+          if (!dayStats.states || !dayStats.states[state.state]) continue;
+          history.push({
+            day,
+            stats: dayStats.states[state.state]
+          });
+        } else {
+          history.push({
+            day,
+            stats: {
+              total: dayStats.total
+            }
+          });
+        }
+      }
+      return history;
     },
     historyChangePrevDay: (state, getters) => {
       let last = 0;
@@ -64,27 +47,21 @@ export default new Vuex.Store({
     },
     lastStats: (state, getters) => {
       let stats;
+      const lastCompleteStats = getters.lastCompleteStats;
+      if (!lastCompleteStats) return null;
       if (state.state) {
-        const lastCompleteStats = getters.lastCompleteStats;
-        if (!lastCompleteStats) return null;
-        stats = lastCompleteStats.filter(
-          stateStats => stateStats.state === state.state
-        )[0];
+        stats = lastCompleteStats.states[state.state];
         if (!stats) return;
         stats.population = Population[state.state];
       } else {
-        stats = getters.lastStatsSummed;
+        stats = {
+          total: lastCompleteStats.total
+        };
         if (!stats) return;
         stats.population = Population.total;
       }
       stats.populationPercentage = (stats.total / stats.population) * 100;
       return stats;
-    },
-    lastStatsSummed: (state, getters) => {
-      const lastCompleteStats = getters.lastCompleteStats;
-      if (!lastCompleteStats) return null;
-
-      return sumAllStatesStats(lastCompleteStats);
     },
     lastCompleteStats: (state, getters) => {
       const lastDay = getters.lastDay;
@@ -94,8 +71,8 @@ export default new Vuex.Store({
     lastCompleteStatsPercentage: (state, getters) => {
       const lastCompleteStats = getters.lastCompleteStats;
       if (!lastCompleteStats) return;
-      return lastCompleteStats.map(stats => {
-        const { state, total } = stats;
+      return Object.entries(lastCompleteStats.states).map(([state, stats]) => {
+        const { total } = stats;
         const population = Population[state];
         const populationPercentage = (total / population) * 100;
         return {
@@ -109,7 +86,13 @@ export default new Vuex.Store({
     lastDay: state => {
       if (!state.history) return null;
       const daysSorted = Object.keys(state.history);
-      return daysSorted[daysSorted.length - 1];
+      const lastDay = daysSorted[daysSorted.length - 1];
+      if (state.state && !state.history[lastDay].states) {
+        // Go one day back, if a state is selected but no detail data is available
+        return daysSorted[daysSorted.length - 2];
+      } else {
+        return lastDay;
+      }
     }
   },
   mutations: {

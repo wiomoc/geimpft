@@ -1,5 +1,5 @@
 from urllib import request
-from datetime import date
+from datetime import date, timedelta
 from openpyxl import load_workbook
 import os
 from io import BytesIO
@@ -27,16 +27,19 @@ xlsx_content = rki_request()
 wb = load_workbook(BytesIO(xlsx_content))
 
 sheet_introduction = wb.worksheets[0]
-day = date.today()
+day = date.today() - timedelta(days=1)
 day_str = day.isoformat()
 filename = f"{XLSX_STORE_DIR}/{day_str}.xlsx"
 with open(filename, 'wb') as f:
     f.write(xlsx_content)
 
-entries = []
 sheet_data = wb.worksheets[1]
 rows = sheet_data.rows
-next(rows)  # skip first row
+state_entries = {}
+
+next(rows)  # skip three rows
+next(rows)
+next(rows)
 for row, _ in zip(rows, range(16)):
     def read_int(column):
         value = row[column].value
@@ -44,15 +47,10 @@ for row, _ in zip(rows, range(16)):
             return int(value)
 
 
-    entry = {
-        'state': row[1].value.replace('*', ''),
+    state = row[1].value.replace('*', '')
+    state_entries[state] = {
         'total': read_int(2),
-        'indicationAge': read_int(5),
-        'indicationOccupation': read_int(6),
-        'indicationMedical': read_int(7),
-        'indicationNursinghome': read_int(8),
     }
-    entries.append(entry)
 
 try:
     with open(EXPORT_FILE) as f:
@@ -60,9 +58,31 @@ try:
 except:
     history_obj = {}
 
-history_obj[day_str] = entries
+day_entry = {
+    'states': state_entries,
+    'total': sum((state['total'] for state in state_entries.values())) # Redundant
+}
+history_obj[day_str] = day_entry
 
-with open(EXPORT_FILE, "w") as f:
+sheet_data = wb.worksheets[3]
+rows = sheet_data.rows
+next(rows)  # skip first row
+
+FIRST_DAY = date.fromisoformat("2020-12-27")
+assert sheet_data['A2'].value.date() == FIRST_DAY  # Assert that we start with the first vaccination day
+
+total = 0
+day = FIRST_DAY
+for row in rows:
+    if not row[0].value:
+        break
+    daily_change = int(row[1].value)
+    total += daily_change
+    history_obj.setdefault(day.isoformat(), {})["total"] = total
+    day += timedelta(days=1)
+
+
+with open(EXPORT_FILE + ".json", "w") as f:
     json.dump(history_obj, f, indent=1)
 
 print("ok")
