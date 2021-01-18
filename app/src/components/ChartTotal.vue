@@ -93,7 +93,9 @@ export default {
   },
   watch: {
     historyTotal() {
-      this.$chart.data.datasets[0].data = this.buildChartData().datasets[0].data;
+      const newChartData = this.buildChartData();
+      this.$chart.data.labels = newChartData.labels;
+      this.$chart.data.datasets[0].data = newChartData.datasets[0].data;
       this.$chart.update();
     }
   }
