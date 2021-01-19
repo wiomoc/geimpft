@@ -20,7 +20,9 @@
     <div v-if="lastStats">
       <md-card class="card-total md-accent" md-with-hover>
         <md-card-header>
-          <div class="md-title">{{ lastStats.total | number }}</div>
+          <div class="md-title">
+            {{ (lastStats.total.first + lastStats.total.second) | number }}
+          </div>
           <div class="md-subhead">
             <b>Verabreichte Impfdosen</b> <i>(Stand {{ lastDay | day }})</i>
           </div>

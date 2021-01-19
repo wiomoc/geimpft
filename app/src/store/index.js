@@ -37,11 +37,12 @@ export default new Vuex.Store({
       const changePrevDay = [];
       const historyTotal = getters.historyTotal;
       for (let { day, stats } of historyTotal) {
+        const totalVaccinations = stats.total.first + stats.total.second;
         changePrevDay.push({
           day,
-          change: stats.total - last
+          change: totalVaccinations - last
         });
-        last = stats.total;
+        last = totalVaccinations;
       }
       return changePrevDay;
     },
@@ -60,7 +61,7 @@ export default new Vuex.Store({
         if (!stats) return;
         stats.population = Population.total;
       }
-      stats.populationPercentage = (stats.total / stats.population) * 100;
+      stats.populationPercentage = (stats.total.first / stats.population) * 100;
       return stats;
     },
     lastCompleteStats: (state, getters) => {
@@ -74,7 +75,7 @@ export default new Vuex.Store({
       return Object.entries(lastCompleteStats.states).map(([state, stats]) => {
         const { total } = stats;
         const population = Population[state];
-        const populationPercentage = (total / population) * 100;
+        const populationPercentage = (total.first / population) * 100;
         return {
           population,
           state,

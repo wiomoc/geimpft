@@ -37,6 +37,7 @@ sheet_data = wb.worksheets[1]
 rows = sheet_data.rows
 state_entries = {}
 
+# read Gesamt_bis_einschl_...
 next(rows)  # skip three rows
 next(rows)
 next(rows)
@@ -48,8 +49,39 @@ for row, _ in zip(rows, range(16)):
 
 
     state = row[1].value.replace('*', '')
+    first_vaccination = read_int(3)
+    second_vaccination = read_int(8)
     state_entries[state] = {
-        'total': read_int(2),
+        'total': {
+            'first': first_vaccination,
+            'second': second_vaccination,
+        },
+        'vaccine': {
+            'biontech': read_int(4),
+            'moderna': read_int(5),
+        }
+    }
+
+# read Indik_bis_einschl_18.01...
+sheet_data = wb.worksheets[2]
+rows = sheet_data.rows
+
+# read Gesamt_bis_einschl_...
+next(rows)  # skip two rows
+next(rows)
+for row, _ in zip(rows, range(16)):
+    def read_int(column):
+        value = row[column].value
+        if value is not None:
+            return int(value)
+
+    state = row[1].value.replace('*', '')
+    state_entry = state_entries[state]
+    state_entry['indication'] = {
+        'age': read_int(2),
+        'occupation': read_int(3),
+        'medical': read_int(4),
+        'nursingHome': read_int(5),
     }
 
 try:
@@ -60,10 +92,14 @@ except:
 
 day_entry = {
     'states': state_entries,
-    'total': sum((state['total'] for state in state_entries.values())) # Redundant
+    'total': {
+        'first': sum((state['total']['first'] for state in state_entries.values())),
+        'second': sum((state['total']['second'] for state in state_entries.values()))
+    }
 }
 history_obj[day_str] = day_entry
 
+# read Impfungen_proTag
 sheet_data = wb.worksheets[3]
 rows = sheet_data.rows
 next(rows)  # skip first row
@@ -71,18 +107,26 @@ next(rows)  # skip first row
 FIRST_DAY = date.fromisoformat("2020-12-27")
 assert sheet_data['A2'].value.date() == FIRST_DAY  # Assert that we start with the first vaccination day
 
-total = 0
+first_vaccination_total = 0
+second_vaccination_total = 0
 day = FIRST_DAY
 for row in rows:
     if not row[0].value:
         break
-    daily_change = int(row[1].value)
-    total += daily_change
-    history_obj.setdefault(day.isoformat(), {})["total"] = total
+    try:
+        first_vaccination_total += int(row[1].value) # last value is a formula referencing to second sheet
+    except ValueError:
+        break
+    if row[2].value:
+        second_vaccination_total += int(row[2].value)
+    entry = history_obj.setdefault(day.isoformat(), {})['total'] = {
+        'first': first_vaccination_total,
+        'second': second_vaccination_total
+    }
     day += timedelta(days=1)
 
 
-with open(EXPORT_FILE + ".json", "w") as f:
+with open(EXPORT_FILE, "w") as f:
     json.dump(history_obj, f, indent=1)
 
 print("ok")
