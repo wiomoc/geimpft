@@ -2,76 +2,113 @@
  "2020-12-27": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 2161,
+    "total": {
+     "first": 2161
+    },
     "indication": null
    },
    "Bayern": {
-    "total": 3389,
+    "total": {
+     "first": 3389
+    },
     "indication": null
    },
    "Berlin": {
-    "total": 1626,
+    "total": {
+     "first": 1626
+    },
     "indication": null
    },
    "Brandenburg": {
-    "total": 32,
+    "total": {
+     "first": 32
+    },
     "indication": null
    },
    "Bremen": {
-    "total": 418,
+    "total": {
+     "first": 418
+    },
     "indication": null
    },
    "Hamburg": {
-    "total": 445,
+    "total": {
+     "first": 445
+    },
     "indication": null
    },
    "Hessen": {
-    "total": 3112,
+    "total": {
+     "first": 3112
+    },
     "indication": null
    },
    "Mecklenburg-Vorpommern": {
-    "total": 682,
+    "total": {
+     "first": 682
+    },
     "indication": null
    },
    "Niedersachsen": {
-    "total": 334,
+    "total": {
+     "first": 334
+    },
     "indication": null
    },
    "Nordrhein-Westfalen": {
-    "total": 6618,
+    "total": {
+     "first": 6618
+    },
     "indication": null
    },
    "Rheinland-Pfalz": {
-    "total": 1252,
+    "total": {
+     "first": 1252
+    },
     "indication": null
    },
    "Saarland": {
-    "total": 215,
+    "total": {
+     "first": 215
+    },
     "indication": null
    },
    "Sachsen": {
-    "total": 182,
+    "total": {
+     "first": 182
+    },
     "indication": null
    },
    "Sachsen-Anhalt": {
-    "total": 1504,
+    "total": {
+     "first": 1504
+    },
     "indication": null
    },
    "Schleswig-Holstein": {
-    "total": 809,
+    "total": {
+     "first": 809
+    },
     "indication": null
    },
    "Th\u00fcringen": {
-    "total": 99,
+    "total": {
+     "first": 99
+    },
     "indication": null
    }
   },
-  "total": 24080
+  "total": {
+   "first": 24179,
+   "second": 0
+  }
  },
  "2020-12-28": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 4721,
+    "total": {
+     "first": 4721
+    },
     "indication": {
      "occupation": 1720,
      "age": 2560,
@@ -80,7 +117,9 @@
     }
    },
    "Bayern": {
-    "total": 5219,
+    "total": {
+     "first": 5219
+    },
     "indication": {
      "occupation": 1457,
      "age": 1830,
@@ -89,7 +128,9 @@
     }
    },
    "Berlin": {
-    "total": 3839,
+    "total": {
+     "first": 3839
+    },
     "indication": {
      "occupation": 3340,
      "age": 2213,
@@ -98,7 +139,9 @@
     }
    },
    "Brandenburg": {
-    "total": 107,
+    "total": {
+     "first": 107
+    },
     "indication": {
      "occupation": 60,
      "age": 75,
@@ -107,7 +150,9 @@
     }
    },
    "Bremen": {
-    "total": 592,
+    "total": {
+     "first": 592
+    },
     "indication": {
      "occupation": 276,
      "age": 174,
@@ -116,7 +161,9 @@
     }
    },
    "Hamburg": {
-    "total": 1071,
+    "total": {
+     "first": 1071
+    },
     "indication": {
      "occupation": 507,
      "age": 626,
@@ -125,7 +172,9 @@
     }
    },
    "Hessen": {
-    "total": 4354,
+    "total": {
+     "first": 4354
+    },
     "indication": {
      "occupation": 1480,
      "age": 1242,
@@ -134,7 +183,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 4170,
+    "total": {
+     "first": 4170
+    },
     "indication": {
      "occupation": 100,
      "age": 3488,
@@ -143,7 +194,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 835,
+    "total": {
+     "first": 835
+    },
     "indication": {
      "occupation": 79,
      "age": 501,
@@ -152,7 +205,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 7136,
+    "total": {
+     "first": 7136
+    },
     "indication": {
      "occupation": null,
      "age": 518,
@@ -161,7 +216,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 1462,
+    "total": {
+     "first": 1462
+    },
     "indication": {
      "occupation": null,
      "age": 210,
@@ -170,7 +227,9 @@
     }
    },
    "Saarland": {
-    "total": 862,
+    "total": {
+     "first": 862
+    },
     "indication": {
      "occupation": 658,
      "age": 647,
@@ -179,7 +238,9 @@
     }
    },
    "Sachsen": {
-    "total": 857,
+    "total": {
+     "first": 857
+    },
     "indication": {
      "occupation": 240,
      "age": 675,
@@ -188,7 +249,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 3985,
+    "total": {
+     "first": 3985
+    },
     "indication": {
      "occupation": 1592,
      "age": 2481,
@@ -197,7 +260,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 2495,
+    "total": {
+     "first": 2495
+    },
     "indication": {
      "occupation": 588,
      "age": 1686,
@@ -206,7 +271,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 257,
+    "total": {
+     "first": 257
+    },
     "indication": {
      "occupation": 135,
      "age": 158,
@@ -215,12 +282,17 @@
     }
    }
   },
-  "total": 43581
+  "total": {
+   "first": 43726,
+   "second": 0
+  }
  },
  "2020-12-29": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 8242,
+    "total": {
+     "first": 8242
+    },
     "indication": {
      "occupation": 3243,
      "age": 3509,
@@ -229,7 +301,9 @@
     }
    },
    "Bayern": {
-    "total": 12935,
+    "total": {
+     "first": 12935
+    },
     "indication": {
      "occupation": 3010,
      "age": 7716,
@@ -238,7 +312,9 @@
     }
    },
    "Berlin": {
-    "total": 6296,
+    "total": {
+     "first": 6296
+    },
     "indication": {
      "occupation": 4918,
      "age": 2457,
@@ -247,7 +323,9 @@
     }
    },
    "Brandenburg": {
-    "total": 1553,
+    "total": {
+     "first": 1553
+    },
     "indication": {
      "occupation": 110,
      "age": 1442,
@@ -256,7 +334,9 @@
     }
    },
    "Bremen": {
-    "total": 1059,
+    "total": {
+     "first": 1059
+    },
     "indication": {
      "occupation": 528,
      "age": 467,
@@ -265,7 +345,9 @@
     }
    },
    "Hamburg": {
-    "total": 1499,
+    "total": {
+     "first": 1499
+    },
     "indication": {
      "occupation": 704,
      "age": 428,
@@ -274,7 +356,9 @@
     }
    },
    "Hessen": {
-    "total": 9448,
+    "total": {
+     "first": 9448
+    },
     "indication": {
      "occupation": 3041,
      "age": 5094,
@@ -283,7 +367,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 7338,
+    "total": {
+     "first": 7338
+    },
     "indication": {
      "occupation": 87,
      "age": 3711,
@@ -292,7 +378,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 1527,
+    "total": {
+     "first": 1527
+    },
     "indication": {
      "occupation": 83,
      "age": 692,
@@ -301,7 +389,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 11385,
+    "total": {
+     "first": 11385
+    },
     "indication": {
      "occupation": 0,
      "age": 3857,
@@ -310,7 +400,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 2284,
+    "total": {
+     "first": 2284
+    },
     "indication": {
      "occupation": 0,
      "age": 822,
@@ -319,7 +411,9 @@
     }
    },
    "Saarland": {
-    "total": 1518,
+    "total": {
+     "first": 1518
+    },
     "indication": {
      "occupation": 1177,
      "age": 656,
@@ -328,7 +422,9 @@
     }
    },
    "Sachsen": {
-    "total": 1487,
+    "total": {
+     "first": 1487
+    },
     "indication": {
      "occupation": 150,
      "age": 812,
@@ -337,7 +433,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 7287,
+    "total": {
+     "first": 7287
+    },
     "indication": {
      "occupation": 2620,
      "age": 3302,
@@ -346,7 +444,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 3579,
+    "total": {
+     "first": 3579
+    },
     "indication": {
      "occupation": 1016,
      "age": 1893,
@@ -355,7 +455,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 672,
+    "total": {
+     "first": 672
+    },
     "indication": {
      "occupation": 226,
      "age": 415,
@@ -364,12 +466,17 @@
     }
    }
   },
-  "total": 86273
+  "total": {
+   "first": 86531,
+   "second": 0
+  }
  },
  "2020-12-30": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 12649,
+    "total": {
+     "first": 12649
+    },
     "indication": {
      "occupation": 5347,
      "age": 4407,
@@ -378,7 +485,9 @@
     }
    },
    "Bayern": {
-    "total": 28206,
+    "total": {
+     "first": 28206
+    },
     "indication": {
      "occupation": 5831,
      "age": 15104,
@@ -387,7 +496,9 @@
     }
    },
    "Berlin": {
-    "total": 9084,
+    "total": {
+     "first": 9084
+    },
     "indication": {
      "occupation": 6554,
      "age": 2788,
@@ -396,7 +507,9 @@
     }
    },
    "Brandenburg": {
-    "total": 3036,
+    "total": {
+     "first": 3036
+    },
     "indication": {
      "occupation": 204,
      "age": 1483,
@@ -405,7 +518,9 @@
     }
    },
    "Bremen": {
-    "total": 1691,
+    "total": {
+     "first": 1691
+    },
     "indication": {
      "occupation": 821,
      "age": 601,
@@ -414,7 +529,9 @@
     }
    },
    "Hamburg": {
-    "total": 2040,
+    "total": {
+     "first": 2040
+    },
     "indication": {
      "occupation": 832,
      "age": 541,
@@ -423,7 +540,9 @@
     }
    },
    "Hessen": {
-    "total": 15674,
+    "total": {
+     "first": 15674
+    },
     "indication": {
      "occupation": 4677,
      "age": 6226,
@@ -432,7 +551,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 11101,
+    "total": {
+     "first": 11101
+    },
     "indication": {
      "occupation": 173,
      "age": 3640,
@@ -441,7 +562,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 2705,
+    "total": {
+     "first": 2705
+    },
     "indication": {
      "occupation": 296,
      "age": 1178,
@@ -450,7 +573,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 19930,
+    "total": {
+     "first": 19930
+    },
     "indication": {
      "occupation": null,
      "age": 7359,
@@ -459,7 +584,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 4247,
+    "total": {
+     "first": 4247
+    },
     "indication": {
      "occupation": null,
      "age": 1673,
@@ -468,7 +595,9 @@
     }
    },
    "Saarland": {
-    "total": 2119,
+    "total": {
+     "first": 2119
+    },
     "indication": {
      "occupation": 1641,
      "age": 601,
@@ -477,7 +606,9 @@
     }
    },
    "Sachsen": {
-    "total": 2653,
+    "total": {
+     "first": 2653
+    },
     "indication": {
      "occupation": 150,
      "age": 1166,
@@ -486,7 +617,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 10100,
+    "total": {
+     "first": 10100
+    },
     "indication": {
      "occupation": 3107,
      "age": 2813,
@@ -495,7 +628,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 5581,
+    "total": {
+     "first": 5581
+    },
     "indication": {
      "occupation": 1385,
      "age": 1747,
@@ -504,7 +639,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 810,
+    "total": {
+     "first": 810
+    },
     "indication": {
      "occupation": 232,
      "age": 138,
@@ -513,12 +650,17 @@
     }
    }
   },
-  "total": 143501
+  "total": {
+   "first": 143768,
+   "second": 0
+  }
  },
  "2020-12-31": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 17086,
+    "total": {
+     "first": 17086
+    },
     "indication": {
      "occupation": 7578,
      "age": 4295,
@@ -527,7 +669,9 @@
     }
    },
    "Bayern": {
-    "total": 37955,
+    "total": {
+     "first": 37955
+    },
     "indication": {
      "occupation": 7840,
      "age": 9749,
@@ -536,7 +680,9 @@
     }
    },
    "Berlin": {
-    "total": 11114,
+    "total": {
+     "first": 11114
+    },
     "indication": {
      "occupation": 7029,
      "age": 2030,
@@ -545,7 +691,9 @@
     }
    },
    "Brandenburg": {
-    "total": 3219,
+    "total": {
+     "first": 3219
+    },
     "indication": {
      "occupation": 204,
      "age": 183,
@@ -554,7 +702,9 @@
     }
    },
    "Bremen": {
-    "total": 1741,
+    "total": {
+     "first": 1741
+    },
     "indication": {
      "occupation": 821,
      "age": 50,
@@ -563,7 +713,9 @@
     }
    },
    "Hamburg": {
-    "total": 2759,
+    "total": {
+     "first": 2759
+    },
     "indication": {
      "occupation": 1129,
      "age": 719,
@@ -572,7 +724,9 @@
     }
    },
    "Hessen": {
-    "total": 21373,
+    "total": {
+     "first": 21373
+    },
     "indication": {
      "occupation": 6073,
      "age": 5699,
@@ -581,7 +735,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 11494,
+    "total": {
+     "first": 11494
+    },
     "indication": {
      "occupation": 178,
      "age": 393,
@@ -590,7 +746,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 3566,
+    "total": {
+     "first": 3566
+    },
     "indication": {
      "occupation": 567,
      "age": 861,
@@ -599,7 +757,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 24924,
+    "total": {
+     "first": 24924
+    },
     "indication": {
      "occupation": null,
      "age": 3033,
@@ -608,7 +768,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 5112,
+    "total": {
+     "first": 5112
+    },
     "indication": {
      "occupation": null,
      "age": 865,
@@ -617,7 +779,9 @@
     }
    },
    "Saarland": {
-    "total": 2716,
+    "total": {
+     "first": 2716
+    },
     "indication": {
      "occupation": 2065,
      "age": 597,
@@ -626,7 +790,9 @@
     }
    },
    "Sachsen": {
-    "total": 3290,
+    "total": {
+     "first": 3290
+    },
     "indication": {
      "occupation": 226,
      "age": 637,
@@ -635,7 +801,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 11146,
+    "total": {
+     "first": 11146
+    },
     "indication": {
      "occupation": 3506,
      "age": 1046,
@@ -644,7 +812,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 7270,
+    "total": {
+     "first": 7270
+    },
     "indication": {
      "occupation": 1766,
      "age": 1689,
@@ -653,7 +823,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 810,
+    "total": {
+     "first": 810
+    },
     "indication": {
      "occupation": 232,
      "age": 0,
@@ -662,12 +834,17 @@
     }
    }
   },
-  "total": 181331
+  "total": {
+   "first": 181629,
+   "second": 0
+  }
  },
  "2021-01-01": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 20045,
+    "total": {
+     "first": 20045
+    },
     "indication": {
      "occupation": 9087,
      "age": 2958,
@@ -676,7 +853,9 @@
     }
    },
    "Bayern": {
-    "total": 39005,
+    "total": {
+     "first": 39005
+    },
     "indication": {
      "occupation": 7840,
      "age": 1050,
@@ -685,7 +864,9 @@
     }
    },
    "Berlin": {
-    "total": 13137,
+    "total": {
+     "first": 13137
+    },
     "indication": {
      "occupation": 8662,
      "age": 2023,
@@ -694,7 +875,9 @@
     }
    },
    "Brandenburg": {
-    "total": 3219,
+    "total": {
+     "first": 3219
+    },
     "indication": {
      "occupation": 204,
      "age": null,
@@ -703,7 +886,9 @@
     }
    },
    "Bremen": {
-    "total": 1741,
+    "total": {
+     "first": 1741
+    },
     "indication": {
      "occupation": 821,
      "age": null,
@@ -712,7 +897,9 @@
     }
    },
    "Hamburg": {
-    "total": 3042,
+    "total": {
+     "first": 3042
+    },
     "indication": {
      "occupation": 1129,
      "age": 283,
@@ -721,7 +908,9 @@
     }
    },
    "Hessen": {
-    "total": 24791,
+    "total": {
+     "first": 24791
+    },
     "indication": {
      "occupation": 6909,
      "age": 3418,
@@ -730,7 +919,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 11494,
+    "total": {
+     "first": 11494
+    },
     "indication": {
      "occupation": 178,
      "age": null,
@@ -739,7 +930,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 3945,
+    "total": {
+     "first": 3945
+    },
     "indication": {
      "occupation": 773,
      "age": 379,
@@ -748,7 +941,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 33375,
+    "total": {
+     "first": 33375
+    },
     "indication": {
      "occupation": null,
      "age": 7908,
@@ -757,7 +952,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 6898,
+    "total": {
+     "first": 6898
+    },
     "indication": {
      "occupation": null,
      "age": 439,
@@ -766,7 +963,9 @@
     }
    },
    "Saarland": {
-    "total": 3316,
+    "total": {
+     "first": 3316
+    },
     "indication": {
      "occupation": 2508,
      "age": 600,
@@ -775,7 +974,9 @@
     }
    },
    "Sachsen": {
-    "total": 4000,
+    "total": {
+     "first": 4000
+    },
     "indication": {
      "occupation": 297,
      "age": 710,
@@ -784,7 +985,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 11771,
+    "total": {
+     "first": 11771
+    },
     "indication": {
      "occupation": 3782,
      "age": 625,
@@ -793,7 +996,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 7964,
+    "total": {
+     "first": 7964
+    },
     "indication": {
      "occupation": 2130,
      "age": 694,
@@ -802,7 +1007,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 810,
+    "total": {
+     "first": 810
+    },
     "indication": {
      "occupation": 232,
      "age": null,
@@ -811,12 +1018,17 @@
     }
    }
   },
-  "total": 211862
+  "total": {
+   "first": 212205,
+   "second": 0
+  }
  },
  "2021-01-02": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 24063,
+    "total": {
+     "first": 24063
+    },
     "indication": {
      "occupation": 11041,
      "age": 4014,
@@ -825,7 +1037,9 @@
     }
    },
    "Bayern": {
-    "total": 57833,
+    "total": {
+     "first": 57833
+    },
     "indication": {
      "occupation": 12855,
      "age": 11742,
@@ -834,7 +1048,9 @@
     }
    },
    "Berlin": {
-    "total": 14616,
+    "total": {
+     "first": 14616
+    },
     "indication": {
      "occupation": 9817,
      "age": 1443,
@@ -843,7 +1059,9 @@
     }
    },
    "Brandenburg": {
-    "total": 3219,
+    "total": {
+     "first": 3219
+    },
     "indication": {
      "occupation": 204,
      "age": null,
@@ -852,7 +1070,9 @@
     }
    },
    "Bremen": {
-    "total": 1837,
+    "total": {
+     "first": 1837
+    },
     "indication": {
      "occupation": 824,
      "age": 96,
@@ -861,7 +1081,9 @@
     }
    },
    "Hamburg": {
-    "total": 3704,
+    "total": {
+     "first": 3704
+    },
     "indication": {
      "occupation": 1439,
      "age": 662,
@@ -870,7 +1092,9 @@
     }
    },
    "Hessen": {
-    "total": 30085,
+    "total": {
+     "first": 30085
+    },
     "indication": {
      "occupation": 8443,
      "age": 5294,
@@ -879,7 +1103,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 11494,
+    "total": {
+     "first": 11494
+    },
     "indication": {
      "occupation": 178,
      "age": null,
@@ -888,7 +1114,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 4962,
+    "total": {
+     "first": 4962
+    },
     "indication": {
      "occupation": 912,
      "age": 1017,
@@ -897,7 +1125,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 48691,
+    "total": {
+     "first": 48691
+    },
     "indication": {
      "occupation": null,
      "age": 13142,
@@ -906,7 +1136,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 7248,
+    "total": {
+     "first": 7248
+    },
     "indication": {
      "occupation": null,
      "age": 59,
@@ -915,7 +1147,9 @@
     }
    },
    "Saarland": {
-    "total": 4149,
+    "total": {
+     "first": 4149
+    },
     "indication": {
      "occupation": 3122,
      "age": 833,
@@ -924,7 +1158,9 @@
     }
    },
    "Sachsen": {
-    "total": 4343,
+    "total": {
+     "first": 4343
+    },
     "indication": {
      "occupation": 368,
      "age": 343,
@@ -933,7 +1169,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 12822,
+    "total": {
+     "first": 12822
+    },
     "indication": {
      "occupation": 4237,
      "age": 1051,
@@ -942,7 +1180,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 8933,
+    "total": {
+     "first": 8933
+    },
     "indication": {
      "occupation": 2525,
      "age": 969,
@@ -951,7 +1191,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 810,
+    "total": {
+     "first": 810
+    },
     "indication": {
      "occupation": 232,
      "age": null,
@@ -960,12 +1202,17 @@
     }
    }
   },
-  "total": 256602
+  "total": {
+   "first": 256963,
+   "second": 0
+  }
  },
  "2021-01-03": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 27454,
+    "total": {
+     "first": 27454
+    },
     "indication": {
      "occupation": 8739,
      "age": 12584,
@@ -974,7 +1221,9 @@
     }
    },
    "Bayern": {
-    "total": 66258,
+    "total": {
+     "first": 66258
+    },
     "indication": {
      "occupation": 31755,
      "age": 15480,
@@ -983,7 +1232,9 @@
     }
    },
    "Berlin": {
-    "total": 17758,
+    "total": {
+     "first": 17758
+    },
     "indication": {
      "occupation": 6132,
      "age": 10507,
@@ -992,7 +1243,9 @@
     }
    },
    "Brandenburg": {
-    "total": 3309,
+    "total": {
+     "first": 3309
+    },
     "indication": {
      "occupation": 3085,
      "age": 204,
@@ -1001,7 +1254,9 @@
     }
    },
    "Bremen": {
-    "total": 1903,
+    "total": {
+     "first": 1903
+    },
     "indication": {
      "occupation": 506,
      "age": 824,
@@ -1010,7 +1265,9 @@
     }
    },
    "Hamburg": {
-    "total": 4140,
+    "total": {
+     "first": 4140
+    },
     "indication": {
      "occupation": 2189,
      "age": 1616,
@@ -1019,7 +1276,9 @@
     }
    },
    "Hessen": {
-    "total": 33405,
+    "total": {
+     "first": 33405
+    },
     "indication": {
      "occupation": 19405,
      "age": 9387,
@@ -1028,7 +1287,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 11494,
+    "total": {
+     "first": 11494
+    },
     "indication": {
      "occupation": 6583,
      "age": 178,
@@ -1037,7 +1298,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 5394,
+    "total": {
+     "first": 5394
+    },
     "indication": {
      "occupation": 2822,
      "age": 992,
@@ -1046,7 +1309,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 53841,
+    "total": {
+     "first": 53841
+    },
     "indication": {
      "occupation": 21354,
      "age": 0,
@@ -1055,7 +1320,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 8282,
+    "total": {
+     "first": 8282
+    },
     "indication": {
      "occupation": 4213,
      "age": 0,
@@ -1064,7 +1331,9 @@
     }
    },
    "Saarland": {
-    "total": 4149,
+    "total": {
+     "first": 4149
+    },
     "indication": {
      "occupation": 495,
      "age": 3122,
@@ -1073,7 +1342,9 @@
     }
    },
    "Sachsen": {
-    "total": 4866,
+    "total": {
+     "first": 4866
+    },
     "indication": {
      "occupation": 3765,
      "age": 487,
@@ -1082,7 +1353,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 13366,
+    "total": {
+     "first": 13366
+    },
     "indication": {
      "occupation": 6446,
      "age": 4391,
@@ -1091,7 +1364,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 9557,
+    "total": {
+     "first": 9557
+    },
     "indication": {
      "occupation": 5317,
      "age": 2801,
@@ -1100,7 +1375,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 810,
+    "total": {
+     "first": 810
+    },
     "indication": {
      "occupation": 297,
      "age": 232,
@@ -1109,12 +1386,17 @@
     }
    }
   },
-  "total": 281120
+  "total": {
+   "first": 281508,
+   "second": 0
+  }
  },
  "2021-01-04": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 32182,
+    "total": {
+     "first": 32182
+    },
     "indication": {
      "occupation": 9828,
      "age": 15546,
@@ -1123,7 +1405,9 @@
     }
    },
    "Bayern": {
-    "total": 77876,
+    "total": {
+     "first": 77876
+    },
     "indication": {
      "occupation": 38306,
      "age": 18188,
@@ -1132,7 +1416,9 @@
     }
    },
    "Berlin": {
-    "total": 19389,
+    "total": {
+     "first": 19389
+    },
     "indication": {
      "occupation": 6783,
      "age": 11608,
@@ -1141,7 +1427,9 @@
     }
    },
    "Brandenburg": {
-    "total": 3334,
+    "total": {
+     "first": 3334
+    },
     "indication": {
      "occupation": 3087,
      "age": 227,
@@ -1150,7 +1438,9 @@
     }
    },
    "Bremen": {
-    "total": 2653,
+    "total": {
+     "first": 2653
+    },
     "indication": {
      "occupation": 811,
      "age": 942,
@@ -1159,7 +1449,9 @@
     }
    },
    "Hamburg": {
-    "total": 4756,
+    "total": {
+     "first": 4756
+    },
     "indication": {
      "occupation": 2698,
      "age": 1704,
@@ -1168,7 +1460,9 @@
     }
    },
    "Hessen": {
-    "total": 37795,
+    "total": {
+     "first": 37795
+    },
     "indication": {
      "occupation": 22051,
      "age": 10329,
@@ -1177,7 +1471,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 13832,
+    "total": {
+     "first": 13832
+    },
     "indication": {
      "occupation": 7738,
      "age": 242,
@@ -1186,7 +1482,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 8665,
+    "total": {
+     "first": 8665
+    },
     "indication": {
      "occupation": 4198,
      "age": 1791,
@@ -1195,7 +1493,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 62692,
+    "total": {
+     "first": 62692
+    },
     "indication": {
      "occupation": 25744,
      "age": 0,
@@ -1204,7 +1504,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 9891,
+    "total": {
+     "first": 9891
+    },
     "indication": {
      "occupation": 5435,
      "age": 0,
@@ -1213,7 +1515,9 @@
     }
    },
    "Saarland": {
-    "total": 4836,
+    "total": {
+     "first": 4836
+    },
     "indication": {
      "occupation": 584,
      "age": 3655,
@@ -1222,7 +1526,9 @@
     }
    },
    "Sachsen": {
-    "total": 7740,
+    "total": {
+     "first": 7740
+    },
     "indication": {
      "occupation": 6354,
      "age": 662,
@@ -1231,7 +1537,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 15628,
+    "total": {
+     "first": 15628
+    },
     "indication": {
      "occupation": 7523,
      "age": 4967,
@@ -1240,7 +1548,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 12978,
+    "total": {
+     "first": 12978
+    },
     "indication": {
      "occupation": 6611,
      "age": 3427,
@@ -1249,7 +1559,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 2715,
+    "total": {
+     "first": 2715
+    },
     "indication": {
      "occupation": 1976,
      "age": 446,
@@ -1258,12 +1570,17 @@
     }
    }
   },
-  "total": 329436
+  "total": {
+   "first": 330016,
+   "second": 0
+  }
  },
  "2021-01-05": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 37840,
+    "total": {
+     "first": 37840
+    },
     "indication": {
      "occupation": 11336,
      "age": 18907,
@@ -1272,7 +1589,9 @@
     }
    },
    "Bayern": {
-    "total": 82749,
+    "total": {
+     "first": 82749
+    },
     "indication": {
      "occupation": 40959,
      "age": 18957,
@@ -1281,7 +1600,9 @@
     }
    },
    "Berlin": {
-    "total": 21955,
+    "total": {
+     "first": 21955
+    },
     "indication": {
      "occupation": 7648,
      "age": 13487,
@@ -1290,7 +1611,9 @@
     }
    },
    "Brandenburg": {
-    "total": 5404,
+    "total": {
+     "first": 5404
+    },
     "indication": {
      "occupation": 5097,
      "age": 287,
@@ -1299,7 +1622,9 @@
     }
    },
    "Bremen": {
-    "total": 3195,
+    "total": {
+     "first": 3195
+    },
     "indication": {
      "occupation": 1062,
      "age": 982,
@@ -1308,7 +1633,9 @@
     }
    },
    "Hamburg": {
-    "total": 5901,
+    "total": {
+     "first": 5901
+    },
     "indication": {
      "occupation": 3495,
      "age": 1996,
@@ -1317,7 +1644,9 @@
     }
    },
    "Hessen": {
-    "total": 41298,
+    "total": {
+     "first": 41298
+    },
     "indication": {
      "occupation": 23963,
      "age": 11393,
@@ -1326,7 +1655,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 18014,
+    "total": {
+     "first": 18014
+    },
     "indication": {
      "occupation": 10024,
      "age": 456,
@@ -1335,7 +1666,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 15164,
+    "total": {
+     "first": 15164
+    },
     "indication": {
      "occupation": 7376,
      "age": 3341,
@@ -1344,7 +1677,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 69225,
+    "total": {
+     "first": 69225
+    },
     "indication": {
      "occupation": 28846,
      "age": null,
@@ -1353,7 +1688,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 12336,
+    "total": {
+     "first": 12336
+    },
     "indication": {
      "occupation": 7191,
      "age": null,
@@ -1362,7 +1699,9 @@
     }
    },
    "Saarland": {
-    "total": 5633,
+    "total": {
+     "first": 5633
+    },
     "indication": {
      "occupation": 672,
      "age": 4279,
@@ -1371,7 +1710,9 @@
     }
    },
    "Sachsen": {
-    "total": 10767,
+    "total": {
+     "first": 10767
+    },
     "indication": {
      "occupation": 8945,
      "age": 820,
@@ -1380,7 +1721,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 17123,
+    "total": {
+     "first": 17123
+    },
     "indication": {
      "occupation": 8196,
      "age": 5402,
@@ -1389,7 +1732,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 17016,
+    "total": {
+     "first": 17016
+    },
     "indication": {
      "occupation": 8459,
      "age": 4092,
@@ -1398,7 +1743,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 3711,
+    "total": {
+     "first": 3711
+    },
     "indication": {
      "occupation": 2856,
      "age": 468,
@@ -1407,12 +1754,17 @@
     }
    }
   },
-  "total": 379956
+  "total": {
+   "first": 380817,
+   "second": 0
+  }
  },
  "2021-01-06": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 42899,
+    "total": {
+     "first": 42899
+    },
     "indication": {
      "occupation": 12661,
      "age": 22030,
@@ -1421,7 +1773,9 @@
     }
    },
    "Bayern": {
-    "total": 84349,
+    "total": {
+     "first": 84349
+    },
     "indication": {
      "occupation": 41737,
      "age": 19266,
@@ -1430,7 +1784,9 @@
     }
    },
    "Berlin": {
-    "total": 24159,
+    "total": {
+     "first": 24159
+    },
     "indication": {
      "occupation": 8402,
      "age": 15037,
@@ -1439,7 +1795,9 @@
     }
    },
    "Brandenburg": {
-    "total": 8182,
+    "total": {
+     "first": 8182
+    },
     "indication": {
      "occupation": 7724,
      "age": 436,
@@ -1448,7 +1806,9 @@
     }
    },
    "Bremen": {
-    "total": 3825,
+    "total": {
+     "first": 3825
+    },
     "indication": {
      "occupation": 1397,
      "age": 1018,
@@ -1457,7 +1817,9 @@
     }
    },
    "Hamburg": {
-    "total": 7079,
+    "total": {
+     "first": 7079
+    },
     "indication": {
      "occupation": 3561,
      "age": 2415,
@@ -1466,7 +1828,9 @@
     }
    },
    "Hessen": {
-    "total": 44122,
+    "total": {
+     "first": 44122
+    },
     "indication": {
      "occupation": 25931,
      "age": 11916,
@@ -1475,7 +1839,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 21713,
+    "total": {
+     "first": 21713
+    },
     "indication": {
      "occupation": 11746,
      "age": 811,
@@ -1484,7 +1850,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 22608,
+    "total": {
+     "first": 22608
+    },
     "indication": {
      "occupation": 10900,
      "age": 5209,
@@ -1493,7 +1861,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 79578,
+    "total": {
+     "first": 79578
+    },
     "indication": {
      "occupation": 33961,
      "age": null,
@@ -1502,7 +1872,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 15984,
+    "total": {
+     "first": 15984
+    },
     "indication": {
      "occupation": 9796,
      "age": null,
@@ -1511,7 +1883,9 @@
     }
    },
    "Saarland": {
-    "total": 6511,
+    "total": {
+     "first": 6511
+    },
     "indication": {
      "occupation": 813,
      "age": 4940,
@@ -1520,7 +1894,9 @@
     }
    },
    "Sachsen": {
-    "total": 13006,
+    "total": {
+     "first": 13006
+    },
     "indication": {
      "occupation": 11072,
      "age": 858,
@@ -1529,7 +1905,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 17624,
+    "total": {
+     "first": 17624
+    },
     "indication": {
      "occupation": 8461,
      "age": 5569,
@@ -1538,7 +1916,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 20078,
+    "total": {
+     "first": 20078
+    },
     "indication": {
      "occupation": 9282,
      "age": 4842,
@@ -1547,7 +1927,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 5343,
+    "total": {
+     "first": 5343
+    },
     "indication": {
      "occupation": 4096,
      "age": 650,
@@ -1556,12 +1938,17 @@
     }
    }
   },
-  "total": 435638
+  "total": {
+   "first": 436540,
+   "second": 0
+  }
  },
  "2021-01-07": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 49103,
+    "total": {
+     "first": 49103
+    },
     "indication": {
      "occupation": 14560,
      "age": 25827,
@@ -1570,7 +1957,9 @@
     }
    },
    "Bayern": {
-    "total": 88916,
+    "total": {
+     "first": 88916
+    },
     "indication": {
      "occupation": 44516,
      "age": 20212,
@@ -1579,7 +1968,9 @@
     }
    },
    "Berlin": {
-    "total": 26406,
+    "total": {
+     "first": 26406
+    },
     "indication": {
      "occupation": 9109,
      "age": 16673,
@@ -1588,7 +1979,9 @@
     }
    },
    "Brandenburg": {
-    "total": 11481,
+    "total": {
+     "first": 11481
+    },
     "indication": {
      "occupation": 10391,
      "age": 1029,
@@ -1597,7 +1990,9 @@
     }
    },
    "Bremen": {
-    "total": 4505,
+    "total": {
+     "first": 4505
+    },
     "indication": {
      "occupation": 1764,
      "age": 1033,
@@ -1606,7 +2001,9 @@
     }
    },
    "Hamburg": {
-    "total": 8471,
+    "total": {
+     "first": 8471
+    },
     "indication": {
      "occupation": 4313,
      "age": 2788,
@@ -1615,7 +2012,9 @@
     }
    },
    "Hessen": {
-    "total": 46006,
+    "total": {
+     "first": 46006
+    },
     "indication": {
      "occupation": 27009,
      "age": 12286,
@@ -1624,7 +2023,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 24060,
+    "total": {
+     "first": 24060
+    },
     "indication": {
      "occupation": 12515,
      "age": 1260,
@@ -1633,7 +2034,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 32170,
+    "total": {
+     "first": 32170
+    },
     "indication": {
      "occupation": 15989,
      "age": 7075,
@@ -1642,7 +2045,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 90802,
+    "total": {
+     "first": 90802
+    },
     "indication": {
      "occupation": 39465,
      "age": 0,
@@ -1651,7 +2056,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 20792,
+    "total": {
+     "first": 20792
+    },
     "indication": {
      "occupation": 11833,
      "age": 2154,
@@ -1660,7 +2067,9 @@
     }
    },
    "Saarland": {
-    "total": 7358,
+    "total": {
+     "first": 7358
+    },
     "indication": {
      "occupation": 966,
      "age": 5596,
@@ -1669,7 +2078,9 @@
     }
    },
    "Sachsen": {
-    "total": 15593,
+    "total": {
+     "first": 15593
+    },
     "indication": {
      "occupation": 13343,
      "age": 985,
@@ -1678,7 +2089,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 19399,
+    "total": {
+     "first": 19399
+    },
     "indication": {
      "occupation": 9554,
      "age": 6008,
@@ -1687,7 +2100,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 23903,
+    "total": {
+     "first": 23903
+    },
     "indication": {
      "occupation": 10747,
      "age": 5606,
@@ -1696,7 +2111,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 7994,
+    "total": {
+     "first": 7994
+    },
     "indication": {
      "occupation": 6399,
      "age": 782,
@@ -1705,12 +2122,17 @@
     }
    }
   },
-  "total": 492271
+  "total": {
+   "first": 493650,
+   "second": 0
+  }
  },
  "2021-01-08": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 55320,
+    "total": {
+     "first": 55320
+    },
     "indication": {
      "occupation": 16514,
      "age": 29263,
@@ -1719,7 +2141,9 @@
     }
    },
    "Bayern": {
-    "total": 93966,
+    "total": {
+     "first": 93966
+    },
     "indication": {
      "occupation": 47801,
      "age": 20665,
@@ -1728,7 +2152,9 @@
     }
    },
    "Berlin": {
-    "total": 28871,
+    "total": {
+     "first": 28871
+    },
     "indication": {
      "occupation": 9676,
      "age": 18591,
@@ -1737,7 +2163,9 @@
     }
    },
    "Brandenburg": {
-    "total": 13895,
+    "total": {
+     "first": 13895
+    },
     "indication": {
      "occupation": 12192,
      "age": 1608,
@@ -1746,7 +2174,9 @@
     }
    },
    "Bremen": {
-    "total": 5291,
+    "total": {
+     "first": 5291
+    },
     "indication": {
      "occupation": 2103,
      "age": 1054,
@@ -1755,7 +2185,9 @@
     }
    },
    "Hamburg": {
-    "total": 9888,
+    "total": {
+     "first": 9888
+    },
     "indication": {
      "occupation": 5188,
      "age": 3172,
@@ -1764,7 +2196,9 @@
     }
    },
    "Hessen": {
-    "total": 48653,
+    "total": {
+     "first": 48653
+    },
     "indication": {
      "occupation": 28861,
      "age": 12574,
@@ -1773,7 +2207,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 25141,
+    "total": {
+     "first": 25141
+    },
     "indication": {
      "occupation": 13122,
      "age": 1473,
@@ -1782,7 +2218,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 41646,
+    "total": {
+     "first": 41646
+    },
     "indication": {
      "occupation": 20483,
      "age": 9369,
@@ -1791,7 +2229,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 98950,
+    "total": {
+     "first": 98950
+    },
     "indication": {
      "occupation": 43671,
      "age": 0,
@@ -1800,7 +2240,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 25482,
+    "total": {
+     "first": 25482
+    },
     "indication": {
      "occupation": 14104,
      "age": 3777,
@@ -1809,7 +2251,9 @@
     }
    },
    "Saarland": {
-    "total": 8232,
+    "total": {
+     "first": 8232
+    },
     "indication": {
      "occupation": 1104,
      "age": 6236,
@@ -1818,7 +2262,9 @@
     }
    },
    "Sachsen": {
-    "total": 17991,
+    "total": {
+     "first": 17991
+    },
     "indication": {
      "occupation": 15283,
      "age": 1024,
@@ -1827,7 +2273,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 20799,
+    "total": {
+     "first": 20799
+    },
     "indication": {
      "occupation": 10228,
      "age": 6427,
@@ -1836,7 +2284,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 28241,
+    "total": {
+     "first": 28241
+    },
     "indication": {
      "occupation": 12623,
      "age": 6486,
@@ -1845,7 +2295,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 10512,
+    "total": {
+     "first": 10512
+    },
     "indication": {
      "occupation": 8583,
      "age": 903,
@@ -1854,15 +2306,23 @@
     }
    }
   },
-  "total": 549600
+  "total": {
+   "first": 551325,
+   "second": 0
+  }
  },
  "2021-01-09": {
-    "total": 603033
+  "total": {
+   "first": 604775,
+   "second": 0
+  }
  },
  "2021-01-10": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 65488,
+    "total": {
+     "first": 65488
+    },
     "indication": {
      "occupation": 19392,
      "age": 35369,
@@ -1871,7 +2331,9 @@
     }
    },
    "Bayern": {
-    "total": 120136,
+    "total": {
+     "first": 120136
+    },
     "indication": {
      "occupation": 59598,
      "age": 27674,
@@ -1880,7 +2342,9 @@
     }
    },
    "Berlin": {
-    "total": 32014,
+    "total": {
+     "first": 32014
+    },
     "indication": {
      "occupation": 10308,
      "age": 21120,
@@ -1889,7 +2353,9 @@
     }
    },
    "Brandenburg": {
-    "total": 14063,
+    "total": {
+     "first": 14063
+    },
     "indication": {
      "occupation": 12236,
      "age": 1682,
@@ -1898,7 +2364,9 @@
     }
    },
    "Bremen": {
-    "total": 6303,
+    "total": {
+     "first": 6303
+    },
     "indication": {
      "occupation": 2607,
      "age": 1070,
@@ -1907,7 +2375,9 @@
     }
    },
    "Hamburg": {
-    "total": 12695,
+    "total": {
+     "first": 12695
+    },
     "indication": {
      "occupation": 6397,
      "age": 4312,
@@ -1916,7 +2386,9 @@
     }
    },
    "Hessen": {
-    "total": 54361,
+    "total": {
+     "first": 54361
+    },
     "indication": {
      "occupation": 31645,
      "age": 14595,
@@ -1925,7 +2397,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 25141,
+    "total": {
+     "first": 25141
+    },
     "indication": {
      "occupation": 13122,
      "age": 1473,
@@ -1934,7 +2408,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 45342,
+    "total": {
+     "first": 45342
+    },
     "indication": {
      "occupation": 22613,
      "age": 9968,
@@ -1943,7 +2419,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 114762,
+    "total": {
+     "first": 114762
+    },
     "indication": {
      "occupation": 52000,
      "age": null,
@@ -1952,7 +2430,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 29994,
+    "total": {
+     "first": 29994
+    },
     "indication": {
      "occupation": 16859,
      "age": 3852,
@@ -1961,7 +2441,9 @@
     }
    },
    "Saarland": {
-    "total": 9157,
+    "total": {
+     "first": 9157
+    },
     "indication": {
      "occupation": 1229,
      "age": 6956,
@@ -1970,7 +2452,9 @@
     }
    },
    "Sachsen": {
-    "total": 19756,
+    "total": {
+     "first": 19756
+    },
     "indication": {
      "occupation": 16051,
      "age": 1357,
@@ -1979,7 +2463,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 21914,
+    "total": {
+     "first": 21914
+    },
     "indication": {
      "occupation": 10787,
      "age": 6860,
@@ -1988,7 +2474,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 31431,
+    "total": {
+     "first": 31431
+    },
     "indication": {
      "occupation": 13050,
      "age": 7457,
@@ -1997,7 +2485,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 10790,
+    "total": {
+     "first": 10790
+    },
     "indication": {
      "occupation": 8861,
      "age": 903,
@@ -2006,12 +2496,17 @@
     }
    }
   },
-  "total": 635266
+  "total": {
+   "first": 636972,
+   "second": 0
+  }
  },
  "2021-01-11": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 73776,
+    "total": {
+     "first": 73776
+    },
     "indication": {
      "occupation": 20848,
      "age": 38372,
@@ -2020,7 +2515,9 @@
     }
    },
    "Bayern": {
-    "total": 135986,
+    "total": {
+     "first": 135986
+    },
     "indication": {
      "occupation": 68550,
      "age": 31681,
@@ -2029,7 +2526,9 @@
     }
    },
    "Berlin": {
-    "total": 33798,
+    "total": {
+     "first": 33798
+    },
     "indication": {
      "occupation": 10632,
      "age": 22634,
@@ -2038,7 +2537,9 @@
     }
    },
    "Brandenburg": {
-    "total": 15091,
+    "total": {
+     "first": 15091
+    },
     "indication": {
      "occupation": 12430,
      "age": 2426,
@@ -2047,7 +2548,9 @@
     }
    },
    "Bremen": {
-    "total": 6999,
+    "total": {
+     "first": 6999
+    },
     "indication": {
      "occupation": 2993,
      "age": 1073,
@@ -2056,7 +2559,9 @@
     }
    },
    "Hamburg": {
-    "total": 14273,
+    "total": {
+     "first": 14273
+    },
     "indication": {
      "occupation": 6649,
      "age": 4944,
@@ -2065,7 +2570,9 @@
     }
    },
    "Hessen": {
-    "total": 57475,
+    "total": {
+     "first": 57475
+    },
     "indication": {
      "occupation": 33237,
      "age": 15315,
@@ -2074,7 +2581,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 26926,
+    "total": {
+     "first": 26926
+    },
     "indication": {
      "occupation": 13895,
      "age": 1596,
@@ -2083,7 +2592,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 54168,
+    "total": {
+     "first": 54168
+    },
     "indication": {
      "occupation": 27608,
      "age": 11768,
@@ -2092,7 +2603,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 124637,
+    "total": {
+     "first": 124637
+    },
     "indication": {
      "occupation": 57067,
      "age": 0,
@@ -2101,7 +2614,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 36466,
+    "total": {
+     "first": 36466
+    },
     "indication": {
      "occupation": 19277,
      "age": 7095,
@@ -2110,7 +2625,9 @@
     }
    },
    "Saarland": {
-    "total": 10130,
+    "total": {
+     "first": 10130
+    },
     "indication": {
      "occupation": 1435,
      "age": 7656,
@@ -2119,7 +2636,9 @@
     }
    },
    "Sachsen": {
-    "total": 23701,
+    "total": {
+     "first": 23701
+    },
     "indication": {
      "occupation": 19173,
      "age": 1805,
@@ -2128,7 +2647,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 24413,
+    "total": {
+     "first": 24413
+    },
     "indication": {
      "occupation": 11977,
      "age": 7572,
@@ -2137,7 +2658,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 38426,
+    "total": {
+     "first": 38426
+    },
     "indication": {
      "occupation": 15015,
      "age": 11324,
@@ -2146,7 +2669,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 12517,
+    "total": {
+     "first": 12517
+    },
     "indication": {
      "occupation": 9827,
      "age": 1074,
@@ -2155,12 +2680,17 @@
     }
    }
   },
-  "total": 700723
+  "total": {
+   "first": 702552,
+   "second": 0
+  }
  },
  "2021-01-12": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 76762,
+    "total": {
+     "first": 76762
+    },
     "indication": {
      "occupation": 22519,
      "age": 41457,
@@ -2169,7 +2699,9 @@
     }
    },
    "Bayern": {
-    "total": 150511,
+    "total": {
+     "first": 150511
+    },
     "indication": {
      "occupation": 76344,
      "age": 35434,
@@ -2178,7 +2710,9 @@
     }
    },
    "Berlin": {
-    "total": 35893,
+    "total": {
+     "first": 35893
+    },
     "indication": {
      "occupation": 11010,
      "age": 24446,
@@ -2187,7 +2721,9 @@
     }
    },
    "Brandenburg": {
-    "total": 19590,
+    "total": {
+     "first": 19590
+    },
     "indication": {
      "occupation": 15352,
      "age": 3920,
@@ -2196,7 +2732,9 @@
     }
    },
    "Bremen": {
-    "total": 7753,
+    "total": {
+     "first": 7753
+    },
     "indication": {
      "occupation": 3346,
      "age": 1104,
@@ -2205,7 +2743,9 @@
     }
    },
    "Hamburg": {
-    "total": 15980,
+    "total": {
+     "first": 15980
+    },
     "indication": {
      "occupation": 6866,
      "age": 5578,
@@ -2214,7 +2754,9 @@
     }
    },
    "Hessen": {
-    "total": 60344,
+    "total": {
+     "first": 60344
+    },
     "indication": {
      "occupation": 34864,
      "age": 15955,
@@ -2223,7 +2765,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 29100,
+    "total": {
+     "first": 29100
+    },
     "indication": {
      "occupation": 14928,
      "age": 2076,
@@ -2232,7 +2776,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 63200,
+    "total": {
+     "first": 63200
+    },
     "indication": {
      "occupation": 32710,
      "age": 13316,
@@ -2241,7 +2787,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 129472,
+    "total": {
+     "first": 129472
+    },
     "indication": {
      "occupation": 59599,
      "age": 0,
@@ -2250,7 +2798,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 45326,
+    "total": {
+     "first": 45326
+    },
     "indication": {
      "occupation": 22730,
      "age": 10246,
@@ -2259,7 +2809,9 @@
     }
    },
    "Saarland": {
-    "total": 11199,
+    "total": {
+     "first": 11199
+    },
     "indication": {
      "occupation": 1791,
      "age": 8358,
@@ -2268,7 +2820,9 @@
     }
    },
    "Sachsen": {
-    "total": 29421,
+    "total": {
+     "first": 29421
+    },
     "indication": {
      "occupation": 23650,
      "age": 2210,
@@ -2277,7 +2831,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 27320,
+    "total": {
+     "first": 27320
+    },
     "indication": {
      "occupation": 13373,
      "age": 8533,
@@ -2286,7 +2842,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 43162,
+    "total": {
+     "first": 43162
+    },
     "indication": {
      "occupation": 17149,
      "age": 13202,
@@ -2295,7 +2853,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 13060,
+    "total": {
+     "first": 13060
+    },
     "indication": {
      "occupation": 9798,
      "age": 1149,
@@ -2304,12 +2864,17 @@
     }
    }
   },
-  "total": 780140
+  "total": {
+   "first": 782126,
+   "second": 0
+  }
  },
  "2021-01-13": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 82300,
+    "total": {
+     "first": 82300
+    },
     "indication": {
      "occupation": 24154,
      "age": 44631,
@@ -2318,7 +2883,9 @@
     }
    },
    "Bayern": {
-    "total": 167915,
+    "total": {
+     "first": 167915
+    },
     "indication": {
      "occupation": 84910,
      "age": 40128,
@@ -2327,7 +2894,9 @@
     }
    },
    "Berlin": {
-    "total": 38408,
+    "total": {
+     "first": 38408
+    },
     "indication": {
      "occupation": 11540,
      "age": 26527,
@@ -2336,7 +2905,9 @@
     }
    },
    "Brandenburg": {
-    "total": 27102,
+    "total": {
+     "first": 27102
+    },
     "indication": {
      "occupation": 21079,
      "age": 5612,
@@ -2345,7 +2916,9 @@
     }
    },
    "Bremen": {
-    "total": 8890,
+    "total": {
+     "first": 8890
+    },
     "indication": {
      "occupation": 4066,
      "age": 1181,
@@ -2354,7 +2927,9 @@
     }
    },
    "Hamburg": {
-    "total": 18150,
+    "total": {
+     "first": 18150
+    },
     "indication": {
      "occupation": 8161,
      "age": 6274,
@@ -2363,7 +2938,9 @@
     }
    },
    "Hessen": {
-    "total": 62171,
+    "total": {
+     "first": 62171
+    },
     "indication": {
      "occupation": 35893,
      "age": 16135,
@@ -2372,7 +2949,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 32998,
+    "total": {
+     "first": 32998
+    },
     "indication": {
      "occupation": 16644,
      "age": 2516,
@@ -2381,7 +2960,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 70444,
+    "total": {
+     "first": 70444
+    },
     "indication": {
      "occupation": 36884,
      "age": 14524,
@@ -2390,7 +2971,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 142066,
+    "total": {
+     "first": 142066
+    },
     "indication": {
      "occupation": 66156,
      "age": null,
@@ -2399,7 +2982,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 54189,
+    "total": {
+     "first": 54189
+    },
     "indication": {
      "occupation": 25773,
      "age": 14321,
@@ -2408,7 +2993,9 @@
     }
    },
    "Saarland": {
-    "total": 12243,
+    "total": {
+     "first": 12243
+    },
     "indication": {
      "occupation": 2024,
      "age": 9064,
@@ -2417,7 +3004,9 @@
     }
    },
    "Sachsen": {
-    "total": 34588,
+    "total": {
+     "first": 34588
+    },
     "indication": {
      "occupation": 27920,
      "age": 2528,
@@ -2426,7 +3015,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 29448,
+    "total": {
+     "first": 29448
+    },
     "indication": {
      "occupation": 14226,
      "age": 9342,
@@ -2435,7 +3026,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 47498,
+    "total": {
+     "first": 47498
+    },
     "indication": {
      "occupation": 18157,
      "age": 14059,
@@ -2444,7 +3037,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 14045,
+    "total": {
+     "first": 14045
+    },
     "indication": {
      "occupation": 10998,
      "age": 1150,
@@ -2453,12 +3048,17 @@
     }
    }
   },
-  "total": 873084
+  "total": {
+   "first": 875514,
+   "second": 0
+  }
  },
  "2021-01-14": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 92868,
+    "total": {
+     "first": 92868
+    },
     "indication": {
      "occupation": 26901,
      "age": 49161,
@@ -2467,7 +3067,9 @@
     }
    },
    "Bayern": {
-    "total": 183573,
+    "total": {
+     "first": 183573
+    },
     "indication": {
      "occupation": 93673,
      "age": 44096,
@@ -2476,7 +3078,9 @@
     }
    },
    "Berlin": {
-    "total": 45998,
+    "total": {
+     "first": 45998
+    },
     "indication": {
      "occupation": 17386,
      "age": 28323,
@@ -2485,7 +3089,9 @@
     }
    },
    "Brandenburg": {
-    "total": 33263,
+    "total": {
+     "first": 33263
+    },
     "indication": {
      "occupation": 25370,
      "age": 7410,
@@ -2494,7 +3100,9 @@
     }
    },
    "Bremen": {
-    "total": 10134,
+    "total": {
+     "first": 10134
+    },
     "indication": {
      "occupation": 4786,
      "age": 1197,
@@ -2503,7 +3111,9 @@
     }
    },
    "Hamburg": {
-    "total": 19422,
+    "total": {
+     "first": 19422
+    },
     "indication": {
      "occupation": 8250,
      "age": 6851,
@@ -2512,7 +3122,9 @@
     }
    },
    "Hessen": {
-    "total": 65673,
+    "total": {
+     "first": 65673
+    },
     "indication": {
      "occupation": 37398,
      "age": 17201,
@@ -2521,7 +3133,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 35355,
+    "total": {
+     "first": 35355
+    },
     "indication": {
      "occupation": 17272,
      "age": 2976,
@@ -2530,7 +3144,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 78050,
+    "total": {
+     "first": 78050
+    },
     "indication": {
      "occupation": 40754,
      "age": 15628,
@@ -2539,7 +3155,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 176801,
+    "total": {
+     "first": 176801
+    },
     "indication": {
      "occupation": 84253,
      "age": 0,
@@ -2548,7 +3166,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 64219,
+    "total": {
+     "first": 64219
+    },
     "indication": {
      "occupation": 30548,
      "age": 17781,
@@ -2557,7 +3177,9 @@
     }
    },
    "Saarland": {
-    "total": 13301,
+    "total": {
+     "first": 13301
+    },
     "indication": {
      "occupation": 2256,
      "age": 9796,
@@ -2566,7 +3188,9 @@
     }
    },
    "Sachsen": {
-    "total": 39332,
+    "total": {
+     "first": 39332
+    },
     "indication": {
      "occupation": 31443,
      "age": 3005,
@@ -2575,7 +3199,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 31723,
+    "total": {
+     "first": 31723
+    },
     "indication": {
      "occupation": 15590,
      "age": 10103,
@@ -2584,7 +3210,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 52740,
+    "total": {
+     "first": 52740
+    },
     "indication": {
      "occupation": 19722,
      "age": 14965,
@@ -2593,7 +3221,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 19230,
+    "total": {
+     "first": 19230
+    },
     "indication": {
      "occupation": 13211,
      "age": 3428,
@@ -2602,12 +3232,17 @@
     }
    }
   },
-  "total": 970872
+  "total": {
+   "first": 973784,
+   "second": 0
+  }
  },
  "2021-01-15": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 100163,
+    "total": {
+     "first": 100163
+    },
     "indication": {
      "occupation": 29956,
      "age": 52522,
@@ -2616,7 +3251,9 @@
     }
    },
    "Bayern": {
-    "total": 198607,
+    "total": {
+     "first": 198607
+    },
     "indication": {
      "occupation": 102769,
      "age": 47873,
@@ -2625,7 +3262,9 @@
     }
    },
    "Berlin": {
-    "total": 48544,
+    "total": {
+     "first": 48544
+    },
     "indication": {
      "occupation": 17738,
      "age": 30563,
@@ -2634,7 +3273,9 @@
     }
    },
    "Brandenburg": {
-    "total": 37993,
+    "total": {
+     "first": 37993
+    },
     "indication": {
      "occupation": 28119,
      "age": 9067,
@@ -2643,7 +3284,9 @@
     }
    },
    "Bremen": {
-    "total": 11033,
+    "total": {
+     "first": 11033
+    },
     "indication": {
      "occupation": 5427,
      "age": 1246,
@@ -2652,7 +3295,9 @@
     }
    },
    "Hamburg": {
-    "total": 21951,
+    "total": {
+     "first": 21951
+    },
     "indication": {
      "occupation": 9606,
      "age": 7822,
@@ -2661,7 +3306,9 @@
     }
    },
    "Hessen": {
-    "total": 69925,
+    "total": {
+     "first": 69925
+    },
     "indication": {
      "occupation": 39725,
      "age": 18056,
@@ -2670,7 +3317,9 @@
     }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 37570,
+    "total": {
+     "first": 37570
+    },
     "indication": {
      "occupation": 18238,
      "age": 3454,
@@ -2679,7 +3328,9 @@
     }
    },
    "Niedersachsen": {
-    "total": 86035,
+    "total": {
+     "first": 86035
+    },
     "indication": {
      "occupation": 45644,
      "age": 16901,
@@ -2688,7 +3339,9 @@
     }
    },
    "Nordrhein-Westfalen": {
-    "total": 193857,
+    "total": {
+     "first": 193857
+    },
     "indication": {
      "occupation": 94237,
      "age": 0,
@@ -2697,7 +3350,9 @@
     }
    },
    "Rheinland-Pfalz": {
-    "total": 73749,
+    "total": {
+     "first": 73749
+    },
     "indication": {
      "occupation": 33721,
      "age": 22896,
@@ -2706,7 +3361,9 @@
     }
    },
    "Saarland": {
-    "total": 14421,
+    "total": {
+     "first": 14421
+    },
     "indication": {
      "occupation": 2421,
      "age": 10634,
@@ -2715,7 +3372,9 @@
     }
    },
    "Sachsen": {
-    "total": 43451,
+    "total": {
+     "first": 43451
+    },
     "indication": {
      "occupation": 34444,
      "age": 3555,
@@ -2724,7 +3383,9 @@
     }
    },
    "Sachsen-Anhalt": {
-    "total": 33182,
+    "total": {
+     "first": 33182
+    },
     "indication": {
      "occupation": 16378,
      "age": 10605,
@@ -2733,7 +3394,9 @@
     }
    },
    "Schleswig-Holstein": {
-    "total": 55670,
+    "total": {
+     "first": 55670
+    },
     "indication": {
      "occupation": 21709,
      "age": 15838,
@@ -2742,7 +3405,9 @@
     }
    },
    "Th\u00fcringen": {
-    "total": 22009,
+    "total": {
+     "first": 22009
+    },
     "indication": {
      "occupation": 14578,
      "age": 4383,
@@ -2751,62 +3416,367 @@
     }
    }
   },
-  "total": 1056047
+  "total": {
+   "first": 1062545,
+   "second": 115
+  }
  },
  "2021-01-16": {
-  "total": 1108145
+  "total": {
+   "first": 1116357,
+   "second": 456
+  }
  },
  "2021-01-17": {
   "states": {
    "Baden-W\u00fcrttemberg": {
-    "total": 114954
+    "total": {
+     "first": 114954
+    }
    },
    "Bayern": {
-    "total": 213837
+    "total": {
+     "first": 213837
+    }
    },
    "Berlin": {
-    "total": 52622
+    "total": {
+     "first": 52622
+    }
    },
    "Brandenburg": {
-    "total": 38474
+    "total": {
+     "first": 38474
+    }
    },
    "Bremen": {
-    "total": 11845
+    "total": {
+     "first": 11845
+    }
    },
    "Hamburg": {
-    "total": 24468
+    "total": {
+     "first": 24468
+    }
    },
    "Hessen": {
-    "total": 72816
+    "total": {
+     "first": 72816
+    }
    },
    "Mecklenburg-Vorpommern": {
-    "total": 37564
+    "total": {
+     "first": 37564
+    }
    },
    "Niedersachsen": {
-    "total": 90005
+    "total": {
+     "first": 90005
+    }
    },
    "Nordrhein-Westfalen": {
-    "total": 211779
+    "total": {
+     "first": 211779
+    }
    },
    "Rheinland-Pfalz": {
-    "total": 82810
+    "total": {
+     "first": 82810
+    }
    },
    "Saarland": {
-    "total": 15711
+    "total": {
+     "first": 15711
+    }
    },
    "Sachsen": {
-    "total": 50002
+    "total": {
+     "first": 50002
+    }
    },
    "Sachsen-Anhalt": {
-    "total": 33148
+    "total": {
+     "first": 33148
+    }
    },
    "Schleswig-Holstein": {
-    "total": 65849
+    "total": {
+     "first": 65849
+    }
    },
    "Th\u00fcringen": {
-    "total": 23413
+    "total": {
+     "first": 23413
+    }
    }
   },
-  "total": 1139297
+  "total": {
+   "first": 1146254,
+   "second": 11489
+  }
+ },
+ "2021-01-18": {
+  "states": {
+   "Baden-W\u00fcrttemberg": {
+    "total": {
+     "first": 122057,
+     "second": 4457
+    },
+    "vaccine": {
+     "biontech": 121737,
+     "moderna": 320
+    },
+    "indication": {
+     "age": 62507,
+     "occupation": 37050,
+     "medical": 3887,
+     "nursingHome": 24404
+    }
+   },
+   "Bayern": {
+    "total": {
+     "first": 220318,
+     "second": 419
+    },
+    "vaccine": {
+     "biontech": 213624,
+     "moderna": 6694
+    },
+    "indication": {
+     "age": 53985,
+     "occupation": 114451,
+     "medical": 4018,
+     "nursingHome": 65949
+    }
+   },
+   "Berlin": {
+    "total": {
+     "first": 55134,
+     "second": 4138
+    },
+    "vaccine": {
+     "biontech": 54499,
+     "moderna": 635
+    },
+    "indication": {
+     "age": 36186,
+     "occupation": 18717,
+     "medical": 105,
+     "nursingHome": 25739
+    }
+   },
+   "Brandenburg": {
+    "total": {
+     "first": 41094,
+     "second": 0
+    },
+    "vaccine": {
+     "biontech": 41094,
+     "moderna": 0
+    },
+    "indication": {
+     "age": 11184,
+     "occupation": 29008,
+     "medical": 411,
+     "nursingHome": 5561
+    }
+   },
+   "Bremen": {
+    "total": {
+     "first": 12866,
+     "second": 390
+    },
+    "vaccine": {
+     "biontech": 12433,
+     "moderna": 433
+    },
+    "indication": {
+     "age": 1457,
+     "occupation": 6384,
+     "medical": 101,
+     "nursingHome": 4866
+    }
+   },
+   "Hamburg": {
+    "total": {
+     "first": 26517,
+     "second": 598
+    },
+    "vaccine": {
+     "biontech": 26362,
+     "moderna": 155
+    },
+    "indication": {
+     "age": 10001,
+     "occupation": 11954,
+     "medical": 1817,
+     "nursingHome": 7085
+    }
+   },
+   "Hessen": {
+    "total": {
+     "first": 74071,
+     "second": 3000
+    },
+    "vaccine": {
+     "biontech": 74071,
+     "moderna": 0
+    },
+    "indication": {
+     "age": 18945,
+     "occupation": 42128,
+     "medical": 4244,
+     "nursingHome": 28916
+    }
+   },
+   "Mecklenburg-Vorpommern": {
+    "total": {
+     "first": 39116,
+     "second": 1157
+    },
+    "vaccine": {
+     "biontech": 38745,
+     "moderna": 371
+    },
+    "indication": {
+     "age": 3783,
+     "occupation": 18632,
+     "medical": 730,
+     "nursingHome": 16540
+    }
+   },
+   "Niedersachsen": {
+    "total": {
+     "first": 94116,
+     "second": 837
+    },
+    "vaccine": {
+     "biontech": 92738,
+     "moderna": 1378
+    },
+    "indication": {
+     "age": 18614,
+     "occupation": 50171,
+     "medical": 14743,
+     "nursingHome": 42040
+    }
+   },
+   "Nordrhein-Westfalen": {
+    "total": {
+     "first": 218699,
+     "second": 4593
+    },
+    "vaccine": {
+     "biontech": 218699,
+     "moderna": 0
+    },
+    "indication": {
+     "age": 0,
+     "occupation": 107592,
+     "medical": 0,
+     "nursingHome": 111115
+    }
+   },
+   "Rheinland-Pfalz": {
+    "total": {
+     "first": 91423,
+     "second": 1196
+    },
+    "vaccine": {
+     "biontech": 89129,
+     "moderna": 2294
+    },
+    "indication": {
+     "age": 30312,
+     "occupation": 40099,
+     "medical": 25,
+     "nursingHome": 20986
+    }
+   },
+   "Saarland": {
+    "total": {
+     "first": 16957,
+     "second": 0
+    },
+    "vaccine": {
+     "biontech": 16957,
+     "moderna": 0
+    },
+    "indication": {
+     "age": 12177,
+     "occupation": 3128,
+     "medical": 0,
+     "nursingHome": 5808
+    }
+   },
+   "Sachsen": {
+    "total": {
+     "first": 53663,
+     "second": 368
+    },
+    "vaccine": {
+     "biontech": 53663,
+     "moderna": 0
+    },
+    "indication": {
+     "age": 4539,
+     "occupation": 41461,
+     "medical": 1,
+     "nursingHome": 12201
+    }
+   },
+   "Sachsen-Anhalt": {
+    "total": {
+     "first": 34411,
+     "second": 2927
+    },
+    "vaccine": {
+     "biontech": 34411,
+     "moderna": 0
+    },
+    "indication": {
+     "age": 11204,
+     "occupation": 16733,
+     "medical": 1437,
+     "nursingHome": 15002
+    }
+   },
+   "Schleswig-Holstein": {
+    "total": {
+     "first": 69126,
+     "second": 640
+    },
+    "vaccine": {
+     "biontech": 69076,
+     "moderna": 50
+    },
+    "indication": {
+     "age": 18538,
+     "occupation": 23248,
+     "medical": 5460,
+     "nursingHome": 18361
+    }
+   },
+   "Th\u00fcringen": {
+    "total": {
+     "first": 25975,
+     "second": 21
+    },
+    "vaccine": {
+     "biontech": 25975,
+     "moderna": 0
+    },
+    "indication": {
+     "age": 6144,
+     "occupation": 16038,
+     "medical": 708,
+     "nursingHome": 3262
+    }
+   }
+  },
+  "total": {
+   "first": 1195543,
+   "second": 24741
+  }
  }
 }
