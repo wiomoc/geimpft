@@ -17,7 +17,7 @@ export default {
             type: "line",
             label: "Insgesamt verabreichte Impfdosen",
             data: this.historyTotal.map(
-              ({ stats }) => stats.total.first + stats.total.second
+              ({ stats }) => stats.total.first + (stats.total.second || 0)
             ),
             borderColor: "rgb(255, 99, 132)",
             backgroundColor: "rgba(0, 0, 0, 0)",

@@ -37,7 +37,7 @@ export default new Vuex.Store({
       const changePrevDay = [];
       const historyTotal = getters.historyTotal;
       for (let { day, stats } of historyTotal) {
-        const totalVaccinations = stats.total.first + stats.total.second;
+        const totalVaccinations = stats.total.first + (stats.total.second || 0);
         changePrevDay.push({
           day,
           change: totalVaccinations - last
