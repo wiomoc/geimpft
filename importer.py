@@ -27,8 +27,8 @@ xlsx_content = rki_request()
 wb = load_workbook(BytesIO(xlsx_content))
 
 sheet_introduction = wb.worksheets[0]
-day = date.today() - timedelta(days=1)
-day_str = day.isoformat()
+data_day = date.today() - timedelta(days=1)
+day_str = data_day.isoformat()
 filename = f"{XLSX_STORE_DIR}/{day_str}.xlsx"
 with open(filename, 'wb') as f:
     f.write(xlsx_content)
@@ -109,9 +109,9 @@ assert sheet_data['A2'].value.date() == FIRST_DAY  # Assert that we start with t
 
 first_vaccination_total = 0
 second_vaccination_total = 0
-day = FIRST_DAY
+row_day = FIRST_DAY
 for row in rows:
-    if not row[0].value:
+    if not row[0].value or row_day > data_day:
         break
     try:
         first_vaccination_total += int(row[1].value) # last value is a formula referencing to second sheet
@@ -119,11 +119,11 @@ for row in rows:
         break
     if row[2].value:
         second_vaccination_total += int(row[2].value)
-    entry = history_obj.setdefault(day.isoformat(), {})['total'] = {
+    entry = history_obj.setdefault(row_day.isoformat(), {})['total'] = {
         'first': first_vaccination_total,
         'second': second_vaccination_total
     }
-    day += timedelta(days=1)
+    row_day += timedelta(days=1)
 
 
 with open(EXPORT_FILE, "w") as f:
