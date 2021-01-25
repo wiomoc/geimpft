@@ -86,7 +86,7 @@ export default new Vuex.Store({
     },
     lastDay: state => {
       if (!state.history) return null;
-      const daysSorted = Object.keys(state.history);
+      const daysSorted = Object.keys(state.history).sort();
       const lastDay = daysSorted[daysSorted.length - 1];
       if (state.state && !state.history[lastDay].states) {
         // Go one day back, if a state is selected but no detail data is available
