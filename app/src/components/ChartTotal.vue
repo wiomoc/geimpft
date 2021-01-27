@@ -85,13 +85,6 @@ export default {
           }*/
         ]
       };
-    },
-
-    updateChart: function(scale) {
-      let chart = this.$chart;
-      chart.options.scales.yAxes =
-        scale == "linear" ? this.linearScale.yAxes : this.logScale.yAxes;
-      chart.update();
     }
   },
   mounted() {
@@ -132,7 +125,6 @@ export default {
       this.$chart.update();
     },
     linear(val) {
-      console.log(val);
       let chart = this.$chart;
       chart.options.scales.yAxes = val
         ? this.linearScale.yAxes
