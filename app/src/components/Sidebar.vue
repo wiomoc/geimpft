@@ -38,18 +38,11 @@
           </div>
         </md-card-header>
       </md-card>
-      <ChartTotal ref="chart" class="chart" />
-      <md-button
-        v-if="this.linear"
-        class="md-raised"
-        v-on:click="toggleChartScale"
-        >Log</md-button
-      >
-      <md-button
-        v-if="!this.linear"
-        class="md-raised"
-        v-on:click="toggleChartScale"
-        >Linear</md-button
+      <ChartTotal :linear="linear" class="chart" />
+
+      <md-button class="md-raised" v-on:click="toggleChartScale"
+        ><template v-if="linear">Linear</template>
+        <template v-else>Log</template></md-button
       >
 
       <ChartChangePrevDay class="chart" />
@@ -91,13 +84,7 @@ export default {
 
   methods: {
     toggleChartScale: function() {
-      if (this.linear) {
-        this.linear = false;
-        this.$refs.chart.updateChart("log");
-      } else {
-        this.linear = true;
-        this.$refs.chart.updateChart("linear");
-      }
+      this.linear = !this.linear;
     }
   },
 

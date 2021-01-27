@@ -32,6 +32,12 @@ export default {
       }
     };
   },
+  props: {
+    linear: {
+      type: Boolean,
+      default: true
+    }
+  },
   methods: {
     buildChartData() {
       return {
@@ -124,6 +130,14 @@ export default {
       this.$chart.data.labels = newChartData.labels;
       this.$chart.data.datasets[0].data = newChartData.datasets[0].data;
       this.$chart.update();
+    },
+    linear(val) {
+      console.log(val);
+      let chart = this.$chart;
+      chart.options.scales.yAxes = val
+        ? this.linearScale.yAxes
+        : this.logScale.yAxes;
+      chart.update();
     }
   }
 };
