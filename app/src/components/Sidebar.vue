@@ -38,7 +38,20 @@
           </div>
         </md-card-header>
       </md-card>
-      <ChartTotal class="chart" />
+      <ChartTotal ref="chart" class="chart" />
+      <md-button
+        v-if="this.linear"
+        class="md-raised"
+        v-on:click="toggleChartScale"
+        >Log</md-button
+      >
+      <md-button
+        v-if="!this.linear"
+        class="md-raised"
+        v-on:click="toggleChartScale"
+        >Linear</md-button
+      >
+
       <ChartChangePrevDay class="chart" />
       <md-divider></md-divider>
       <span class="md-caption"
@@ -69,26 +82,43 @@ export default {
   name: "Sidebar",
   components: {
     ChartTotal,
-    ChartChangePrevDay
+    ChartChangePrevDay,
   },
+
+  data: function () {
+    return { linear: true };
+  },
+
+  methods: {
+    toggleChartScale: function () {
+      if (this.linear) {
+        this.linear = false;
+        this.$refs.chart.updateChart("log");
+      } else {
+        this.linear = true;
+        this.$refs.chart.updateChart("linear");
+      }
+    },
+  },
+
   computed: {
     ...mapGetters(["lastStats", "lastDay"]),
-    ...mapState(["state"])
+    ...mapState(["state"]),
   },
   filters: {
     day(date) {
       return new Intl.DateTimeFormat("de-DE", {
         day: "2-digit",
         month: "2-digit",
-        year: "numeric"
+        year: "numeric",
       }).format(new Date(date));
     },
     number(number) {
       return new Intl.NumberFormat("de-DE", { useGrouping: true }).format(
         number
       );
-    }
-  }
+    },
+  },
 };
 </script>
 

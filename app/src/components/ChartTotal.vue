@@ -8,10 +8,34 @@ import Chart from "chart.js";
 export default {
   name: "ChartTotal",
   computed: mapGetters(["historyTotal"]),
+  data: function () {
+    return {
+      logScale: {
+        yAxes: [
+          {
+            type: "logarithmic",
+            ticks: {
+              min: 0,
+              callback: (value) => value,
+            },
+          },
+        ],
+      },
+      linearScale: {
+        yAxes: [
+          {
+            ticks: {
+              beginAtZero: true,
+            },
+          },
+        ],
+      },
+    };
+  },
   methods: {
     buildChartData() {
       return {
-        labels: this.historyTotal.map(stats => stats.day),
+        labels: this.historyTotal.map((stats) => stats.day),
         datasets: [
           {
             type: "line",
@@ -23,8 +47,8 @@ export default {
             backgroundColor: "rgba(0, 0, 0, 0)",
             fill: false,
             cubicInterpolationMode: "monotone",
-            borderWidth: 2
-          }
+            borderWidth: 2,
+          },
           /*{
             type: "bar",
             label: "Indikation Alter",
@@ -53,9 +77,16 @@ export default {
               stats => stats.stats.indicationNursinghome
             )
           }*/
-        ]
+        ],
       };
-    }
+    },
+
+    updateChart: function (scale) {
+      let chart = this.$chart;
+      chart.options.scales.yAxes =
+        scale == "linear" ? this.linearScale.yAxes : this.logScale.yAxes;
+      chart.update();
+    },
   },
   mounted() {
     this.$chart = new Chart(this.$refs.canvas.getContext("2d"), {
@@ -64,7 +95,7 @@ export default {
       options: {
         responsive: true,
         tooltips: {
-          mode: "index"
+          mode: "index",
         },
         scales: {
           xAxes: [
@@ -73,24 +104,18 @@ export default {
               //                distribution: 'linear',
               time: {
                 displayFormats: {
-                  day: "MMM D"
+                  day: "MMM D",
                 },
-                unit: "day"
+                unit: "day",
               },
               scaleLabel: {
-                display: true
-              }
-            }
+                display: true,
+              },
+            },
           ],
-          yAxes: [
-            {
-              ticks: {
-                beginAtZero: true
-              }
-            }
-          ]
-        }
-      }
+          yAxes: this.linearScale.yAxes,
+        },
+      },
     });
   },
   watch: {
@@ -99,7 +124,7 @@ export default {
       this.$chart.data.labels = newChartData.labels;
       this.$chart.data.datasets[0].data = newChartData.datasets[0].data;
       this.$chart.update();
-    }
-  }
+    },
+  },
 };
 </script>
