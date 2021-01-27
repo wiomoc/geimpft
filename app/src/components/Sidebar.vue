@@ -38,14 +38,18 @@
           </div>
         </md-card-header>
       </md-card>
-      <ChartTotal :linear="linear" class="chart" />
-
-      <md-button class="md-raised" v-on:click="toggleChartScale"
-        ><template v-if="linear">Linear</template>
-        <template v-else>Log</template></md-button
-      >
-
-      <ChartChangePrevDay class="chart" />
+      <md-card class="chart">
+        <ChartTotal :linear="linear" />
+        <md-card-actions style="padding-top: 0">
+          <md-button v-on:click="toggleChartScale">
+            <template v-if="linear">Logarithmisch</template>
+            <template v-else>Linear</template>
+          </md-button>
+        </md-card-actions>
+      </md-card>
+      <md-card class="chart">
+        <ChartChangePrevDay />
+      </md-card>
       <md-divider></md-divider>
       <span class="md-caption"
         >Quelle:
@@ -132,17 +136,18 @@ export default {
   top: 0px;
 }
 
+.chart,
 .card-total,
 .card-percentage {
   margin: 10px;
 }
 
-.chart {
+/* .chart {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-right: 10px;
   padding-left: 10px;
-}
+} */
 
 .md-title {
   margin-top: 0 !important;

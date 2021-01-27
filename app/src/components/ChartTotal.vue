@@ -17,9 +17,7 @@ export default {
             ticks: {
               min: 0,
               callback: function(value) {
-                if (value === 0) {
-                  return "0";
-                }
+                if (value === 0) return "0";
                 //reduce amount of labeled numbers on y-axis
                 const remain =
                   value / Math.pow(10, Math.floor(Math.log10(value)));
