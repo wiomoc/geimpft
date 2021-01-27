@@ -16,7 +16,18 @@ export default {
             type: "logarithmic",
             ticks: {
               min: 0,
-              callback: value => value
+              callback: function(value) {
+                if (value === 0) {
+                  return "0";
+                }
+                //reduce amount of labeled numbers on y-axis
+                const remain =
+                  value / Math.pow(10, Math.floor(Math.log10(value)));
+                if (remain === 1 || remain === 2 || remain === 5) {
+                  return value;
+                }
+                return "";
+              }
             }
           }
         ]
