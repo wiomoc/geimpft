@@ -35,7 +35,8 @@ export default {
           {
             ticks: {
               beginAtZero: true
-            }
+            },
+            stacked: true
           }
         ]
       }
@@ -54,17 +55,44 @@ export default {
         datasets: [
           {
             type: "line",
+            label: "Zweite verabreichte Impfdosis",
+            data: this.historyTotal.map(({ stats }) => stats.total.second || 0),
+            borderColor: "rgb(3, 169, 244)",
+            backgroundColor: "rgba(79,195,247, .5)",
+            pointBackgroundColor: "rgb(3, 169, 244)",
+
+            fill: "origin", //fill to 'origin'
+            cubicInterpolationMode: "monotone",
+            borderWidth: 2
+          },
+          {
+            type: "line",
+            label: "Erste verabreichte Impfdosis",
+            data: this.historyTotal.map(({ stats }) => stats.total.first),
+            borderColor: "rgb(255, 99, 132)",
+            backgroundColor: "rgba(255,82,82, .5)",
+            pointBackgroundColor: "rgb(255, 99, 132)",
+            fill: "-1", //fill to dataset 1
+            cubicInterpolationMode: "monotone",
+            borderWidth: 2
+          }
+          /*
+          // display total not really necessary with "stacked: true"
+          {
+            type: "line",
             label: "Insgesamt verabreichte Impfdosen",
             data: this.historyTotal.map(
               ({ stats }) => stats.total.first + (stats.total.second || 0)
             ),
-            borderColor: "rgb(255, 99, 132)",
-            backgroundColor: "rgba(0, 0, 0, 0)",
-            fill: false,
+            borderColor: "rgb(0,230,118)",
+            backgroundColor: "rgba(105,240,174, .5)",
+            pointBackgroundColor: "rgb(0,230,118)",
+
+            fill: "-2", //fill to dataset 2
             cubicInterpolationMode: "monotone",
             borderWidth: 2
           }
-          /*{
+          {
             type: "bar",
             label: "Indikation Alter",
             backgroundColor: "rgb(255, 159, 64)",
@@ -122,6 +150,11 @@ export default {
             }
           ],
           yAxes: this.linearScale.yAxes
+        },
+        plugins: {
+          filler: {
+            propagate: true
+          }
         }
       }
     });
