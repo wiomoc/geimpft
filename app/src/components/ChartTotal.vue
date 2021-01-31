@@ -55,23 +55,22 @@ export default {
         datasets: [
           {
             type: "line",
-            label: "Zweite verabreichte Impfdosis",
-            data: this.historyTotal.map(({ stats }) => stats.total.second || 0),
-            borderColor: "rgb(3, 169, 244)",
-            backgroundColor: "rgba(79,195,247, .5)",
-            pointBackgroundColor: "rgb(3, 169, 244)",
-
+            label: "Erste verabreichte Impfdosis",
+            data: this.historyTotal.map(({ stats }) => stats.total.first),
+            borderColor: "rgb(255, 99, 132)",
+            backgroundColor: "rgba(255,82,82, .5)",
+            pointBackgroundColor: "rgb(255, 99, 132)",
             fill: "origin", //fill to 'origin'
             cubicInterpolationMode: "monotone",
             borderWidth: 2
           },
           {
             type: "line",
-            label: "Erste verabreichte Impfdosis",
-            data: this.historyTotal.map(({ stats }) => stats.total.first),
-            borderColor: "rgb(255, 99, 132)",
-            backgroundColor: "rgba(255,82,82, .5)",
-            pointBackgroundColor: "rgb(255, 99, 132)",
+            label: "Zweite verabreichte Impfdosis",
+            data: this.historyTotal.map(({ stats }) => stats.total.second || 0),
+            borderColor: "rgb(3, 169, 244)",
+            backgroundColor: "rgba(79,195,247, .5)",
+            pointBackgroundColor: "rgb(3, 169, 244)",
             fill: "-1", //fill to dataset 1
             cubicInterpolationMode: "monotone",
             borderWidth: 2

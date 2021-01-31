@@ -34,14 +34,17 @@
             {{ lastStats.populationPercentage.toFixed(2) }}%
           </div>
           <div class="md-subhead">
-            von {{ lastStats.population | number }} Einwohnern
+            von {{ lastStats.population | number }} Einwohnern min. 1x geimpft
           </div>
         </md-card-header>
       </md-card>
       <md-card class="chart">
-        <ChartTotal :linear="linear" />
+        <ChartTotal :linear="linear" class="chart-total" />
         <md-card-actions style="padding-top: 0">
-          <md-button v-on:click="toggleChartScale">
+          <md-button
+            v-on:click="toggleChartScale"
+            class="toggle-chart-scale-button"
+          >
             <template v-if="linear">Logarithmisch</template>
             <template v-else>Linear</template>
           </md-button>
@@ -142,12 +145,9 @@ export default {
   margin: 10px;
 }
 
-/* .chart {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
-} */
+.chart-total {
+  margin-bottom: -8px;
+}
 
 .md-title {
   margin-top: 0 !important;
@@ -171,5 +171,9 @@ export default {
 .fade-enter,
 .fade-leave-to {
   opacity: 0;
+}
+
+.toggle-chart-scale-button {
+  font-size: 12px;
 }
 </style>
