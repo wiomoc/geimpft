@@ -7,16 +7,16 @@ import Chart from "chart.js";
 
 export default {
   name: "ChartTotal",
-  computed: mapGetters(["historyChangePrevDay"]),
+  computed: mapGetters(["history"]),
   methods: {
     buildChartData() {
       return {
         type: "bar",
-        labels: this.historyChangePrevDay.map(stats => stats.day),
+        labels: this.history.map(stats => stats.day),
         datasets: [
           {
             label: "Veränderung zu vorherigem Tag",
-            data: this.historyChangePrevDay.map(stats => stats.change),
+            data: this.history.map(stats => stats.changePrevDay),
             backgroundColor: "rgb(54, 162, 235)",
             fill: false,
             cubicInterpolationMode: "monotone",
@@ -63,7 +63,7 @@ export default {
     });
   },
   watch: {
-    historyChangePrevDay() {
+    history() {
       const newChartData = this.buildChartData();
       this.$chart.data.labels = newChartData.labels;
       this.$chart.data.datasets[0].data = newChartData.datasets[0].data;

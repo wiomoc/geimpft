@@ -53,17 +53,17 @@ export default {
       }
     },
     style(selected) {
-      const { lastCompleteStatsPercentage } = this;
-      if (!lastCompleteStatsPercentage) return () => null;
+      const lastCompleteStats = this.lastCompleteStats;
+      if (!lastCompleteStats) return () => null;
       const maxPopulationPercentage = Math.max(
-        ...lastCompleteStatsPercentage.map(stats => stats.populationPercentage)
+        ...Object.values(lastCompleteStats.states).map(
+          stats => stats.populationPercentage
+        )
       );
       return () => {
         return feature => {
           const state = feature.getProperties().name;
-          const stats = lastCompleteStatsPercentage.filter(
-            stats => stats.state === state
-          )[0];
+          const stats = lastCompleteStats.states[state];
           const hue =
             (85 / maxPopulationPercentage) * stats.populationPercentage;
           return new Style({
@@ -97,7 +97,7 @@ export default {
       if (!state) return [];
       return this.features.filter(feature => feature.properties.name === state);
     },
-    ...mapGetters(["lastCompleteStatsPercentage"])
+    ...mapGetters(["lastCompleteStats"])
   }
 };
 </script>

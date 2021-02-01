@@ -10,7 +10,8 @@ export default new Vuex.Store({
     state: null
   },
   getters: {
-    historyTotal: state => {
+    history(state) {
+      if (!state.history) return [];
       const history = [];
       for (let dayKey of Object.keys(state.history).sort()) {
         const dayStats = state.history[dayKey];
@@ -19,70 +20,61 @@ export default new Vuex.Store({
           if (!dayStats.states || !dayStats.states[state.state]) continue;
           history.push({
             day,
-            stats: dayStats.states[state.state]
+            ...dayStats.states[state.state]
           });
         } else {
           history.push({
             day,
-            stats: {
-              total: dayStats.total
-            }
+            total: dayStats.total
           });
         }
       }
-      return history;
-    },
-    historyChangePrevDay: (state, getters) => {
+
       let last = 0;
-      const changePrevDay = [];
-      const historyTotal = getters.historyTotal;
-      for (let { day, stats } of historyTotal) {
+      for (let stats of history) {
         const totalVaccinations = stats.total.first + (stats.total.second || 0);
-        changePrevDay.push({
-          day,
-          change: totalVaccinations - last
-        });
+        stats.changePrevDay = totalVaccinations - last;
         last = totalVaccinations;
       }
-      return changePrevDay;
+      console.log(history);
+      return history;
     },
-    lastStats: (state, getters) => {
-      let stats;
-      const lastCompleteStats = getters.lastCompleteStats;
-      if (!lastCompleteStats) return null;
-      if (state.state) {
-        stats = lastCompleteStats.states[state.state];
-        if (!stats) return;
-        stats.population = Population[state.state];
-      } else {
-        stats = {
-          total: lastCompleteStats.total
+    lastStats(state, getters) {
+      let lastCompleteStats = getters.lastCompleteStats;
+      if (!lastCompleteStats)
+        return {
+          population: 0,
+          total: {},
+          populationPercentage: 0
         };
-        if (!stats) return;
-        stats.population = Population.total;
-      }
-      stats.populationPercentage = (stats.total.first / stats.population) * 100;
-      return stats;
+      return state.state
+        ? lastCompleteStats.states[state.state]
+        : lastCompleteStats.total;
     },
-    lastCompleteStats: (state, getters) => {
-      const lastDay = getters.lastDay;
-      if (!lastDay) return null;
-      return state.history[lastDay];
-    },
-    lastCompleteStatsPercentage: (state, getters) => {
-      const lastCompleteStats = getters.lastCompleteStats;
-      if (!lastCompleteStats) return;
-      return Object.entries(lastCompleteStats.states).map(([state, stats]) => {
+    lastCompleteStats(state, getters) {
+      if (!state.history) return null;
+      const lastStats = state.history[getters.lastDay];
+      const states = {};
+      Object.entries(lastStats.states).forEach(([state, stats]) => {
         const { total } = stats;
         const population = Population[state];
         const populationPercentage = (total.first / population) * 100;
-        return {
+        states[state] = {
           population,
-          state,
           total,
           populationPercentage
         };
       });
+      const population = Population.total;
+      const total = lastStats.total;
+      return {
+        states,
+        total: {
+          population,
+          total,
+          populationPercentage: (total.first / population) * 100
+        }
+      };
     },
     lastDay: state => {
       if (!state.history) return null;

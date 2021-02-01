@@ -7,7 +7,7 @@ import Chart from "chart.js";
 
 export default {
   name: "ChartTotal",
-  computed: mapGetters(["historyTotal"]),
+  computed: mapGetters(["history"]),
   data: function() {
     return {
       logScale: {
@@ -51,12 +51,12 @@ export default {
   methods: {
     buildChartData() {
       return {
-        labels: this.historyTotal.map(stats => stats.day),
+        labels: this.history.map(stats => stats.day),
         datasets: [
           {
             type: "line",
             label: "Erste verabreichte Impfdosis",
-            data: this.historyTotal.map(({ stats }) => stats.total.first),
+            data: this.history.map(({ total }) => total.first),
             borderColor: "rgb(255, 99, 132)",
             backgroundColor: "rgba(255,82,82, .5)",
             pointBackgroundColor: "rgb(255, 99, 132)",
@@ -67,7 +67,7 @@ export default {
           {
             type: "line",
             label: "Zweite verabreichte Impfdosis",
-            data: this.historyTotal.map(({ stats }) => stats.total.second || 0),
+            data: this.history.map(({ total }) => total.second || 0),
             borderColor: "rgb(3, 169, 244)",
             backgroundColor: "rgba(79,195,247, .5)",
             pointBackgroundColor: "rgb(3, 169, 244)",
@@ -159,10 +159,11 @@ export default {
     });
   },
   watch: {
-    historyTotal() {
+    history() {
       const newChartData = this.buildChartData();
       this.$chart.data.labels = newChartData.labels;
       this.$chart.data.datasets[0].data = newChartData.datasets[0].data;
+      this.$chart.data.datasets[1].data = newChartData.datasets[1].data;
       this.$chart.update();
     },
     linear(val) {
