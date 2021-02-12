@@ -48,7 +48,7 @@ for row, _ in zip(rows, range(16)):
             return int(value)
 
 
-    state = row[1].value.replace('*', '')
+    state = row[1].value.replace('*', '').strip()
     first_vaccination = read_int(3)
     second_vaccination = read_int(8)
     state_entries[state] = {
