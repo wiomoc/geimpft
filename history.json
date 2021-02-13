@@ -651,7 +651,7 @@
    }
   },
   "total": {
-   "first": 142213,
+   "first": 142212,
    "second": 0
   }
  },
@@ -835,7 +835,7 @@
    }
   },
   "total": {
-   "first": 180320,
+   "first": 180327,
    "second": 0
   }
  },
@@ -1019,7 +1019,7 @@
    }
   },
   "total": {
-   "first": 204777,
+   "first": 204784,
    "second": 0
   }
  },
@@ -1203,7 +1203,7 @@
    }
   },
   "total": {
-   "first": 256057,
+   "first": 256063,
    "second": 0
   }
  },
@@ -1387,7 +1387,7 @@
    }
   },
   "total": {
-   "first": 281301,
+   "first": 281307,
    "second": 0
   }
  },
@@ -1571,7 +1571,7 @@
    }
   },
   "total": {
-   "first": 329634,
+   "first": 329640,
    "second": 0
   }
  },
@@ -1755,7 +1755,7 @@
    }
   },
   "total": {
-   "first": 381925,
+   "first": 381930,
    "second": 0
   }
  },
@@ -1939,7 +1939,7 @@
    }
   },
   "total": {
-   "first": 440087,
+   "first": 440085,
    "second": 0
   }
  },
@@ -2123,7 +2123,7 @@
    }
   },
   "total": {
-   "first": 498520,
+   "first": 498519,
    "second": 0
   }
  },
@@ -2307,13 +2307,13 @@
    }
   },
   "total": {
-   "first": 558517,
+   "first": 558521,
    "second": 0
   }
  },
  "2021-01-09": {
   "total": {
-   "first": 615140,
+   "first": 615235,
    "second": 0
   }
  },
@@ -2497,7 +2497,7 @@
    }
   },
   "total": {
-   "first": 648370,
+   "first": 648465,
    "second": 0
   }
  },
@@ -2681,7 +2681,7 @@
    }
   },
   "total": {
-   "first": 714004,
+   "first": 714100,
    "second": 0
   }
  },
@@ -2865,7 +2865,7 @@
    }
   },
   "total": {
-   "first": 796055,
+   "first": 796157,
    "second": 0
   }
  },
@@ -3049,7 +3049,7 @@
    }
   },
   "total": {
-   "first": 894471,
+   "first": 894573,
    "second": 0
   }
  },
@@ -3233,7 +3233,7 @@
    }
   },
   "total": {
-   "first": 994504,
+   "first": 994608,
    "second": 129
   }
  },
@@ -3417,14 +3417,14 @@
    }
   },
   "total": {
-   "first": 1086532,
-   "second": 626
+   "first": 1086634,
+   "second": 543
   }
  },
  "2021-01-16": {
   "total": {
-   "first": 1142900,
-   "second": 1069
+   "first": 1143000,
+   "second": 986
   }
  },
  "2021-01-17": {
@@ -3511,8 +3511,8 @@
    }
   },
   "total": {
-   "first": 1173847,
-   "second": 14670
+   "first": 1173954,
+   "second": 14564
   }
  },
  "2021-01-18": {
@@ -3775,8 +3775,8 @@
    }
   },
   "total": {
-   "first": 1231760,
-   "second": 31097
+   "first": 1231867,
+   "second": 30990
   }
  },
  "2021-01-19": {
@@ -4039,8 +4039,8 @@
    }
   },
   "total": {
-   "first": 1298950,
-   "second": 58080
+   "first": 1299054,
+   "second": 57973
   }
  },
  "2021-01-20": {
@@ -4303,8 +4303,8 @@
    }
   },
   "total": {
-   "first": 1376371,
-   "second": 108393
+   "first": 1376491,
+   "second": 108376
   }
  },
  "2021-01-21": {
@@ -4567,8 +4567,8 @@
    }
   },
   "total": {
-   "first": 1436464,
-   "second": 143025
+   "first": 1436589,
+   "second": 143000
   }
  },
  "2021-01-22": {
@@ -4831,8 +4831,8 @@
    }
   },
   "total": {
-   "first": 1519891,
-   "second": 173315
+   "first": 1520102,
+   "second": 173246
   }
  },
  "2021-01-24": {
@@ -5095,14 +5095,14 @@
    }
   },
   "total": {
-   "first": 1606315,
-   "second": 243770
+   "first": 1606524,
+   "second": 243727
   }
  },
  "2021-01-23": {
   "total": {
-   "first": 1568407,
-   "second": 216024
+   "first": 1568623,
+   "second": 215954
   }
  },
  "2021-01-25": {
@@ -5365,8 +5365,8 @@
    }
   },
   "total": {
-   "first": 1663788,
-   "second": 282981
+   "first": 1663999,
+   "second": 282939
   }
  },
  "2021-01-26": {
@@ -5629,8 +5629,8 @@
    }
   },
   "total": {
-   "first": 1716867,
-   "second": 332096
+   "first": 1717082,
+   "second": 332057
   }
  },
  "2021-01-27": {
@@ -5893,8 +5893,8 @@
    }
   },
   "total": {
-   "first": 1770686,
-   "second": 390096
+   "first": 1770911,
+   "second": 390061
   }
  },
  "2021-01-28": {
@@ -6157,8 +6157,8 @@
    }
   },
   "total": {
-   "first": 1822203,
-   "second": 438799
+   "first": 1822432,
+   "second": 438766
   }
  },
  "2021-01-29": {
@@ -6421,8 +6421,8 @@
    }
   },
   "total": {
-   "first": 1878632,
-   "second": 491343
+   "first": 1878868,
+   "second": 491317
   }
  },
  "2021-01-31": {
@@ -6685,14 +6685,14 @@
    }
   },
   "total": {
-   "first": 1948279,
-   "second": 569374
+   "first": 1948536,
+   "second": 569402
   }
  },
  "2021-01-30": {
   "total": {
-   "first": 1917057,
-   "second": 538242
+   "first": 1917301,
+   "second": 538268
   }
  },
  "2021-02-01": {
@@ -6955,8 +6955,8 @@
    }
   },
   "total": {
-   "first": 1996479,
-   "second": 634470
+   "first": 1996774,
+   "second": 634500
   }
  },
  "2021-02-02": {
@@ -7219,8 +7219,8 @@
    }
   },
   "total": {
-   "first": 2052758,
-   "second": 703268
+   "first": 2053059,
+   "second": 703307
   }
  },
  "2021-02-03": {
@@ -7483,8 +7483,8 @@
    }
   },
   "total": {
-   "first": 2107896,
-   "second": 785463
+   "first": 2108204,
+   "second": 785829
   }
  },
  "2021-02-04": {
@@ -7747,8 +7747,8 @@
    }
   },
   "total": {
-   "first": 2169285,
-   "second": 857523
+   "first": 2169604,
+   "second": 857887
   }
  },
  "2021-02-05": {
@@ -8011,8 +8011,8 @@
    }
   },
   "total": {
-   "first": 2227359,
-   "second": 929064
+   "first": 2227757,
+   "second": 929680
   }
  },
  "2021-02-07": {
@@ -8275,14 +8275,14 @@
    }
   },
   "total": {
-   "first": 2306581,
-   "second": 1009640
+   "first": 2306998,
+   "second": 1010542
   }
  },
  "2021-02-06": {
   "total": {
-   "first": 2274029,
-   "second": 983537
+   "first": 2274441,
+   "second": 984440
   }
  },
  "2021-02-08": {
@@ -8545,8 +8545,8 @@
    }
   },
   "total": {
-   "first": 2356294,
-   "second": 1057401
+   "first": 2357101,
+   "second": 1058310
   }
  },
  "2021-02-09": {
@@ -8809,8 +8809,8 @@
    }
   },
   "total": {
-   "first": 2419531,
-   "second": 1122646
+   "first": 2420684,
+   "second": 1124192
   }
  },
  "2021-02-10": {
@@ -9073,8 +9073,8 @@
    }
   },
   "total": {
-   "first": 2490068,
-   "second": 1188138
+   "first": 2491971,
+   "second": 1191098
   }
  },
  "2021-02-11": {
@@ -9337,8 +9337,272 @@
    }
   },
   "total": {
-   "first": 2556697,
-   "second": 1253306
+   "first": 2560946,
+   "second": 1259244
+  }
+ },
+ "2021-02-12": {
+  "states": {
+   "Baden-W\u00fcrttemberg": {
+    "total": {
+     "first": 328058,
+     "second": 2
+    },
+    "vaccine": {
+     "biontech": 313838,
+     "moderna": 14185
+    },
+    "indication": {
+     "age": 188056,
+     "occupation": 112361,
+     "medical": 10725,
+     "nursingHome": 62130
+    }
+   },
+   "Bayern": {
+    "total": {
+     "first": 450982,
+     "second": 3
+    },
+    "vaccine": {
+     "biontech": 434665,
+     "moderna": 12424
+    },
+    "indication": {
+     "age": 173693,
+     "occupation": 221220,
+     "medical": 11264,
+     "nursingHome": 103046
+    }
+   },
+   "Berlin": {
+    "total": {
+     "first": 127951,
+     "second": 3
+    },
+    "vaccine": {
+     "biontech": 123143,
+     "moderna": 4209
+    },
+    "indication": {
+     "age": 95140,
+     "occupation": 30248,
+     "medical": 150,
+     "nursingHome": 36490
+    }
+   },
+   "Brandenburg": {
+    "total": {
+     "first": 81579,
+     "second": 3
+    },
+    "vaccine": {
+     "biontech": 77465,
+     "moderna": 4114
+    },
+    "indication": {
+     "age": 37395,
+     "occupation": 40843,
+     "medical": 1304,
+     "nursingHome": 18588
+    }
+   },
+   "Bremen": {
+    "total": {
+     "first": 24004,
+     "second": 3
+    },
+    "vaccine": {
+     "biontech": 22391,
+     "moderna": 1379
+    },
+    "indication": {
+     "age": 11653,
+     "occupation": 9218,
+     "medical": 206,
+     "nursingHome": 7453
+    }
+   },
+   "Hamburg": {
+    "total": {
+     "first": 63800,
+     "second": 3
+    },
+    "vaccine": {
+     "biontech": 59649,
+     "moderna": 1604
+    },
+    "indication": {
+     "age": 25845,
+     "occupation": 31785,
+     "medical": 1875,
+     "nursingHome": 13525
+    }
+   },
+   "Hessen": {
+    "total": {
+     "first": 185003,
+     "second": 2
+    },
+    "vaccine": {
+     "biontech": 181754,
+     "moderna": 2962
+    },
+    "indication": {
+     "age": 88783,
+     "occupation": 73402,
+     "medical": 5638,
+     "nursingHome": 43187
+    }
+   },
+   "Mecklenburg-Vorpommern": {
+    "total": {
+     "first": 62198,
+     "second": 3
+    },
+    "vaccine": {
+     "biontech": 59478,
+     "moderna": 1456
+    },
+    "indication": {
+     "age": 14342,
+     "occupation": 28551,
+     "medical": 1450,
+     "nursingHome": 19484
+    }
+   },
+   "Niedersachsen": {
+    "total": {
+     "first": 207117,
+     "second": 2
+    },
+    "vaccine": {
+     "biontech": 199388,
+     "moderna": 5007
+    },
+    "indication": {
+     "age": 55182,
+     "occupation": 105215,
+     "medical": 30648,
+     "nursingHome": 81137
+    }
+   },
+   "Nordrhein-Westfalen": {
+    "total": {
+     "first": 551549,
+     "second": 3
+    },
+    "vaccine": {
+     "biontech": 521601,
+     "moderna": 14915
+    },
+    "indication": {
+     "age": 109326,
+     "occupation": 322627,
+     "medical": 13563,
+     "nursingHome": 170571
+    }
+   },
+   "Rheinland-Pfalz": {
+    "total": {
+     "first": 149368,
+     "second": 3
+    },
+    "vaccine": {
+     "biontech": 144874,
+     "moderna": 4494
+    },
+    "indication": {
+     "age": 52543,
+     "occupation": 61215,
+     "medical": 97,
+     "nursingHome": 35513
+    }
+   },
+   "Saarland": {
+    "total": {
+     "first": 31392,
+     "second": 3
+    },
+    "vaccine": {
+     "biontech": 29432,
+     "moderna": 1456
+    },
+    "indication": {
+     "age": 20380,
+     "occupation": 8533,
+     "medical": 0,
+     "nursingHome": 8388
+    }
+   },
+   "Sachsen": {
+    "total": {
+     "first": 123971,
+     "second": 3
+    },
+    "vaccine": {
+     "biontech": 120268,
+     "moderna": 3703
+    },
+    "indication": {
+     "age": 27575,
+     "occupation": 69691,
+     "medical": 3840,
+     "nursingHome": 28976
+    }
+   },
+   "Sachsen-Anhalt": {
+    "total": {
+     "first": 66644,
+     "second": 3
+    },
+    "vaccine": {
+     "biontech": 61808,
+     "moderna": 1611
+    },
+    "indication": {
+     "age": 23291,
+     "occupation": 33504,
+     "medical": 3019,
+     "nursingHome": 22103
+    }
+   },
+   "Schleswig-Holstein": {
+    "total": {
+     "first": 103611,
+     "second": 3
+    },
+    "vaccine": {
+     "biontech": 101321,
+     "moderna": 1348
+    },
+    "indication": {
+     "age": 29641,
+     "occupation": 31296,
+     "medical": 6626,
+     "nursingHome": 32601
+    }
+   },
+   "Th\u00fcringen": {
+    "total": {
+     "first": 78446,
+     "second": 3
+    },
+    "vaccine": {
+     "biontech": 75397,
+     "moderna": 3049
+    },
+    "indication": {
+     "age": 35959,
+     "occupation": 32907,
+     "medical": 3557,
+     "nursingHome": 9087
+    }
+   }
+  },
+  "total": {
+   "first": 2635673,
+   "second": 1331573
   }
  }
 }
