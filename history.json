@@ -1019,7 +1019,7 @@
    }
   },
   "total": {
-   "first": 204821,
+   "first": 204784,
    "second": 0
   }
  },
@@ -1203,7 +1203,7 @@
    }
   },
   "total": {
-   "first": 256095,
+   "first": 256063,
    "second": 0
   }
  },
@@ -1387,7 +1387,7 @@
    }
   },
   "total": {
-   "first": 281339,
+   "first": 281307,
    "second": 0
   }
  },
@@ -1571,7 +1571,7 @@
    }
   },
   "total": {
-   "first": 329755,
+   "first": 329640,
    "second": 0
   }
  },
@@ -1755,7 +1755,7 @@
    }
   },
   "total": {
-   "first": 382033,
+   "first": 381930,
    "second": 0
   }
  },
@@ -1939,7 +1939,7 @@
    }
   },
   "total": {
-   "first": 440195,
+   "first": 440085,
    "second": 0
   }
  },
@@ -2123,7 +2123,7 @@
    }
   },
   "total": {
-   "first": 498606,
+   "first": 498519,
    "second": 0
   }
  },
@@ -2307,13 +2307,13 @@
    }
   },
   "total": {
-   "first": 558601,
+   "first": 558521,
    "second": 0
   }
  },
  "2021-01-09": {
   "total": {
-   "first": 615465,
+   "first": 615235,
    "second": 0
   }
  },
@@ -2497,7 +2497,7 @@
    }
   },
   "total": {
-   "first": 648691,
+   "first": 648465,
    "second": 0
   }
  },
@@ -2681,7 +2681,7 @@
    }
   },
   "total": {
-   "first": 714346,
+   "first": 714100,
    "second": 0
   }
  },
@@ -2865,7 +2865,7 @@
    }
   },
   "total": {
-   "first": 796403,
+   "first": 796157,
    "second": 0
   }
  },
@@ -3049,7 +3049,7 @@
    }
   },
   "total": {
-   "first": 894814,
+   "first": 894573,
    "second": 0
   }
  },
@@ -3233,8 +3233,8 @@
    }
   },
   "total": {
-   "first": 994820,
-   "second": 115
+   "first": 994608,
+   "second": 129
   }
  },
  "2021-01-15": {
@@ -3417,14 +3417,14 @@
    }
   },
   "total": {
-   "first": 1087001,
-   "second": 545
+   "first": 1086634,
+   "second": 543
   }
  },
  "2021-01-16": {
   "total": {
-   "first": 1143564,
-   "second": 939
+   "first": 1143000,
+   "second": 986
   }
  },
  "2021-01-17": {
@@ -3511,8 +3511,8 @@
    }
   },
   "total": {
-   "first": 1174512,
-   "second": 14542
+   "first": 1173954,
+   "second": 14564
   }
  },
  "2021-01-18": {
@@ -3775,8 +3775,8 @@
    }
   },
   "total": {
-   "first": 1232422,
-   "second": 30968
+   "first": 1231867,
+   "second": 30990
   }
  },
  "2021-01-19": {
@@ -4039,8 +4039,8 @@
    }
   },
   "total": {
-   "first": 1299675,
-   "second": 57949
+   "first": 1299054,
+   "second": 57973
   }
  },
  "2021-01-20": {
@@ -4303,8 +4303,8 @@
    }
   },
   "total": {
-   "first": 1377138,
-   "second": 108353
+   "first": 1376491,
+   "second": 108376
   }
  },
  "2021-01-21": {
@@ -4567,8 +4567,8 @@
    }
   },
   "total": {
-   "first": 1437244,
-   "second": 143077
+   "first": 1436589,
+   "second": 143000
   }
  },
  "2021-01-22": {
@@ -4831,8 +4831,8 @@
    }
   },
   "total": {
-   "first": 1520815,
-   "second": 173357
+   "first": 1520102,
+   "second": 173246
   }
  },
  "2021-01-24": {
@@ -5095,14 +5095,14 @@
    }
   },
   "total": {
-   "first": 1607349,
-   "second": 244045
+   "first": 1606524,
+   "second": 243727
   }
  },
  "2021-01-23": {
   "total": {
-   "first": 1569398,
-   "second": 216280
+   "first": 1568623,
+   "second": 215954
   }
  },
  "2021-01-25": {
@@ -5365,8 +5365,8 @@
    }
   },
   "total": {
-   "first": 1664836,
-   "second": 283256
+   "first": 1663999,
+   "second": 282939
   }
  },
  "2021-01-26": {
@@ -5629,8 +5629,8 @@
    }
   },
   "total": {
-   "first": 1717938,
-   "second": 332356
+   "first": 1717082,
+   "second": 332057
   }
  },
  "2021-01-27": {
@@ -5893,8 +5893,8 @@
    }
   },
   "total": {
-   "first": 1771777,
-   "second": 390361
+   "first": 1770911,
+   "second": 390061
   }
  },
  "2021-01-28": {
@@ -6157,8 +6157,8 @@
    }
   },
   "total": {
-   "first": 1823299,
-   "second": 439050
+   "first": 1822432,
+   "second": 438766
   }
  },
  "2021-01-29": {
@@ -6421,8 +6421,8 @@
    }
   },
   "total": {
-   "first": 1879737,
-   "second": 491606
+   "first": 1878868,
+   "second": 491317
   }
  },
  "2021-01-31": {
@@ -6685,14 +6685,14 @@
    }
   },
   "total": {
-   "first": 1949412,
-   "second": 569692
+   "first": 1948536,
+   "second": 569402
   }
  },
  "2021-01-30": {
   "total": {
-   "first": 1918176,
-   "second": 538558
+   "first": 1917301,
+   "second": 538268
   }
  },
  "2021-02-01": {
@@ -6955,8 +6955,8 @@
    }
   },
   "total": {
-   "first": 1997665,
-   "second": 634790
+   "first": 1996774,
+   "second": 634500
   }
  },
  "2021-02-02": {
@@ -7219,8 +7219,8 @@
    }
   },
   "total": {
-   "first": 2053960,
-   "second": 703618
+   "first": 2053059,
+   "second": 703307
   }
  },
  "2021-02-03": {
@@ -7483,8 +7483,8 @@
    }
   },
   "total": {
-   "first": 2109253,
-   "second": 786402
+   "first": 2108204,
+   "second": 785829
   }
  },
  "2021-02-04": {
@@ -7747,8 +7747,8 @@
    }
   },
   "total": {
-   "first": 2170918,
-   "second": 858467
+   "first": 2169604,
+   "second": 857887
   }
  },
  "2021-02-05": {
@@ -8011,8 +8011,8 @@
    }
   },
   "total": {
-   "first": 2229392,
-   "second": 930465
+   "first": 2227757,
+   "second": 929680
   }
  },
  "2021-02-07": {
@@ -8275,14 +8275,14 @@
    }
   },
   "total": {
-   "first": 2308947,
-   "second": 1011685
+   "first": 2306998,
+   "second": 1010542
   }
  },
  "2021-02-06": {
   "total": {
-   "first": 2276311,
-   "second": 985416
+   "first": 2274441,
+   "second": 984440
   }
  },
  "2021-02-08": {
@@ -8290,11 +8290,12 @@
    "Baden-W\u00fcrttemberg": {
     "total": {
      "first": 292646,
-     "second": 2
+     "second": 113198
     },
     "vaccine": {
-     "biontech": 281640,
-     "moderna": 11006
+     "biontech": 394828,
+     "moderna": 11016,
+     "astraZen": 0
     },
     "indication": {
      "age": 166791,
@@ -8306,11 +8307,12 @@
    "Bayern": {
     "total": {
      "first": 393856,
-     "second": 3
+     "second": 202985
     },
     "vaccine": {
-     "biontech": 381864,
-     "moderna": 11992
+     "biontech": 584849,
+     "moderna": 11992,
+     "astraZen": 0
     },
     "indication": {
      "age": 145260,
@@ -8322,11 +8324,12 @@
    "Berlin": {
     "total": {
      "first": 120017,
-     "second": 3
+     "second": 55485
     },
     "vaccine": {
-     "biontech": 116205,
-     "moderna": 3812
+     "biontech": 171690,
+     "moderna": 3812,
+     "astraZen": 0
     },
     "indication": {
      "age": 88790,
@@ -8338,11 +8341,12 @@
    "Brandenburg": {
     "total": {
      "first": 79046,
-     "second": 3
+     "second": 30406
     },
     "vaccine": {
-     "biontech": 76317,
-     "moderna": 2729
+     "biontech": 106723,
+     "moderna": 2729,
+     "astraZen": 0
     },
     "indication": {
      "age": 35589,
@@ -8354,11 +8358,12 @@
    "Bremen": {
     "total": {
      "first": 22435,
-     "second": 3
+     "second": 9989
     },
     "vaccine": {
-     "biontech": 21163,
-     "moderna": 1257
+     "biontech": 31152,
+     "moderna": 1257,
+     "astraZen": 15
     },
     "indication": {
      "age": 10423,
@@ -8370,11 +8375,12 @@
    "Hamburg": {
     "total": {
      "first": 56040,
-     "second": 3
+     "second": 24286
     },
     "vaccine": {
-     "biontech": 54436,
-     "moderna": 1604
+     "biontech": 78722,
+     "moderna": 1604,
+     "astraZen": 0
     },
     "indication": {
      "age": 22327,
@@ -8386,11 +8392,12 @@
    "Hessen": {
     "total": {
      "first": 164991,
-     "second": 2
+     "second": 65486
     },
     "vaccine": {
-     "biontech": 163767,
-     "moderna": 1224
+     "biontech": 229253,
+     "moderna": 1224,
+     "astraZen": 0
     },
     "indication": {
      "age": 76791,
@@ -8402,11 +8409,12 @@
    "Mecklenburg-Vorpommern": {
     "total": {
      "first": 62204,
-     "second": 3
+     "second": 23505
     },
     "vaccine": {
-     "biontech": 60445,
-     "moderna": 1759
+     "biontech": 83950,
+     "moderna": 1759,
+     "astraZen": 0
     },
     "indication": {
      "age": 13022,
@@ -8418,11 +8426,12 @@
    "Niedersachsen": {
     "total": {
      "first": 184007,
-     "second": 2
+     "second": 89054
     },
     "vaccine": {
-     "biontech": 179633,
-     "moderna": 4374
+     "biontech": 268687,
+     "moderna": 4374,
+     "astraZen": 0
     },
     "indication": {
      "age": 42026,
@@ -8434,11 +8443,12 @@
    "Nordrhein-Westfalen": {
     "total": {
      "first": 460229,
-     "second": 2
+     "second": 199283
     },
     "vaccine": {
-     "biontech": 449965,
-     "moderna": 10264
+     "biontech": 649248,
+     "moderna": 10264,
+     "astraZen": 0
     },
     "indication": {
      "age": 61434,
@@ -8450,11 +8460,12 @@
    "Rheinland-Pfalz": {
     "total": {
      "first": 147008,
-     "second": 3
+     "second": 60598
     },
     "vaccine": {
-     "biontech": 143088,
-     "moderna": 3920
+     "biontech": 203686,
+     "moderna": 3920,
+     "astraZen": 0
     },
     "indication": {
      "age": 52473,
@@ -8466,11 +8477,12 @@
    "Saarland": {
     "total": {
      "first": 25671,
-     "second": 2
+     "second": 15166
     },
     "vaccine": {
-     "biontech": 24217,
-     "moderna": 1454
+     "biontech": 39383,
+     "moderna": 1454,
+     "astraZen": 0
     },
     "indication": {
      "age": 16598,
@@ -8482,11 +8494,12 @@
    "Sachsen": {
     "total": {
      "first": 111700,
-     "second": 2
+     "second": 45189
     },
     "vaccine": {
-     "biontech": 108991,
-     "moderna": 2709
+     "biontech": 154180,
+     "moderna": 2709,
+     "astraZen": 0
     },
     "indication": {
      "age": 20993,
@@ -8498,11 +8511,12 @@
    "Sachsen-Anhalt": {
     "total": {
      "first": 58214,
-     "second": 2
+     "second": 30512
     },
     "vaccine": {
-     "biontech": 56668,
-     "moderna": 1546
+     "biontech": 86880,
+     "moderna": 1846,
+     "astraZen": 0
     },
     "indication": {
      "age": 20283,
@@ -8514,11 +8528,12 @@
    "Schleswig-Holstein": {
     "total": {
      "first": 98745,
-     "second": 3
+     "second": 36069
     },
     "vaccine": {
-     "biontech": 97664,
-     "moderna": 1081
+     "biontech": 133733,
+     "moderna": 1081,
+     "astraZen": 0
     },
     "indication": {
      "age": 28683,
@@ -8530,11 +8545,12 @@
    "Th\u00fcringen": {
     "total": {
      "first": 67993,
-     "second": 3
+     "second": 23420
     },
     "vaccine": {
-     "biontech": 65611,
-     "moderna": 2382
+     "biontech": 89031,
+     "moderna": 2382,
+     "astraZen": 0
     },
     "indication": {
      "age": 28809,
@@ -8545,8 +8561,8 @@
    }
   },
   "total": {
-   "first": 2359372,
-   "second": 1059873
+   "first": 2357101,
+   "second": 1058310
   }
  },
  "2021-02-09": {
@@ -8554,11 +8570,12 @@
    "Baden-W\u00fcrttemberg": {
     "total": {
      "first": 301407,
-     "second": 2
+     "second": 119747
     },
     "vaccine": {
-     "biontech": 289605,
-     "moderna": 11802
+     "biontech": 409342,
+     "moderna": 11802,
+     "astraZen": 0
     },
     "indication": {
      "age": 171862,
@@ -8570,11 +8587,12 @@
    "Bayern": {
     "total": {
      "first": 406322,
-     "second": 3
+     "second": 208603
     },
     "vaccine": {
-     "biontech": 394316,
-     "moderna": 11992
+     "biontech": 602919,
+     "moderna": 11992,
+     "astraZen": 14
     },
     "indication": {
      "age": 151755,
@@ -8586,11 +8604,12 @@
    "Berlin": {
     "total": {
      "first": 122135,
-     "second": 3
+     "second": 57728
     },
     "vaccine": {
-     "biontech": 118202,
-     "moderna": 3933
+     "biontech": 175930,
+     "moderna": 3933,
+     "astraZen": 0
     },
     "indication": {
      "age": 90672,
@@ -8602,11 +8621,12 @@
    "Brandenburg": {
     "total": {
      "first": 79666,
-     "second": 3
+     "second": 33461
     },
     "vaccine": {
-     "biontech": 76590,
-     "moderna": 3076
+     "biontech": 110051,
+     "moderna": 3076,
+     "astraZen": 0
     },
     "indication": {
      "age": 36076,
@@ -8618,11 +8638,12 @@
    "Bremen": {
     "total": {
      "first": 22764,
-     "second": 3
+     "second": 10657
     },
     "vaccine": {
-     "biontech": 21488,
-     "moderna": 1257
+     "biontech": 32145,
+     "moderna": 1257,
+     "astraZen": 19
     },
     "indication": {
      "age": 10652,
@@ -8634,11 +8655,12 @@
    "Hamburg": {
     "total": {
      "first": 57231,
-     "second": 3
+     "second": 26521
     },
     "vaccine": {
-     "biontech": 55617,
-     "moderna": 1604
+     "biontech": 82138,
+     "moderna": 1604,
+     "astraZen": 10
     },
     "indication": {
      "age": 23155,
@@ -8650,11 +8672,12 @@
    "Hessen": {
     "total": {
      "first": 170502,
-     "second": 2
+     "second": 68808
     },
     "vaccine": {
-     "biontech": 168906,
-     "moderna": 1596
+     "biontech": 237714,
+     "moderna": 1596,
+     "astraZen": 0
     },
     "indication": {
      "age": 80196,
@@ -8666,11 +8689,12 @@
    "Mecklenburg-Vorpommern": {
     "total": {
      "first": 62865,
-     "second": 3
+     "second": 26141
     },
     "vaccine": {
-     "biontech": 61106,
-     "moderna": 1759
+     "biontech": 87247,
+     "moderna": 1759,
+     "astraZen": 0
     },
     "indication": {
      "age": 13381,
@@ -8682,11 +8706,12 @@
    "Niedersachsen": {
     "total": {
      "first": 187553,
-     "second": 2
+     "second": 92231
     },
     "vaccine": {
-     "biontech": 183177,
-     "moderna": 4376
+     "biontech": 275408,
+     "moderna": 4376,
+     "astraZen": 0
     },
     "indication": {
      "age": 43927,
@@ -8698,11 +8723,12 @@
    "Nordrhein-Westfalen": {
     "total": {
      "first": 475747,
-     "second": 2
+     "second": 229639
     },
     "vaccine": {
-     "biontech": 464292,
-     "moderna": 11455
+     "biontech": 693931,
+     "moderna": 11455,
+     "astraZen": 0
     },
     "indication": {
      "age": 66264,
@@ -8714,11 +8740,12 @@
    "Rheinland-Pfalz": {
     "total": {
      "first": 147196,
-     "second": 3
+     "second": 68880
     },
     "vaccine": {
-     "biontech": 143276,
-     "moderna": 3920
+     "biontech": 212156,
+     "moderna": 3920,
+     "astraZen": 0
     },
     "indication": {
      "age": 52495,
@@ -8730,11 +8757,12 @@
    "Saarland": {
     "total": {
      "first": 26444,
-     "second": 2
+     "second": 15326
     },
     "vaccine": {
-     "biontech": 24990,
-     "moderna": 1454
+     "biontech": 40316,
+     "moderna": 1454,
+     "astraZen": 0
     },
     "indication": {
      "age": 17141,
@@ -8746,11 +8774,12 @@
    "Sachsen": {
     "total": {
      "first": 115273,
-     "second": 2
+     "second": 49181
     },
     "vaccine": {
-     "biontech": 112169,
-     "moderna": 3104
+     "biontech": 161350,
+     "moderna": 3104,
+     "astraZen": 0
     },
     "indication": {
      "age": 23046,
@@ -8762,11 +8791,12 @@
    "Sachsen-Anhalt": {
     "total": {
      "first": 59110,
-     "second": 2
+     "second": 31869
     },
     "vaccine": {
-     "biontech": 57564,
-     "moderna": 1546
+     "biontech": 89133,
+     "moderna": 1846,
+     "astraZen": 0
     },
     "indication": {
      "age": 20833,
@@ -8778,11 +8808,12 @@
    "Schleswig-Holstein": {
     "total": {
      "first": 99871,
-     "second": 3
+     "second": 39769
     },
     "vaccine": {
-     "biontech": 98747,
-     "moderna": 1124
+     "biontech": 138516,
+     "moderna": 1124,
+     "astraZen": 0
     },
     "indication": {
      "age": 29058,
@@ -8794,11 +8825,12 @@
    "Th\u00fcringen": {
     "total": {
      "first": 71070,
-     "second": 3
+     "second": 25943
     },
     "vaccine": {
-     "biontech": 68031,
-     "moderna": 3039
+     "biontech": 93974,
+     "moderna": 3039,
+     "astraZen": 0
     },
     "indication": {
      "age": 30785,
@@ -8809,8 +8841,8 @@
    }
   },
   "total": {
-   "first": 2423249,
-   "second": 1126903
+   "first": 2420684,
+   "second": 1124192
   }
  },
  "2021-02-10": {
@@ -8818,11 +8850,12 @@
    "Baden-W\u00fcrttemberg": {
     "total": {
      "first": 310601,
-     "second": 2
+     "second": 125622
     },
     "vaccine": {
-     "biontech": 298129,
-     "moderna": 12472
+     "biontech": 423749,
+     "moderna": 12474,
+     "astraZen": 0
     },
     "indication": {
      "age": 177265,
@@ -8834,11 +8867,12 @@
    "Bayern": {
     "total": {
      "first": 421168,
-     "second": 3
+     "second": 213152
     },
     "vaccine": {
-     "biontech": 407966,
-     "moderna": 12026
+     "biontech": 620763,
+     "moderna": 12381,
+     "astraZen": 1176
     },
     "indication": {
      "age": 158372,
@@ -8850,11 +8884,12 @@
    "Berlin": {
     "total": {
      "first": 124426,
-     "second": 3
+     "second": 60133
     },
     "vaccine": {
-     "biontech": 120163,
-     "moderna": 4056
+     "biontech": 180296,
+     "moderna": 4056,
+     "astraZen": 207
     },
     "indication": {
      "age": 92558,
@@ -8866,11 +8901,12 @@
    "Brandenburg": {
     "total": {
      "first": 80169,
-     "second": 3
+     "second": 39984
     },
     "vaccine": {
-     "biontech": 76753,
-     "moderna": 3416
+     "biontech": 116737,
+     "moderna": 3416,
+     "astraZen": 0
     },
     "indication": {
      "age": 36493,
@@ -8882,11 +8918,12 @@
    "Bremen": {
     "total": {
      "first": 23132,
-     "second": 3
+     "second": 11381
     },
     "vaccine": {
-     "biontech": 21801,
-     "moderna": 1269
+     "biontech": 32807,
+     "moderna": 1644,
+     "astraZen": 62
     },
     "indication": {
      "age": 11192,
@@ -8898,11 +8935,12 @@
    "Hamburg": {
     "total": {
      "first": 59542,
-     "second": 3
+     "second": 28623
     },
     "vaccine": {
-     "biontech": 57191,
-     "moderna": 1604
+     "biontech": 85814,
+     "moderna": 1604,
+     "astraZen": 747
     },
     "indication": {
      "age": 24145,
@@ -8914,11 +8952,12 @@
    "Hessen": {
     "total": {
      "first": 175219,
-     "second": 2
+     "second": 71954
     },
     "vaccine": {
-     "biontech": 173086,
-     "moderna": 1946
+     "biontech": 245040,
+     "moderna": 1946,
+     "astraZen": 187
     },
     "indication": {
      "age": 82989,
@@ -8930,11 +8969,12 @@
    "Mecklenburg-Vorpommern": {
     "total": {
      "first": 64308,
-     "second": 3
+     "second": 28892
     },
     "vaccine": {
-     "biontech": 62549,
-     "moderna": 1759
+     "biontech": 91441,
+     "moderna": 1759,
+     "astraZen": 0
     },
     "indication": {
      "age": 14268,
@@ -8946,11 +8986,12 @@
    "Niedersachsen": {
     "total": {
      "first": 191965,
-     "second": 2
+     "second": 95327
     },
     "vaccine": {
-     "biontech": 187327,
-     "moderna": 4541
+     "biontech": 282654,
+     "moderna": 4541,
+     "astraZen": 97
     },
     "indication": {
      "age": 46503,
@@ -8962,11 +9003,12 @@
    "Nordrhein-Westfalen": {
     "total": {
      "first": 510546,
-     "second": 2
+     "second": 253932
     },
     "vaccine": {
-     "biontech": 494106,
-     "moderna": 13408
+     "biontech": 748038,
+     "moderna": 13408,
+     "astraZen": 3032
     },
     "indication": {
      "age": 90898,
@@ -8978,11 +9020,12 @@
    "Rheinland-Pfalz": {
     "total": {
      "first": 148262,
-     "second": 3
+     "second": 76440
     },
     "vaccine": {
-     "biontech": 144342,
-     "moderna": 3920
+     "biontech": 220782,
+     "moderna": 3920,
+     "astraZen": 0
     },
     "indication": {
      "age": 52512,
@@ -8994,11 +9037,12 @@
    "Saarland": {
     "total": {
      "first": 28066,
-     "second": 2
+     "second": 15515
     },
     "vaccine": {
-     "biontech": 26490,
-     "moderna": 1456
+     "biontech": 42005,
+     "moderna": 1456,
+     "astraZen": 120
     },
     "indication": {
      "age": 18200,
@@ -9010,11 +9054,12 @@
    "Sachsen": {
     "total": {
      "first": 117961,
-     "second": 2
+     "second": 52335
     },
     "vaccine": {
-     "biontech": 114604,
-     "moderna": 3357
+     "biontech": 166939,
+     "moderna": 3357,
+     "astraZen": 0
     },
     "indication": {
      "age": 24328,
@@ -9026,11 +9071,12 @@
    "Sachsen-Anhalt": {
     "total": {
      "first": 60685,
-     "second": 2
+     "second": 33712
     },
     "vaccine": {
-     "biontech": 58705,
-     "moderna": 1611
+     "biontech": 92117,
+     "moderna": 1911,
+     "astraZen": 369
     },
     "indication": {
      "age": 21647,
@@ -9042,11 +9088,12 @@
    "Schleswig-Holstein": {
     "total": {
      "first": 101078,
-     "second": 3
+     "second": 42977
     },
     "vaccine": {
-     "biontech": 99855,
-     "moderna": 1223
+     "biontech": 142832,
+     "moderna": 1223,
+     "astraZen": 0
     },
     "indication": {
      "age": 29366,
@@ -9058,11 +9105,12 @@
    "Th\u00fcringen": {
     "total": {
      "first": 73295,
-     "second": 3
+     "second": 28746
     },
     "vaccine": {
-     "biontech": 70252,
-     "moderna": 3043
+     "biontech": 98998,
+     "moderna": 3043,
+     "astraZen": 0
     },
     "indication": {
      "age": 32429,
@@ -9073,8 +9121,8 @@
    }
   },
   "total": {
-   "first": 2495860,
-   "second": 1197968
+   "first": 2491971,
+   "second": 1191098
   }
  },
  "2021-02-11": {
@@ -9082,11 +9130,12 @@
    "Baden-W\u00fcrttemberg": {
     "total": {
      "first": 319080,
-     "second": 2
+     "second": 131512
     },
     "vaccine": {
-     "biontech": 305930,
-     "moderna": 13150
+     "biontech": 437438,
+     "moderna": 13154,
+     "astraZen": 0
     },
     "indication": {
      "age": 182559,
@@ -9098,11 +9147,12 @@
    "Bayern": {
     "total": {
      "first": 435511,
-     "second": 3
+     "second": 218749
     },
     "vaccine": {
-     "biontech": 420922,
-     "moderna": 12083
+     "biontech": 637333,
+     "moderna": 14421,
+     "astraZen": 2506
     },
     "indication": {
      "age": 165993,
@@ -9114,11 +9164,12 @@
    "Berlin": {
     "total": {
      "first": 126121,
-     "second": 3
+     "second": 63049
     },
     "vaccine": {
-     "biontech": 121576,
-     "moderna": 4176
+     "biontech": 184625,
+     "moderna": 4176,
+     "astraZen": 369
     },
     "indication": {
      "age": 93830,
@@ -9130,11 +9181,12 @@
    "Brandenburg": {
     "total": {
      "first": 80799,
-     "second": 3
+     "second": 47849
     },
     "vaccine": {
-     "biontech": 77025,
-     "moderna": 3774
+     "biontech": 124874,
+     "moderna": 3774,
+     "astraZen": 0
     },
     "indication": {
      "age": 37001,
@@ -9146,11 +9198,12 @@
    "Bremen": {
     "total": {
      "first": 23584,
-     "second": 3
+     "second": 12192
     },
     "vaccine": {
-     "biontech": 22097,
-     "moderna": 1314
+     "biontech": 33559,
+     "moderna": 2044,
+     "astraZen": 173
     },
     "indication": {
      "age": 11441,
@@ -9162,11 +9215,12 @@
    "Hamburg": {
     "total": {
      "first": 61700,
-     "second": 3
+     "second": 30613
     },
     "vaccine": {
-     "biontech": 58548,
-     "moderna": 1604
+     "biontech": 89161,
+     "moderna": 1604,
+     "astraZen": 1548
     },
     "indication": {
      "age": 25051,
@@ -9178,11 +9232,12 @@
    "Hessen": {
     "total": {
      "first": 180964,
-     "second": 2
+     "second": 76339
     },
     "vaccine": {
-     "biontech": 178208,
-     "moderna": 2469
+     "biontech": 254547,
+     "moderna": 2469,
+     "astraZen": 287
     },
     "indication": {
      "age": 86376,
@@ -9194,11 +9249,12 @@
    "Mecklenburg-Vorpommern": {
     "total": {
      "first": 60805,
-     "second": 3
+     "second": 31643
     },
     "vaccine": {
-     "biontech": 58790,
-     "moderna": 1362
+     "biontech": 90329,
+     "moderna": 1466,
+     "astraZen": 653
     },
     "indication": {
      "age": 13936,
@@ -9210,11 +9266,12 @@
    "Niedersachsen": {
     "total": {
      "first": 198331,
-     "second": 2
+     "second": 103821
     },
     "vaccine": {
-     "biontech": 192345,
-     "moderna": 4872
+     "biontech": 296166,
+     "moderna": 4872,
+     "astraZen": 1114
     },
     "indication": {
      "age": 49769,
@@ -9226,11 +9283,12 @@
    "Nordrhein-Westfalen": {
     "total": {
      "first": 528980,
-     "second": 2
+     "second": 269472
     },
     "vaccine": {
-     "biontech": 506065,
-     "moderna": 13631
+     "biontech": 775537,
+     "moderna": 13631,
+     "astraZen": 9284
     },
     "indication": {
      "age": 97299,
@@ -9242,11 +9300,12 @@
    "Rheinland-Pfalz": {
     "total": {
      "first": 148869,
-     "second": 3
+     "second": 84506
     },
     "vaccine": {
-     "biontech": 144623,
-     "moderna": 4246
+     "biontech": 228896,
+     "moderna": 4479,
+     "astraZen": 0
     },
     "indication": {
      "age": 52524,
@@ -9258,11 +9317,12 @@
    "Saarland": {
     "total": {
      "first": 29774,
-     "second": 3
+     "second": 15709
     },
     "vaccine": {
-     "biontech": 28048,
-     "moderna": 1456
+     "biontech": 43757,
+     "moderna": 1456,
+     "astraZen": 270
     },
     "indication": {
      "age": 19296,
@@ -9274,11 +9334,12 @@
    "Sachsen": {
     "total": {
      "first": 120860,
-     "second": 2
+     "second": 54566
     },
     "vaccine": {
-     "biontech": 117312,
-     "moderna": 3548
+     "biontech": 171878,
+     "moderna": 3548,
+     "astraZen": 0
     },
     "indication": {
      "age": 25944,
@@ -9290,11 +9351,12 @@
    "Sachsen-Anhalt": {
     "total": {
      "first": 63204,
-     "second": 2
+     "second": 35312
     },
     "vaccine": {
-     "biontech": 60545,
-     "moderna": 1611
+     "biontech": 95557,
+     "moderna": 1911,
+     "astraZen": 1048
     },
     "indication": {
      "age": 22653,
@@ -9306,11 +9368,12 @@
    "Schleswig-Holstein": {
     "total": {
      "first": 102600,
-     "second": 3
+     "second": 46615
     },
     "vaccine": {
-     "biontech": 100744,
-     "moderna": 1277
+     "biontech": 147359,
+     "moderna": 1277,
+     "astraZen": 579
     },
     "indication": {
      "age": 29555,
@@ -9322,11 +9385,12 @@
    "Th\u00fcringen": {
     "total": {
      "first": 75515,
-     "second": 3
+     "second": 31359
     },
     "vaccine": {
-     "biontech": 72471,
-     "moderna": 3044
+     "biontech": 103830,
+     "moderna": 3044,
+     "astraZen": 0
     },
     "indication": {
      "age": 34062,
@@ -9337,8 +9401,8 @@
    }
   },
   "total": {
-   "first": 2566403,
-   "second": 1269345
+   "first": 2560946,
+   "second": 1259244
   }
  },
  "2021-02-12": {
@@ -9346,11 +9410,12 @@
    "Baden-W\u00fcrttemberg": {
     "total": {
      "first": 328058,
-     "second": 2
+     "second": 142052
     },
     "vaccine": {
-     "biontech": 313838,
-     "moderna": 14185
+     "biontech": 455798,
+     "moderna": 14277,
+     "astraZen": 35
     },
     "indication": {
      "age": 188056,
@@ -9362,11 +9427,12 @@
    "Bayern": {
     "total": {
      "first": 450982,
-     "second": 3
+     "second": 226982
     },
     "vaccine": {
-     "biontech": 434665,
-     "moderna": 12424
+     "biontech": 656871,
+     "moderna": 17200,
+     "astraZen": 3893
     },
     "indication": {
      "age": 173693,
@@ -9378,11 +9444,12 @@
    "Berlin": {
     "total": {
      "first": 127951,
-     "second": 3
+     "second": 68363
     },
     "vaccine": {
-     "biontech": 123143,
-     "moderna": 4209
+     "biontech": 191506,
+     "moderna": 4209,
+     "astraZen": 599
     },
     "indication": {
      "age": 95140,
@@ -9394,11 +9461,12 @@
    "Brandenburg": {
     "total": {
      "first": 81579,
-     "second": 3
+     "second": 54965
     },
     "vaccine": {
-     "biontech": 77465,
-     "moderna": 4114
+     "biontech": 132430,
+     "moderna": 4114,
+     "astraZen": 0
     },
     "indication": {
      "age": 37395,
@@ -9410,11 +9478,12 @@
    "Bremen": {
     "total": {
      "first": 24004,
-     "second": 3
+     "second": 13138
     },
     "vaccine": {
-     "biontech": 22391,
-     "moderna": 1379
+     "biontech": 34374,
+     "moderna": 2534,
+     "astraZen": 234
     },
     "indication": {
      "age": 11653,
@@ -9426,11 +9495,12 @@
    "Hamburg": {
     "total": {
      "first": 63800,
-     "second": 3
+     "second": 32068
     },
     "vaccine": {
-     "biontech": 59649,
-     "moderna": 1604
+     "biontech": 91618,
+     "moderna": 1703,
+     "astraZen": 2547
     },
     "indication": {
      "age": 25845,
@@ -9442,11 +9512,12 @@
    "Hessen": {
     "total": {
      "first": 185003,
-     "second": 2
+     "second": 80179
     },
     "vaccine": {
-     "biontech": 181754,
-     "moderna": 2962
+     "biontech": 261788,
+     "moderna": 3107,
+     "astraZen": 287
     },
     "indication": {
      "age": 88783,
@@ -9458,11 +9529,12 @@
    "Mecklenburg-Vorpommern": {
     "total": {
      "first": 62198,
-     "second": 3
+     "second": 33096
     },
     "vaccine": {
-     "biontech": 59478,
-     "moderna": 1456
+     "biontech": 92353,
+     "moderna": 1677,
+     "astraZen": 1264
     },
     "indication": {
      "age": 14342,
@@ -9474,11 +9546,12 @@
    "Niedersachsen": {
     "total": {
      "first": 207117,
-     "second": 2
+     "second": 113705
     },
     "vaccine": {
-     "biontech": 199388,
-     "moderna": 5007
+     "biontech": 312577,
+     "moderna": 5523,
+     "astraZen": 2722
     },
     "indication": {
      "age": 55182,
@@ -9490,11 +9563,12 @@
    "Nordrhein-Westfalen": {
     "total": {
      "first": 551549,
-     "second": 3
+     "second": 278216
     },
     "vaccine": {
-     "biontech": 521601,
-     "moderna": 14915
+     "biontech": 799817,
+     "moderna": 14915,
+     "astraZen": 15033
     },
     "indication": {
      "age": 109326,
@@ -9506,11 +9580,12 @@
    "Rheinland-Pfalz": {
     "total": {
      "first": 149368,
-     "second": 3
+     "second": 93856
     },
     "vaccine": {
-     "biontech": 144874,
-     "moderna": 4494
+     "biontech": 237046,
+     "moderna": 6178,
+     "astraZen": 0
     },
     "indication": {
      "age": 52543,
@@ -9522,11 +9597,12 @@
    "Saarland": {
     "total": {
      "first": 31392,
-     "second": 3
+     "second": 15993
     },
     "vaccine": {
-     "biontech": 29432,
-     "moderna": 1456
+     "biontech": 45425,
+     "moderna": 1456,
+     "astraZen": 504
     },
     "indication": {
      "age": 20380,
@@ -9538,11 +9614,12 @@
    "Sachsen": {
     "total": {
      "first": 123971,
-     "second": 3
+     "second": 57331
     },
     "vaccine": {
-     "biontech": 120268,
-     "moderna": 3703
+     "biontech": 177599,
+     "moderna": 3703,
+     "astraZen": 0
     },
     "indication": {
      "age": 27575,
@@ -9554,11 +9631,12 @@
    "Sachsen-Anhalt": {
     "total": {
      "first": 66644,
-     "second": 3
+     "second": 37215
     },
     "vaccine": {
-     "biontech": 61808,
-     "moderna": 1611
+     "biontech": 98660,
+     "moderna": 1974,
+     "astraZen": 3225
     },
     "indication": {
      "age": 23291,
@@ -9570,11 +9648,12 @@
    "Schleswig-Holstein": {
     "total": {
      "first": 103611,
-     "second": 3
+     "second": 50705
     },
     "vaccine": {
-     "biontech": 101321,
-     "moderna": 1348
+     "biontech": 152026,
+     "moderna": 1348,
+     "astraZen": 942
     },
     "indication": {
      "age": 29641,
@@ -9586,11 +9665,12 @@
    "Th\u00fcringen": {
     "total": {
      "first": 78446,
-     "second": 3
+     "second": 33709
     },
     "vaccine": {
-     "biontech": 75397,
-     "moderna": 3049
+     "biontech": 109106,
+     "moderna": 3049,
+     "astraZen": 0
     },
     "indication": {
      "age": 35959,
@@ -9601,8 +9681,8 @@
    }
   },
   "total": {
-   "first": 2644012,
-   "second": 1345265
+   "first": 2635673,
+   "second": 1331573
   }
  },
  "2021-02-14": {
@@ -9610,11 +9690,12 @@
    "Baden-W\u00fcrttemberg": {
     "total": {
      "first": 341642,
-     "second": 3
+     "second": 158007
     },
     "vaccine": {
-     "biontech": 325943,
-     "moderna": 15509
+     "biontech": 483725,
+     "moderna": 15734,
+     "astraZen": 190
     },
     "indication": {
      "age": 196742,
@@ -9626,11 +9707,12 @@
    "Bayern": {
     "total": {
      "first": 471231,
-     "second": 3
+     "second": 237526
     },
     "vaccine": {
-     "biontech": 450792,
-     "moderna": 12455
+     "biontech": 682520,
+     "moderna": 18253,
+     "astraZen": 7984
     },
     "indication": {
      "age": 184032,
@@ -9642,11 +9724,12 @@
    "Berlin": {
     "total": {
      "first": 130316,
-     "second": 3
+     "second": 74722
     },
     "vaccine": {
-     "biontech": 125092,
-     "moderna": 4234
+     "biontech": 199814,
+     "moderna": 4234,
+     "astraZen": 990
     },
     "indication": {
      "age": 96747,
@@ -9658,11 +9741,12 @@
    "Brandenburg": {
     "total": {
      "first": 81615,
-     "second": 3
+     "second": 55044
     },
     "vaccine": {
-     "biontech": 77501,
-     "moderna": 4114
+     "biontech": 132543,
+     "moderna": 4116,
+     "astraZen": 0
     },
     "indication": {
      "age": 37395,
@@ -9674,11 +9758,12 @@
    "Bremen": {
     "total": {
      "first": 25045,
-     "second": 3
+     "second": 14450
     },
     "vaccine": {
-     "biontech": 22884,
-     "moderna": 1379
+     "biontech": 36179,
+     "moderna": 2534,
+     "astraZen": 782
     },
     "indication": {
      "age": 12071,
@@ -9690,11 +9775,12 @@
    "Hamburg": {
     "total": {
      "first": 66161,
-     "second": 3
+     "second": 34644
     },
     "vaccine": {
-     "biontech": 61434,
-     "moderna": 1604
+     "biontech": 95883,
+     "moderna": 1799,
+     "astraZen": 3123
     },
     "indication": {
      "age": 27280,
@@ -9706,11 +9792,12 @@
    "Hessen": {
     "total": {
      "first": 192608,
-     "second": 3
+     "second": 85885
     },
     "vaccine": {
-     "biontech": 188642,
-     "moderna": 3194
+     "biontech": 274382,
+     "moderna": 3339,
+     "astraZen": 772
     },
     "indication": {
      "age": 94129,
@@ -9722,11 +9809,12 @@
    "Mecklenburg-Vorpommern": {
     "total": {
      "first": 62232,
-     "second": 3
+     "second": 33100
     },
     "vaccine": {
-     "biontech": 59480,
-     "moderna": 1456
+     "biontech": 92359,
+     "moderna": 1677,
+     "astraZen": 1296
     },
     "indication": {
      "age": 14341,
@@ -9738,11 +9826,12 @@
    "Niedersachsen": {
     "total": {
      "first": 212830,
-     "second": 2
+     "second": 120139
     },
     "vaccine": {
-     "biontech": 204119,
-     "moderna": 5297
+     "biontech": 323046,
+     "moderna": 6509,
+     "astraZen": 3414
     },
     "indication": {
      "age": 58867,
@@ -9754,11 +9843,12 @@
    "Nordrhein-Westfalen": {
     "total": {
      "first": 584485,
-     "second": 3
+     "second": 288160
     },
     "vaccine": {
-     "biontech": 546603,
-     "moderna": 15572
+     "biontech": 834763,
+     "moderna": 15572,
+     "astraZen": 22310
     },
     "indication": {
      "age": 128912,
@@ -9770,11 +9860,12 @@
    "Rheinland-Pfalz": {
     "total": {
      "first": 151170,
-     "second": 3
+     "second": 100848
     },
     "vaccine": {
-     "biontech": 145026,
-     "moderna": 4500
+     "biontech": 243396,
+     "moderna": 6978,
+     "astraZen": 1644
     },
     "indication": {
      "age": 52565,
@@ -9786,11 +9877,12 @@
    "Saarland": {
     "total": {
      "first": 32947,
-     "second": 3
+     "second": 16227
     },
     "vaccine": {
-     "biontech": 30886,
-     "moderna": 1456
+     "biontech": 47113,
+     "moderna": 1456,
+     "astraZen": 605
     },
     "indication": {
      "age": 21413,
@@ -9802,11 +9894,12 @@
    "Sachsen": {
     "total": {
      "first": 129439,
-     "second": 3
+     "second": 61555
     },
     "vaccine": {
-     "biontech": 124434,
-     "moderna": 4461
+     "biontech": 185989,
+     "moderna": 4461,
+     "astraZen": 544
     },
     "indication": {
      "age": 30496,
@@ -9818,11 +9911,12 @@
    "Sachsen-Anhalt": {
     "total": {
      "first": 67797,
-     "second": 3
+     "second": 37747
     },
     "vaccine": {
-     "biontech": 62947,
-     "moderna": 1611
+     "biontech": 100331,
+     "moderna": 1974,
+     "astraZen": 3239
     },
     "indication": {
      "age": 23669,
@@ -9834,11 +9928,12 @@
    "Schleswig-Holstein": {
     "total": {
      "first": 104943,
-     "second": 3
+     "second": 56404
     },
     "vaccine": {
-     "biontech": 102609,
-     "moderna": 1392
+     "biontech": 159013,
+     "moderna": 1392,
+     "astraZen": 942
     },
     "indication": {
      "age": 30120,
@@ -9850,11 +9945,12 @@
    "Th\u00fcringen": {
     "total": {
      "first": 81648,
-     "second": 3
+     "second": 35781
     },
     "vaccine": {
-     "biontech": 76267,
-     "moderna": 3050
+     "biontech": 112048,
+     "moderna": 3050,
+     "astraZen": 2331
     },
     "indication": {
      "age": 36360,
@@ -9865,14 +9961,14 @@
    }
   },
   "total": {
-   "first": 2745191,
-   "second": 1417575
+   "first": 2736109,
+   "second": 1410239
   }
  },
  "2021-02-13": {
   "total": {
-   "first": 2706391,
-   "second": 1391016
+   "first": 2700343,
+   "second": 1384138
   }
  },
  "2021-02-15": {
@@ -9880,11 +9976,12 @@
    "Baden-W\u00fcrttemberg": {
     "total": {
      "first": 349631,
-     "second": 3
+     "second": 165650
     },
     "vaccine": {
-     "biontech": 333762,
-     "moderna": 15658
+     "biontech": 499108,
+     "moderna": 15962,
+     "astraZen": 211
     },
     "indication": {
      "age": 201945,
@@ -9896,11 +9993,12 @@
    "Bayern": {
     "total": {
      "first": 482886,
-     "second": 3
+     "second": 247180
     },
     "vaccine": {
-     "biontech": 460430,
-     "moderna": 12524
+     "biontech": 700865,
+     "moderna": 19269,
+     "astraZen": 9932
     },
     "indication": {
      "age": 189919,
@@ -9912,11 +10010,12 @@
    "Berlin": {
     "total": {
      "first": 132204,
-     "second": 3
+     "second": 78141
     },
     "vaccine": {
-     "biontech": 126813,
-     "moderna": 4257
+     "biontech": 204954,
+     "moderna": 4257,
+     "astraZen": 1134
     },
     "indication": {
      "age": 98211,
@@ -9928,11 +10027,12 @@
    "Brandenburg": {
     "total": {
      "first": 81672,
-     "second": 3
+     "second": 58446
     },
     "vaccine": {
-     "biontech": 77558,
-     "moderna": 4114
+     "biontech": 136003,
+     "moderna": 4115,
+     "astraZen": 0
     },
     "indication": {
      "age": 37425,
@@ -9944,11 +10044,12 @@
    "Bremen": {
     "total": {
      "first": 25430,
-     "second": 3
+     "second": 15162
     },
     "vaccine": {
-     "biontech": 23133,
-     "moderna": 1379
+     "biontech": 37140,
+     "moderna": 2534,
+     "astraZen": 918
     },
     "indication": {
      "age": 12256,
@@ -9960,11 +10061,12 @@
    "Hamburg": {
     "total": {
      "first": 67681,
-     "second": 3
+     "second": 36062
     },
     "vaccine": {
-     "biontech": 62560,
-     "moderna": 1604
+     "biontech": 98374,
+     "moderna": 1852,
+     "astraZen": 3517
     },
     "indication": {
      "age": 28217,
@@ -9976,11 +10078,12 @@
    "Hessen": {
     "total": {
      "first": 196696,
-     "second": 3
+     "second": 89213
     },
     "vaccine": {
-     "biontech": 192559,
-     "moderna": 3286
+     "biontech": 281627,
+     "moderna": 3431,
+     "astraZen": 851
     },
     "indication": {
      "age": 97013,
@@ -9992,11 +10095,12 @@
    "Mecklenburg-Vorpommern": {
     "total": {
      "first": 63400,
-     "second": 3
+     "second": 34567
     },
     "vaccine": {
-     "biontech": 60242,
-     "moderna": 1629
+     "biontech": 94485,
+     "moderna": 1953,
+     "astraZen": 1529
     },
     "indication": {
      "age": 14760,
@@ -10008,11 +10112,12 @@
    "Niedersachsen": {
     "total": {
      "first": 222674,
-     "second": 2
+     "second": 125091
     },
     "vaccine": {
-     "biontech": 211629,
-     "moderna": 5471
+     "biontech": 335390,
+     "moderna": 6801,
+     "astraZen": 5574
     },
     "indication": {
      "age": 65499,
@@ -10024,11 +10129,12 @@
    "Nordrhein-Westfalen": {
     "total": {
      "first": 609357,
-     "second": 3
+     "second": 296000
     },
     "vaccine": {
-     "biontech": 565277,
-     "moderna": 15572
+     "biontech": 861277,
+     "moderna": 15572,
+     "astraZen": 28508
     },
     "indication": {
      "age": 142608,
@@ -10040,11 +10146,12 @@
    "Rheinland-Pfalz": {
     "total": {
      "first": 152862,
-     "second": 3
+     "second": 106766
     },
     "vaccine": {
-     "biontech": 145188,
-     "moderna": 4500
+     "biontech": 249476,
+     "moderna": 6978,
+     "astraZen": 3174
     },
     "indication": {
      "age": 52624,
@@ -10056,11 +10163,12 @@
    "Saarland": {
     "total": {
      "first": 34510,
-     "second": 3
+     "second": 16970
     },
     "vaccine": {
-     "biontech": 32156,
-     "moderna": 1462
+     "biontech": 49067,
+     "moderna": 1521,
+     "astraZen": 892
     },
     "indication": {
      "age": 22085,
@@ -10072,11 +10180,12 @@
    "Sachsen": {
     "total": {
      "first": 132582,
-     "second": 3
+     "second": 64393
     },
     "vaccine": {
-     "biontech": 126769,
-     "moderna": 5029
+     "biontech": 191162,
+     "moderna": 5029,
+     "astraZen": 784
     },
     "indication": {
      "age": 32278,
@@ -10088,11 +10197,12 @@
    "Sachsen-Anhalt": {
     "total": {
      "first": 69639,
-     "second": 3
+     "second": 39561
     },
     "vaccine": {
-     "biontech": 64578,
-     "moderna": 1614
+     "biontech": 103714,
+     "moderna": 2039,
+     "astraZen": 3447
     },
     "indication": {
      "age": 24414,
@@ -10104,11 +10214,12 @@
    "Schleswig-Holstein": {
     "total": {
      "first": 107732,
-     "second": 3
+     "second": 59368
     },
     "vaccine": {
-     "biontech": 104130,
-     "moderna": 1535
+     "biontech": 163498,
+     "moderna": 1535,
+     "astraZen": 2067
     },
     "indication": {
      "age": 31411,
@@ -10120,11 +10231,12 @@
    "Th\u00fcringen": {
     "total": {
      "first": 84776,
-     "second": 3
+     "second": 38252
     },
     "vaccine": {
-     "biontech": 78492,
-     "moderna": 3953
+     "biontech": 116744,
+     "moderna": 3953,
+     "astraZen": 2331
     },
     "indication": {
      "age": 38091,
