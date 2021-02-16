@@ -60,12 +60,28 @@ export default {
           stats => stats.populationPercentage
         )
       );
+      const minPopulationPercentage = Math.min(
+        ...Object.values(lastCompleteStats.states).map(
+          stats => stats.populationPercentage
+        )
+      );
+
       return () => {
         return feature => {
           const state = feature.getProperties().name;
           const stats = lastCompleteStats.states[state];
-          const hue =
-            (85 / maxPopulationPercentage) * stats.populationPercentage;
+
+          function map(x, inMin, inMax, outMin, outMax) {
+            return ((x - inMin) * (outMax - outMin)) / (inMax - inMin) + outMin;
+          }
+
+          const hue = map(
+            stats.populationPercentage,
+            minPopulationPercentage,
+            maxPopulationPercentage,
+            30,
+            85
+          );
           return new Style({
             text: new Text({
               font: "bold 20px Roboto,Avenir,Helvetica,Arial,sans-serif",
