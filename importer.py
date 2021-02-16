@@ -50,15 +50,16 @@ for row, _ in zip(rows, range(16)):
 
     state = row[1].value.replace('*', '').strip()
     first_vaccination = read_int(3)
-    second_vaccination = read_int(8)
+    second_vaccination = read_int(9)
     state_entries[state] = {
         'total': {
             'first': first_vaccination,
             'second': second_vaccination,
         },
         'vaccine': {
-            'biontech': read_int(4),
-            'moderna': read_int(5),
+            'biontech': read_int(4) + read_int(10),
+            'moderna': read_int(5) + read_int(11),
+            'astraZen': read_int(6),
         }
     }
 
