@@ -14182,5 +14182,285 @@
    "first": 4541389,
    "second": 2271784
   }
+ },
+ "2021-03-04": {
+  "states": {
+   "Baden-W\u00fcrttemberg": {
+    "total": {
+     "first": 587809,
+     "second": 292124
+    },
+    "vaccine": {
+     "biontech": 757120,
+     "moderna": 36790,
+     "astraZen": 86023
+    },
+    "indication": {
+     "age": 318116,
+     "occupation": 226000,
+     "medical": 18473,
+     "nursingHome": 81231
+    }
+   },
+   "Bayern": {
+    "total": {
+     "first": 767969,
+     "second": 382160
+    },
+    "vaccine": {
+     "biontech": 1008224,
+     "moderna": 36964,
+     "astraZen": 104941
+    },
+    "indication": {
+     "age": 330441,
+     "occupation": 350733,
+     "medical": 34410,
+     "nursingHome": 120145
+    }
+   },
+   "Berlin": {
+    "total": {
+     "first": 201025,
+     "second": 124144
+    },
+    "vaccine": {
+     "biontech": 287361,
+     "moderna": 10705,
+     "astraZen": 27103
+    },
+    "indication": {
+     "age": 137085,
+     "occupation": 64698,
+     "medical": 150,
+     "nursingHome": 42669
+    }
+   },
+   "Brandenburg": {
+    "total": {
+     "first": 117854,
+     "second": 76295
+    },
+    "vaccine": {
+     "biontech": 163870,
+     "moderna": 5772,
+     "astraZen": 24507
+    },
+    "indication": {
+     "age": 47459,
+     "occupation": 62913,
+     "medical": 5063,
+     "nursingHome": 22125
+    }
+   },
+   "Bremen": {
+    "total": {
+     "first": 41743,
+     "second": 21945
+    },
+    "vaccine": {
+     "biontech": 52182,
+     "moderna": 3422,
+     "astraZen": 8084
+    },
+    "indication": {
+     "age": 18259,
+     "occupation": 19299,
+     "medical": 727,
+     "nursingHome": 8073
+    }
+   },
+   "Hamburg": {
+    "total": {
+     "first": 108141,
+     "second": 56710
+    },
+    "vaccine": {
+     "biontech": 139999,
+     "moderna": 2519,
+     "astraZen": 22333
+    },
+    "indication": {
+     "age": 45736,
+     "occupation": 55391,
+     "medical": 2011,
+     "nursingHome": 15740
+    }
+   },
+   "Hessen": {
+    "total": {
+     "first": 321415,
+     "second": 151820
+    },
+    "vaccine": {
+     "biontech": 432908,
+     "moderna": 10395,
+     "astraZen": 29932
+    },
+    "indication": {
+     "age": 163751,
+     "occupation": 126850,
+     "medical": 8202,
+     "nursingHome": 50731
+    }
+   },
+   "Mecklenburg-Vorpommern": {
+    "total": {
+     "first": 87249,
+     "second": 51793
+    },
+    "vaccine": {
+     "biontech": 127258,
+     "moderna": 6007,
+     "astraZen": 5777
+    },
+    "indication": {
+     "age": 28343,
+     "occupation": 35630,
+     "medical": 1806,
+     "nursingHome": 24024
+    }
+   },
+   "Niedersachsen": {
+    "total": {
+     "first": 409203,
+     "second": 181638
+    },
+    "vaccine": {
+     "biontech": 526241,
+     "moderna": 14823,
+     "astraZen": 49777
+    },
+    "indication": {
+     "age": 191568,
+     "occupation": 160292,
+     "medical": 41090,
+     "nursingHome": 93864
+    }
+   },
+   "Nordrhein-Westfalen": {
+    "total": {
+     "first": 959746,
+     "second": 449292
+    },
+    "vaccine": {
+     "biontech": 1237133,
+     "moderna": 28498,
+     "astraZen": 143407
+    },
+    "indication": {
+     "age": 323123,
+     "occupation": 505582,
+     "medical": 18201,
+     "nursingHome": 185138
+    }
+   },
+   "Rheinland-Pfalz": {
+    "total": {
+     "first": 239974,
+     "second": 140571
+    },
+    "vaccine": {
+     "biontech": 327140,
+     "moderna": 8267,
+     "astraZen": 45138
+    },
+    "indication": {
+     "age": 92431,
+     "occupation": 108418,
+     "medical": 3155,
+     "nursingHome": 35970
+    }
+   },
+   "Saarland": {
+    "total": {
+     "first": 59748,
+     "second": 24397
+    },
+    "vaccine": {
+     "biontech": 69352,
+     "moderna": 2800,
+     "astraZen": 11993
+    },
+    "indication": {
+     "age": 34228,
+     "occupation": 21685,
+     "medical": 323,
+     "nursingHome": 10062
+    }
+   },
+   "Sachsen": {
+    "total": {
+     "first": 235347,
+     "second": 103601
+    },
+    "vaccine": {
+     "biontech": 314073,
+     "moderna": 12632,
+     "astraZen": 12243
+    },
+    "indication": {
+     "age": 95415,
+     "occupation": 96391,
+     "medical": 8918,
+     "nursingHome": 33984
+    }
+   },
+   "Sachsen-Anhalt": {
+    "total": {
+     "first": 111342,
+     "second": 56595
+    },
+    "vaccine": {
+     "biontech": 142845,
+     "moderna": 6658,
+     "astraZen": 18434
+    },
+    "indication": {
+     "age": 42613,
+     "occupation": 52907,
+     "medical": 4836,
+     "nursingHome": 30080
+    }
+   },
+   "Schleswig-Holstein": {
+    "total": {
+     "first": 162163,
+     "second": 93419
+    },
+    "vaccine": {
+     "biontech": 223004,
+     "moderna": 6421,
+     "astraZen": 26157
+    },
+    "indication": {
+     "age": 69485,
+     "occupation": 66650,
+     "medical": 9654,
+     "nursingHome": 50719
+    }
+   },
+   "Th\u00fcringen": {
+    "total": {
+     "first": 127282,
+     "second": 64282
+    },
+    "vaccine": {
+     "biontech": 168100,
+     "moderna": 8854,
+     "astraZen": 14610
+    },
+    "indication": {
+     "age": 64309,
+     "occupation": 53394,
+     "medical": 6193,
+     "nursingHome": 22616
+    }
+   }
+  },
+  "total": {
+   "first": 4538010,
+   "second": 2270786
+  }
  }
 }
