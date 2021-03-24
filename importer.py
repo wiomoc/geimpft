@@ -76,7 +76,7 @@ for row, _ in zip(rows, range(16)):
         if value is not None:
             return int(value)
 
-    state = row[1].value.replace('*', '')
+    state = row[1].value.replace('*', '').strip()
     state_entry = state_entries[state]
     state_entry['indication'] = {
         'age': read_int(2),
