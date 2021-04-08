@@ -36,7 +36,6 @@ export default new Vuex.Store({
         stats.changePrevDay = totalVaccinations - last;
         last = totalVaccinations;
       }
-      console.log(history);
       return history;
     },
     lastStats(state, getters) {
@@ -81,7 +80,7 @@ export default new Vuex.Store({
       const daysSorted = Object.keys(state.history).sort();
       const lastDay = daysSorted[daysSorted.length - 1];
       if (state.state && !state.history[lastDay].states) {
-        // Go one day back, if a state is selected but no detail data is available
+        // Go one day back, if a state is selected but no detailed data is available
         return daysSorted[daysSorted.length - 2];
       } else {
         return lastDay;

@@ -33,7 +33,7 @@ filename = f"{XLSX_STORE_DIR}/{day_str}.xlsx"
 with open(filename, 'wb') as f:
     f.write(xlsx_content)
 
-sheet_data = wb.worksheets[1]
+sheet_data = wb.worksheets[2]
 rows = sheet_data.rows
 state_entries = {}
 
@@ -41,25 +41,26 @@ state_entries = {}
 next(rows)  # skip three rows
 next(rows)
 next(rows)
+next(rows)
 for row, _ in zip(rows, range(16)):
     def read_int(column):
         value = row[column].value
-        if value is not None:
+        if value == '-':
+            return 0
+        elif value is not None:
             return int(value)
 
 
     state = row[1].value.replace('*', '').strip()
-    first_vaccination = read_int(3)
-    second_vaccination = read_int(9)
     state_entries[state] = {
         'total': {
-            'first': first_vaccination,
-            'second': second_vaccination,
+            'first': read_int(2) + read_int(12),
+            'second': read_int(7) + read_int(17),
         },
         'vaccine': {
-            'biontech': read_int(4) + read_int(10),
-            'moderna': read_int(5) + read_int(11),
-            'astraZen': read_int(6),
+            'biontech': read_int(3) + read_int(8) + read_int(13) + read_int(18),
+            'moderna': read_int(4) + read_int(9) + read_int(14) + read_int(19),
+            'astraZen': read_int(5) + read_int(10) + read_int(15) + read_int(20),
         }
     }
 
@@ -67,23 +68,26 @@ for row, _ in zip(rows, range(16)):
 sheet_data = wb.worksheets[2]
 rows = sheet_data.rows
 
-# read Gesamt_bis_einschl_...
-next(rows)  # skip two rows
-next(rows)
-for row, _ in zip(rows, range(16)):
-    def read_int(column):
-        value = row[column].value
-        if value is not None:
-            return int(value)
-
-    state = row[1].value.replace('*', '').strip()
-    state_entry = state_entries[state]
-    state_entry['indication'] = {
-        'age': read_int(2),
-        'occupation': read_int(3),
-        'medical': read_int(4),
-        'nursingHome': read_int(5),
-    }
+# # read Gesamt_bis_einschl_...
+# next(rows)  # skip two rows
+# next(rows)
+# next(rows)
+# next(rows)
+#
+# for row, _ in zip(rows, range(16)):
+#     def read_int(column):
+#         value = row[column].value
+#         if value is not None:
+#             return int(value)
+#
+#     state = row[1].value.replace('*', '').strip()
+#     state_entry = state_entries[state]
+#     state_entry['indication'] = {
+#         'age': read_int(2),
+#         'occupation': read_int(3),
+#         'medical': read_int(4),
+#         'nursingHome': read_int(5),
+#     }
 
 try:
     with open(EXPORT_FILE) as f:
