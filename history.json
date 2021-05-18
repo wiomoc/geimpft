@@ -28624,5 +28624,189 @@
    "first": 30587630,
    "second": 9216704
   }
+ },
+ "2021-05-17": {
+  "states": {
+   "Baden-W\u00fcrttemberg": {
+    "total": {
+     "first": 2919164,
+     "second": 1136432
+    },
+    "vaccine": {
+     "biontech": 4038212,
+     "moderna": 1428004,
+     "astraZen": 844004
+    }
+   },
+   "Bayern": {
+    "total": {
+     "first": 3451426,
+     "second": 1287523
+    },
+    "vaccine": {
+     "biontech": 5156724,
+     "moderna": 1684105,
+     "astraZen": 779858
+    }
+   },
+   "Berlin": {
+    "total": {
+     "first": 852402,
+     "second": 432502
+    },
+    "vaccine": {
+     "biontech": 1368868,
+     "moderna": 462880,
+     "astraZen": 187394
+    }
+   },
+   "Brandenburg": {
+    "total": {
+     "first": 501203,
+     "second": 259497
+    },
+    "vaccine": {
+     "biontech": 901916,
+     "moderna": 353823,
+     "astraZen": 120351
+    }
+   },
+   "Bremen": {
+    "total": {
+     "first": 193581,
+     "second": 95379
+    },
+    "vaccine": {
+     "biontech": 272181,
+     "moderna": 76826,
+     "astraZen": 63927
+    }
+   },
+   "Hamburg": {
+    "total": {
+     "first": 500053,
+     "second": 179726
+    },
+    "vaccine": {
+     "biontech": 663180,
+     "moderna": 213170,
+     "astraZen": 124866
+    }
+   },
+   "Hessen": {
+    "total": {
+     "first": 1695389,
+     "second": 596063
+    },
+    "vaccine": {
+     "biontech": 2252926,
+     "moderna": 762654,
+     "astraZen": 502195
+    }
+   },
+   "Mecklenburg-Vorpommern": {
+    "total": {
+     "first": 387444,
+     "second": 147923
+    },
+    "vaccine": {
+     "biontech": 670783,
+     "moderna": 253812,
+     "astraZen": 67101
+    }
+   },
+   "Niedersachsen": {
+    "total": {
+     "first": 2133048,
+     "second": 721175
+    },
+    "vaccine": {
+     "biontech": 2872901,
+     "moderna": 1010009,
+     "astraZen": 673547
+    }
+   },
+   "Nordrhein-Westfalen": {
+    "total": {
+     "first": 4781754,
+     "second": 1738351
+    },
+    "vaccine": {
+     "biontech": 7178744,
+     "moderna": 2286174,
+     "astraZen": 1183109
+    }
+   },
+   "Rheinland-Pfalz": {
+    "total": {
+     "first": 1004368,
+     "second": 492991
+    },
+    "vaccine": {
+     "biontech": 1556089,
+     "moderna": 511620,
+     "astraZen": 293252
+    }
+   },
+   "Saarland": {
+    "total": {
+     "first": 295947,
+     "second": 106551
+    },
+    "vaccine": {
+     "biontech": 439703,
+     "moderna": 139130,
+     "astraZen": 45597
+    }
+   },
+   "Sachsen": {
+    "total": {
+     "first": 933538,
+     "second": 543453
+    },
+    "vaccine": {
+     "biontech": 1596047,
+     "moderna": 474112,
+     "astraZen": 184678
+    }
+   },
+   "Sachsen-Anhalt": {
+    "total": {
+     "first": 545767,
+     "second": 231250
+    },
+    "vaccine": {
+     "biontech": 803515,
+     "moderna": 291937,
+     "astraZen": 137093
+    }
+   },
+   "Schleswig-Holstein": {
+    "total": {
+     "first": 668139,
+     "second": 369702
+    },
+    "vaccine": {
+     "biontech": 1144260,
+     "moderna": 380692,
+     "astraZen": 163427
+    }
+   },
+   "Th\u00fcringen": {
+    "total": {
+     "first": 518274,
+     "second": 297677
+    },
+    "vaccine": {
+     "biontech": 854204,
+     "moderna": 267745,
+     "astraZen": 110049
+    }
+   }
+  },
+  "total": {
+   "first": 21381497,
+   "second": 8636195
+  }
  }
 }
